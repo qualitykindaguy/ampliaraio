@@ -13,6 +13,7 @@ import {
   BookOpen,
   Heart,
   ShieldCheck,
+  MessageSquare,
 } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
@@ -188,25 +189,23 @@ function JudgmentFree() {
         </div>
       </section>
 
-      {/* Pricing Section */}
+      {/* Book Consultation Section */}
       <section className="py-20 px-4 bg-[#174a21]">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-4xl font-bold text-white mb-8">Ready to Take Control?</h2>
-          <div className="bg-white rounded-2xl p-12 mb-12">
-            <span className="text-[#996516] font-semibold">One-time Payment</span>
-            <div className="flex items-center justify-center gap-2 my-6">
-              <span className="text-6xl font-bold text-[#174a21]">$3,497</span>
-            </div>
-            <p className="text-[#174a21]/80 mb-8">
-              Comprehensive financial assessment and tax optimization strategy
+          <div className="bg-white rounded-2xl p-12">
+            <MessageSquare className="h-16 w-16 text-[#996516] mx-auto mb-6" />
+            <h3 className="text-2xl font-bold text-[#174a21] mb-4">Book Your Free Consultation</h3>
+            <p className="text-[#174a21]/80 text-lg mb-8 max-w-2xl mx-auto">
+              Schedule a consultation with our expert team to discuss your financial goals and how we can help you achieve them. Let's create a personalized plan for your success.
             </p>
             <a
-              href="https://api.taxnitro.com/payment-link/675085704f672cfafd56b048"
+              href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-[#996516] text-white px-8 py-4 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold"
             >
-              Purchase Now
+              Schedule Your Consultation
             </a>
           </div>
         </div>
