@@ -15,6 +15,7 @@ import {
   CreditCard,
   PiggyBank,
   BriefcaseIcon,
+  MessageSquare,
 } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
@@ -158,45 +159,24 @@ function EntrepreneurStarter() {
         </div>
       </section>
 
-      {/* Pricing Section */}
+      {/* Book Consultation Section */}
       <section className="py-20 px-4 bg-[#174a21]">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-4xl font-bold text-white mb-8">Ready to Get Started?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Full Payment Option */}
-            <div className="bg-white rounded-2xl p-8">
-              <h3 className="text-xl font-semibold text-[#996516] mb-2">One-time Payment</h3>
-              <div className="text-5xl font-bold text-[#174a21] my-4">$8,997</div>
-              <div className="bg-[#996516]/10 text-[#996516] px-4 py-2 rounded-lg font-semibold text-lg mb-6">
-                Save <span className="text-2xl">$627</span> when you pay in full!
-              </div>
-              <a
-                href="https://api.taxnitro.com/payment-link/675088b6b82a1742c509ee0b"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-[#996516] text-white px-6 py-3 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold"
-              >
-                Pay Full
-              </a>
-            </div>
-            
-            {/* Payment Plan Option */}
-            <div className="bg-white rounded-2xl p-8">
-              <h3 className="text-xl font-semibold text-[#996516] mb-2">Payment Plan</h3>
-              <div className="text-3xl font-bold text-[#174a21] my-4">
-                <div>$2,568 Initial</div>
-                <div className="text-xl text-[#174a21]/80">+ 11 × $639</div>
-              </div>
-              <p className="text-[#174a21]/80 mb-6">Flexible monthly payments</p>
-              <a
-                href="https://api.taxnitro.com/payment-link/677c8c9de6c0105d4c0cf280"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-[#996516] text-white px-6 py-3 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold"
-              >
-                Choose Plan
-              </a>
-            </div>
+          <div className="bg-white rounded-2xl p-12">
+            <MessageSquare className="h-16 w-16 text-[#996516] mx-auto mb-6" />
+            <h3 className="text-2xl font-bold text-[#174a21] mb-4">Let's Discuss Your Business Needs</h3>
+            <p className="text-[#174a21]/80 text-lg mb-8 max-w-2xl mx-auto">
+              Schedule a consultation with our expert team to explore how our Entrepreneur Starter Package can help establish a strong financial foundation for your business and set you up for long-term success.
+            </p>
+            <a
+              href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#996516] text-white px-8 py-4 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold"
+            >
+              Schedule Your Consultation
+            </a>
           </div>
         </div>
       </section>
