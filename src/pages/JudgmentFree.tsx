@@ -195,9 +195,9 @@ function JudgmentFree() {
           <h2 className="text-4xl font-bold text-white mb-8">Ready to Take Control?</h2>
           <div className="bg-white rounded-2xl p-12">
             <MessageSquare className="h-16 w-16 text-[#996516] mx-auto mb-6" />
-            <h3 className="text-2xl font-bold text-[#174a21] mb-4">Book Your Free Consultation</h3>
+            <h3 className="text-2xl font-bold text-[#174a21] mb-4">Let's Discuss if Judgment-Free is Right for You</h3>
             <p className="text-[#174a21]/80 text-lg mb-8 max-w-2xl mx-auto">
-              Schedule a consultation with our expert team to discuss your financial goals and how we can help you achieve them. Let's create a personalized plan for your success.
+              Schedule a consultation with our expert team to discuss your financial goals and see if our Judgment-Free package aligns with your needs. Together, we'll create a path to financial success that works for you.
             </p>
             <a
               href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
