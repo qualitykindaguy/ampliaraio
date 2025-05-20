@@ -42,13 +42,13 @@ function Services() {
     },
     {
       icon: <LineChart className="h-12 w-12 text-[#996516]" />,
-      title: "Annual Bookkeeping Services Growth+",
-      description: "Advanced monthly bookkeeping services tailored for established businesses managing 71-250 monthly transactions. Includes comprehensive financial management, advanced reporting, and strategic guidance.",
+      title: "Annual Bookkeeping Growth+",
+      description: "Monthly bookkeeping services tailored for established businesses managing 71-250 monthly transactions. Includes comprehensive financial management, advanced reporting, and strategic guidance.",
       link: "/services/bookkeeping-growth"
     },
     {
       icon: <Building2 className="h-12 w-12 text-[#996516]" />,
-      title: "Entrepreneur Starter Package | Compliance Support",
+      title: "Entrepreneur Starter Package",
       description: "Comprehensive, year-round tax compliance support—including quarterly assessments, monthly bookkeeping, and tax filing. Tailored for business owners managing up to 70 transactions per month who are ready to optimize and stay ahead.",
       link: "/entrepreneur-starter"
     },

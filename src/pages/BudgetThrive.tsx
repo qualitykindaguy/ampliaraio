@@ -133,7 +133,7 @@ function BudgetThrive() {
                     {service.icon}
                   </div>
                   <div>
-                    <h3 className="text-2xl font-semibold text-[#174a21] mb-2">{service.title}</h3>
+                    <h3 className="text-2xl font-semibold text-[#174a21] mb-4">{service.title}</h3>
                     <p className="text-[#174a21]/80 mb-6">{service.description}</p>
                     <ul className="space-y-3">
                       {service.features.map((feature, idx) => (
@@ -198,12 +198,12 @@ function BudgetThrive() {
       {/* Book Consultation Section */}
       <section className="py-20 px-4 bg-[#174a21]">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-4xl font-bold text-white mb-8">Ready to Start Your Journey?</h2>
+          <h2 className="text-4xl font-bold text-white mb-8">Are you ready to budget and thrive?</h2>
           <div className="bg-white rounded-2xl p-12">
             <MessageSquare className="h-16 w-16 text-[#996516] mx-auto mb-6" />
-            <h3 className="text-2xl font-bold text-[#174a21] mb-4">Book Your Free Consultation</h3>
+            <h3 className="text-2xl font-bold text-[#174a21] mb-4">Schedule Your Free Consultation</h3>
             <p className="text-[#174a21]/80 text-lg mb-8 max-w-2xl mx-auto">
-              Let's discuss how our Budget & Thrive package can help you achieve your financial goals. Schedule a consultation with our expert team to create your personalized financial roadmap.
+              Let's discuss how our Budget & Thrive package can help you achieve your financial goals. Our expert team is ready to create your personalized financial roadmap.
             </p>
             <a
               href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
