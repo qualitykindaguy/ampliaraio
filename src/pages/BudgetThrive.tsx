@@ -15,41 +15,13 @@ import {
   ShieldCheck,
   Lightbulb,
   Settings,
+  MessageSquare,
 } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
 
 function BudgetThrive() {
-  const benefits = [
-    {
-      title: "Save Time & Stress",
-      description: "Let us handle your tax preparation, strategy, and planning, so you can focus on what matters most—growing wealth.",
-      icon: <Clock className="h-12 w-12 text-[#996516]" />,
-    },
-    {
-      title: "Maximize Your Tax Savings",
-      description: "Our tax planning ensures you never leave money on the table.",
-      icon: <Wallet className="h-12 w-12 text-[#996516]" />,
-    },
-    {
-      title: "Achieve Financial Freedom",
-      description: "With a customized financial roadmap and regular check-ins, you'll have everything you need to thrive financially.",
-      icon: <TrendingUp className="h-12 w-12 text-[#996516]" />,
-    },
-    {
-      title: "Exclusive Tools & Strategies",
-      description: "We provide access to the latest financial tools and automation systems, ensuring that your money works for you on autopilot.",
-      icon: <Lightbulb className="h-12 w-12 text-[#996516]" />,
-    },
-  ];
-
-  const idealFor = [
-    "Feel overwhelmed by their finances and tax liabilities.",
-    "Need strategic guidance to build a sustainable financial plan.",
-    "Want to optimize taxes, investments, and savings but don't have the time or expertise to do it alone.",
-  ];
-
-  const services = [
+  const packageIncludes = [
     {
       title: "Comprehensive Tax Planning & Filing",
       description: "We don't just prepare your taxes; we plan ahead to minimize your liability.",
@@ -97,6 +69,35 @@ function BudgetThrive() {
     },
   ];
 
+  const idealFor = [
+    "Feel overwhelmed by their finances and tax liabilities.",
+    "Need strategic guidance to build a sustainable financial plan.",
+    "Want to optimize taxes, investments, and savings but don't have the time or expertise to do it alone.",
+  ];
+
+  const benefits = [
+    {
+      title: "Save Time & Stress",
+      description: "Let us handle your tax preparation, strategy, and planning, so you can focus on what matters most—growing wealth.",
+      icon: <Clock className="h-12 w-12 text-[#996516]" />,
+    },
+    {
+      title: "Maximize Your Tax Savings",
+      description: "Our tax planning ensures you never leave money on the table.",
+      icon: <Wallet className="h-12 w-12 text-[#996516]" />,
+    },
+    {
+      title: "Achieve Financial Freedom",
+      description: "With a customized financial roadmap and regular check-ins, you'll have everything you need to thrive financially.",
+      icon: <TrendingUp className="h-12 w-12 text-[#996516]" />,
+    },
+    {
+      title: "Exclusive Tools & Strategies",
+      description: "We provide access to the latest financial tools and automation systems, ensuring that your money works for you on autopilot.",
+      icon: <Lightbulb className="h-12 w-12 text-[#996516]" />,
+    },
+  ];
+
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -122,7 +123,7 @@ function BudgetThrive() {
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-[#174a21] mb-16 text-center">What's Included</h2>
           <div className="space-y-12">
-            {services.map((service, index) => (
+            {packageIncludes.map((service, index) => (
               <div 
                 key={index}
                 className="bg-white p-8 rounded-2xl border-2 border-[#174a21]/10 hover:border-[#996516] transition-all duration-300"
@@ -194,45 +195,24 @@ function BudgetThrive() {
         </div>
       </section>
 
-      {/* Pricing Section */}
+      {/* Book Consultation Section */}
       <section className="py-20 px-4 bg-[#174a21]">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-4xl font-bold text-white mb-8">Ready to Start Your Journey?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Full Payment Option */}
-            <div className="bg-white rounded-2xl p-8">
-              <h3 className="text-xl font-semibold text-[#996516] mb-2">One-time Payment</h3>
-              <div className="text-5xl font-bold text-[#174a21] my-4">$5,997</div>
-              <div className="bg-[#996516]/10 text-[#996516] px-4 py-2 rounded-lg font-semibold text-lg mb-6">
-                Save <span className="text-2xl">$600</span> when you pay in full!
-              </div>
-              <a
-                href="https://api.taxnitro.com/payment-link/67508612b82a1733d209edf9"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-[#996516] text-white px-6 py-3 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold"
-              >
-                Pay Full
-              </a>
-            </div>
-            
-            {/* Payment Plan Option */}
-            <div className="bg-white rounded-2xl p-8">
-              <h3 className="text-xl font-semibold text-[#996516] mb-2">Payment Plan</h3>
-              <div className="text-3xl font-bold text-[#174a21] my-4">
-                <div>$1,581 Initial</div>
-                <div className="text-xl text-[#174a21]/80">+ 11 × $456</div>
-              </div>
-              <p className="text-[#174a21]/80 mb-6">Flexible monthly payments</p>
-              <a
-                href="https://api.taxnitro.com/payment-link/67508e65b82a1705ff09ee28"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-[#996516] text-white px-6 py-3 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold"
-              >
-                Choose Plan
-              </a>
-            </div>
+          <div className="bg-white rounded-2xl p-12">
+            <MessageSquare className="h-16 w-16 text-[#996516] mx-auto mb-6" />
+            <h3 className="text-2xl font-bold text-[#174a21] mb-4">Book Your Free Consultation</h3>
+            <p className="text-[#174a21]/80 text-lg mb-8 max-w-2xl mx-auto">
+              Let's discuss how our Budget & Thrive package can help you achieve your financial goals. Schedule a consultation with our expert team to create your personalized financial roadmap.
+            </p>
+            <a
+              href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#996516] text-white px-8 py-4 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold"
+            >
+              Schedule Your Consultation
+            </a>
           </div>
         </div>
       </section>
