@@ -13,6 +13,7 @@ import BookkeepingGrowth from './pages/BookkeepingGrowth';
 import HourlyConsultation from './pages/HourlyConsultation';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import LiveAmplified from './pages/LiveAmplified';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Route path="/services/hourly-consultation" element={<HourlyConsultation />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/liveamplified" element={<LiveAmplified />} />
     </Routes>
   );
 }
