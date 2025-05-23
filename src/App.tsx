@@ -14,6 +14,7 @@ import HourlyConsultation from './pages/HourlyConsultation';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import LiveAmplified from './pages/LiveAmplified';
+import ShopAmplified from './pages/ShopAmplified';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/liveamplified" element={<LiveAmplified />} />
+      <Route path="/shopamplified" element={<ShopAmplified />} />
     </Routes>
   );
 }
