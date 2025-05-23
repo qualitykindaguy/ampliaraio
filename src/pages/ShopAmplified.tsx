@@ -51,33 +51,37 @@ function ShopAmplified() {
                 </div>
               </div>
               <div className="relative">
-                <div className="bg-[#174a21] rounded-2xl p-8 relative overflow-hidden">
-                  <Calendar className="w-full h-auto text-white/10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
-                  <div className="relative z-10">
-                    <h2 className="text-2xl font-bold text-white mb-6">What's Inside</h2>
-                    <ul className="space-y-4">
-                      <li className="flex items-center gap-3 text-white">
-                        <CheckCircle2 className="h-5 w-5 text-[#996516]" />
-                        <span>12-Month Financial Planning System</span>
-                      </li>
-                      <li className="flex items-center gap-3 text-white">
-                        <CheckCircle2 className="h-5 w-5 text-[#996516]" />
-                        <span>Goal Setting Worksheets</span>
-                      </li>
-                      <li className="flex items-center gap-3 text-white">
-                        <CheckCircle2 className="h-5 w-5 text-[#996516]" />
-                        <span>Monthly Budget Templates</span>
-                      </li>
-                      <li className="flex items-center gap-3 text-white">
-                        <CheckCircle2 className="h-5 w-5 text-[#996516]" />
-                        <span>Expense Tracking Tools</span>
-                      </li>
-                      <li className="flex items-center gap-3 text-white">
-                        <CheckCircle2 className="h-5 w-5 text-[#996516]" />
-                        <span>Financial Goal Progress Trackers</span>
-                      </li>
-                    </ul>
-                  </div>
+                <img
+                  src="https://images.pexels.com/photos/19690340/pexels-photo-19690340.jpeg"
+                  alt="2026 Financial Planner Preview"
+                  className="w-full h-auto rounded-2xl shadow-xl"
+                  width="600"
+                  height="800"
+                />
+                <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/50 to-transparent p-8 rounded-b-2xl">
+                  <h2 className="text-2xl font-bold text-white mb-4">What's Inside</h2>
+                  <ul className="space-y-2">
+                    <li className="flex items-center gap-3 text-white">
+                      <CheckCircle2 className="h-5 w-5 text-[#996516]" />
+                      <span>12-Month Financial Planning System</span>
+                    </li>
+                    <li className="flex items-center gap-3 text-white">
+                      <CheckCircle2 className="h-5 w-5 text-[#996516]" />
+                      <span>Goal Setting Worksheets</span>
+                    </li>
+                    <li className="flex items-center gap-3 text-white">
+                      <CheckCircle2 className="h-5 w-5 text-[#996516]" />
+                      <span>Monthly Budget Templates</span>
+                    </li>
+                    <li className="flex items-center gap-3 text-white">
+                      <CheckCircle2 className="h-5 w-5 text-[#996516]" />
+                      <span>Expense Tracking Tools</span>
+                    </li>
+                    <li className="flex items-center gap-3 text-white">
+                      <CheckCircle2 className="h-5 w-5 text-[#996516]" />
+                      <span>Financial Goal Progress Trackers</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
