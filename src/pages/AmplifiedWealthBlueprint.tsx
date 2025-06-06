@@ -236,33 +236,6 @@ function AmplifiedWealthBlueprint() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 px-4 bg-[#174a21]">
-        <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-4xl font-bold text-white mb-8">Ready to Amplify Your Wealth?</h2>
-          <div className="bg-white rounded-2xl p-12">
-            <Target className="h-16 w-16 text-[#996516] mx-auto mb-6" />
-            <h3 className="text-2xl font-bold text-[#174a21] mb-4">Start Your Wealth Blueprint Today</h3>
-            <p className="text-[#174a21]/80 text-lg mb-8 max-w-2xl mx-auto">
-              Schedule a consultation to discuss how The Amplified Wealth Blueprint can provide you with 
-              the clarity and strategy you need to optimize your taxes and grow your wealth.
-            </p>
-            <div className="mb-8">
-              <div className="text-4xl font-bold text-[#996516] mb-2">$2,500</div>
-              <p className="text-[#174a21]/80">30-Day Strategic Engagement</p>
-            </div>
-            <a
-              href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-[#996516] text-white px-8 py-4 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold"
-            >
-              Schedule Your Consultation
-            </a>
-          </div>
-        </div>
-      </section>
-
       <FooterSection />
     </div>
   );
