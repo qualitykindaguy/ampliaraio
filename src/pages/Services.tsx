@@ -37,8 +37,8 @@ function Services() {
     {
       icon: <Award className="h-12 w-12 text-[#996516]" />,
       title: "Concierge Tax Strategy & Compliance",
-      description: "For: Established S-Corp Owners in High-Complexity Businesses.",
-      link: "#"
+      description: "For service-based business owners who need a strategic financial partner to help them keep more, scale smarter, and never touch another spreadsheet again.",
+      link: "/services/concierge-strategy"
     },
     {
       icon: <BookOpen className="h-12 w-12 text-[#996516]" />,
@@ -80,21 +80,12 @@ function Services() {
                 <div className="mb-4 flex justify-center">{pkg.icon}</div>
                 <h2 className="text-xl font-semibold text-[#174a21] mb-3">{pkg.title}</h2>
                 <p className="text-[#174a21]/80 mb-6 flex-grow">{pkg.description}</p>
-                {pkg.link === "#" ? (
-                  <button
-                    className="inline-block bg-[#996516] text-white px-6 py-2 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-center mt-auto cursor-not-allowed opacity-75"
-                    disabled
-                  >
-                    Coming Soon
-                  </button>
-                ) : (
-                  <Link
-                    to={pkg.link}
-                    className="inline-block bg-[#996516] text-white px-6 py-2 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-center mt-auto"
-                  >
-                    Learn More
-                  </Link>
-                )}
+                <Link
+                  to={pkg.link}
+                  className="inline-block bg-[#996516] text-white px-6 py-2 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-center mt-auto"
+                >
+                  Learn More
+                </Link>
               </div>
             ))}
           </div>

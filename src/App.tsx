@@ -5,6 +5,7 @@ import Services from './pages/Services';
 import TaxPreparation from './pages/TaxPreparation';
 import AmplifiedWealthBlueprint from './pages/AmplifiedWealthBlueprint';
 import StrategicWealthBridge from './pages/StrategicWealthBridge';
+import ConciergeStrategy from './pages/ConciergeStrategy';
 import BookkeepingStarter from './pages/BookkeepingStarter';
 import BookkeepingGrowth from './pages/BookkeepingGrowth';
 import HourlyConsultation from './pages/HourlyConsultation';
@@ -21,6 +22,7 @@ function App() {
       <Route path="/services/tax-preparation" element={<TaxPreparation />} />
       <Route path="/services/amplified-wealth-blueprint" element={<AmplifiedWealthBlueprint />} />
       <Route path="/services/strategic-wealth-bridge" element={<StrategicWealthBridge />} />
+      <Route path="/services/concierge-strategy" element={<ConciergeStrategy />} />
       <Route path="/services/bookkeeping" element={<BookkeepingStarter />} />
       <Route path="/services/bookkeeping-growth" element={<BookkeepingGrowth />} />
       <Route path="/services/hourly-consultation" element={<HourlyConsultation />} />
