@@ -224,29 +224,13 @@ function StrategicWealthBridge() {
       <section className="py-20 px-4 bg-[#174a21]">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-4xl font-bold text-white mb-8">Investment</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Annual Payment Option */}
-            <div className="bg-white rounded-2xl p-8">
-              <h3 className="text-xl font-semibold text-[#996516] mb-2">Annual Payment</h3>
-              <div className="text-4xl font-bold text-[#174a21] my-4">$6,000</div>
-              <p className="text-[#174a21]/80 mb-6">Full year of comprehensive support</p>
-              <button className="w-full bg-[#996516] text-white px-6 py-3 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold">
-                Get Started
-              </button>
-            </div>
-            
-            {/* Quarterly Plan */}
-            <div className="bg-white rounded-2xl p-8">
-              <h3 className="text-xl font-semibold text-[#996516] mb-2">Quarterly Plan</h3>
-              <div className="text-3xl font-bold text-[#174a21] my-4">
-                <div>$1,700</div>
-                <div className="text-lg text-[#174a21]/80">per quarter</div>
-              </div>
-              <p className="text-[#174a21]/80 mb-6">Flexible quarterly payments</p>
-              <button className="w-full bg-[#996516] text-white px-6 py-3 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold">
-                Choose Plan
-              </button>
-            </div>
+          <div className="bg-white rounded-2xl p-12">
+            <DollarSign className="h-16 w-16 text-[#996516] mx-auto mb-6" />
+            <div className="text-5xl font-bold text-[#174a21] mb-4">$6,000/year</div>
+            <div className="text-2xl text-[#174a21]/80 mb-8">or $1,700/quarter</div>
+            <p className="text-lg text-[#174a21]/80 max-w-2xl mx-auto">
+              Comprehensive year-round support for high-earning professionals ready to optimize their wealth strategy.
+            </p>
           </div>
         </div>
       </section>
