@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {
   ClipboardCheck,
-  Search,
   TrendingUp,
   BookOpen,
   Building2,
-  Rocket,
   Award,
   LineChart,
   Clock,
+  Target,
+  Briefcase,
 } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
@@ -23,16 +23,22 @@ function Services() {
       link: "/services/tax-preparation"
     },
     {
-      icon: <Search className="h-12 w-12 text-[#996516]" />,
-      title: "Judgment-Free Audit & Plan",
-      description: "A one-time service offering a personalized tax plan, proposed 3-month budget, and actionable strategies. Perfect for identifying gaps and saving money quickly.",
-      link: "/judgefree"
+      icon: <Target className="h-12 w-12 text-[#996516]" />,
+      title: "The Amplified Wealth Blueprint",
+      description: "A high-impact strategy engagement for high earners ready to reduce taxes and grow wealth with clarity.",
+      link: "#"
     },
     {
-      icon: <TrendingUp className="h-12 w-12 text-[#996516]" />,
-      title: "Budget & Thrive",
-      description: "A year-round financial coaching package with monthly assessments and quarterly reviews. Designed to help you master your budget, grow wealth, and achieve financial goals.",
-      link: "/budget-thrive"
+      icon: <Briefcase className="h-12 w-12 text-[#996516]" />,
+      title: "Strategic Wealth Bridge",
+      description: "Year-Round Support for High-Earning W-2 Professionals Exploring Wealth Expansion.",
+      link: "#"
+    },
+    {
+      icon: <Award className="h-12 w-12 text-[#996516]" />,
+      title: "Concierge Tax Strategy & Compliance",
+      description: "For: Established S-Corp Owners in High-Complexity Businesses.",
+      link: "#"
     },
     {
       icon: <BookOpen className="h-12 w-12 text-[#996516]" />,
@@ -45,18 +51,6 @@ function Services() {
       title: "Annual Bookkeeping Growth+",
       description: "Monthly bookkeeping services tailored for established businesses managing 71-250 monthly transactions. Includes comprehensive financial management, advanced reporting, and strategic guidance.",
       link: "/services/bookkeeping-growth"
-    },
-    {
-      icon: <Building2 className="h-12 w-12 text-[#996516]" />,
-      title: "Entrepreneur Starter Package",
-      description: "Comprehensive, year-round tax compliance support—including quarterly assessments, monthly bookkeeping, and tax filing. Tailored for business owners managing up to 70 transactions per month who are ready to optimize and stay ahead.",
-      link: "/entrepreneur-starter"
-    },
-    {
-      icon: <Award className="h-12 w-12 text-[#996516]" />,
-      title: "The Stress-Free Entrepreneur",
-      description: "A 12-month, all-inclusive partnership covering both personal finances and business compliance. Includes quarterly reviews, monthly financial oversight, tax planning, and wealth-building strategies for holistic financial peace.",
-      link: "/services/stress-free-entrepreneur"
     },
     {
       icon: <Clock className="h-12 w-12 text-[#996516]" />,
@@ -86,12 +80,21 @@ function Services() {
                 <div className="mb-4 flex justify-center">{pkg.icon}</div>
                 <h2 className="text-xl font-semibold text-[#174a21] mb-3">{pkg.title}</h2>
                 <p className="text-[#174a21]/80 mb-6 flex-grow">{pkg.description}</p>
-                <Link
-                  to={pkg.link}
-                  className="inline-block bg-[#996516] text-white px-6 py-2 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-center mt-auto"
-                >
-                  Learn More
-                </Link>
+                {pkg.link === "#" ? (
+                  <button
+                    className="inline-block bg-[#996516] text-white px-6 py-2 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-center mt-auto cursor-not-allowed opacity-75"
+                    disabled
+                  >
+                    Coming Soon
+                  </button>
+                ) : (
+                  <Link
+                    to={pkg.link}
+                    className="inline-block bg-[#996516] text-white px-6 py-2 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-center mt-auto"
+                  >
+                    Learn More
+                  </Link>
+                )}
               </div>
             ))}
           </div>
