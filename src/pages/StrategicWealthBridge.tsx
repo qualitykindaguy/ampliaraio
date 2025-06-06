@@ -129,6 +129,14 @@ function StrategicWealthBridge() {
             <p className="text-xl text-[#174a21]/80 mb-12 leading-relaxed">
               Year-Round Support for High-Earning W-2 Professionals Exploring Wealth Expansion
             </p>
+            <a
+              href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#996516] text-white px-8 py-4 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold"
+            >
+              Schedule Your Consultation
+            </a>
           </div>
         </div>
       </section>
