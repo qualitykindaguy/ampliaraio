@@ -20,6 +20,7 @@ import {
   CreditCard,
   BookOpen,
   Settings,
+  MessageSquare,
 } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
@@ -220,17 +221,26 @@ function StrategicWealthBridge() {
         </div>
       </section>
 
-      {/* Investment Section */}
+      {/* Schedule Consultation Section */}
       <section className="py-20 px-4 bg-[#174a21]">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-4xl font-bold text-white mb-8">Investment</h2>
+          <h2 className="text-4xl font-bold text-white mb-8">Ready to Bridge Your Wealth Strategy?</h2>
           <div className="bg-white rounded-2xl p-12">
-            <DollarSign className="h-16 w-16 text-[#996516] mx-auto mb-6" />
-            <div className="text-5xl font-bold text-[#174a21] mb-4">$6,000/year</div>
-            <div className="text-2xl text-[#174a21]/80 mb-8">or $1,700/quarter</div>
-            <p className="text-lg text-[#174a21]/80 max-w-2xl mx-auto">
-              Comprehensive year-round support for high-earning professionals ready to optimize their wealth strategy.
+            <MessageSquare className="h-16 w-16 text-[#996516] mx-auto mb-6" />
+            <h3 className="text-2xl font-bold text-[#174a21] mb-4">Schedule Your Strategic Consultation</h3>
+            <p className="text-[#174a21]/80 text-lg mb-8 max-w-2xl mx-auto">
+              Let's discuss how our Strategic Wealth Bridge program can help you optimize your wealth strategy, 
+              reduce taxes, and explore new income opportunities. Our expert team is ready to create your 
+              personalized roadmap to financial success.
             </p>
+            <a
+              href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#996516] text-white px-8 py-4 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold"
+            >
+              Schedule Your Consultation
+            </a>
           </div>
         </div>
       </section>
