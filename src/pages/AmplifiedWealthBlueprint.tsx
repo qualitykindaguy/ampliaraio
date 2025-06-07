@@ -103,7 +103,7 @@ function AmplifiedWealthBlueprint() {
             <span className="inline-block px-4 py-2 bg-[#996516]/10 text-[#996516] rounded-full text-sm font-semibold mb-6">
               High-Impact Strategy Engagement
             </span>
-            <h1 className="text-5xl md:text-6xl font-bold text-[#174a21] mb-8 leading-tight">
+            <h1 className="text-5xl md:text-6xl font-bold text-[#174a21] mb-12 leading-tight">
               The Amplified Wealth Blueprint (Tax Plan)
             </h1>
             <p className="text-xl text-[#174a21]/80 mb-12 leading-relaxed">
