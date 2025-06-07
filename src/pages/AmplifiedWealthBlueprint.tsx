@@ -21,24 +21,6 @@ import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
 
 function AmplifiedWealthBlueprint() {
-  const keyDetails = [
-    {
-      icon: <DollarSign className="h-8 w-8 text-[#996516]" />,
-      title: "Investment",
-      value: "$2,500",
-    },
-    {
-      icon: <Clock className="h-8 w-8 text-[#996516]" />,
-      title: "Timeline",
-      value: "30 Days",
-    },
-    {
-      icon: <Users className="h-8 w-8 text-[#996516]" />,
-      title: "For",
-      value: "High-income professionals or business owners earning $250K–$1M",
-    },
-  ];
-
   const included = [
     {
       title: "Tax & Financial Deep Dive",
@@ -133,48 +115,6 @@ function AmplifiedWealthBlueprint() {
         </div>
       </section>
 
-      {/* Key Details Section */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            {keyDetails.map((detail, index) => (
-              <div 
-                key={index}
-                className="bg-white p-8 rounded-2xl border-2 border-[#174a21]/10 hover:border-[#996516] transition-all duration-300 text-center"
-              >
-                <div className="mb-6 flex justify-center">
-                  {detail.icon}
-                </div>
-                <h3 className="text-xl font-semibold text-[#174a21] mb-2">{detail.title}</h3>
-                <p className="text-lg text-[#174a21]/80 font-medium">{detail.value}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Target Audience Section */}
-      <section className="py-20 px-4 bg-[#174a21]/5">
-        <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl font-bold text-[#174a21] mb-12 text-center">Perfect For</h2>
-          <div className="bg-white p-8 rounded-2xl shadow-lg text-center">
-            <Building2 className="h-16 w-16 text-[#996516] mx-auto mb-6" />
-            <h3 className="text-2xl font-semibold text-[#174a21] mb-4">
-              High-Income Professionals & Business Owners
-            </h3>
-            <p className="text-lg text-[#174a21]/80 mb-6">
-              Earning $250K–$1M who want clarity, tax savings, and a roadmap — without an annual commitment (yet).
-            </p>
-            <div className="bg-[#996516]/10 p-6 rounded-xl">
-              <p className="text-[#174a21] font-medium">
-                This engagement is designed for those ready to optimize their financial strategy 
-                with expert guidance and actionable insights.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* What's Included Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto">
@@ -232,6 +172,30 @@ function AmplifiedWealthBlueprint() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Schedule Consultation Section */}
+      <section className="py-20 px-4 bg-[#174a21]">
+        <div className="container mx-auto max-w-4xl text-center">
+          <h2 className="text-4xl font-bold text-white mb-8">Ready to Amplify Your Wealth Strategy?</h2>
+          <div className="bg-white rounded-2xl p-12">
+            <MessageSquare className="h-16 w-16 text-[#996516] mx-auto mb-6" />
+            <h3 className="text-2xl font-bold text-[#174a21] mb-4">Schedule Your Strategic Consultation</h3>
+            <p className="text-[#174a21]/80 text-lg mb-8 max-w-2xl mx-auto">
+              Let's discuss how our Amplified Wealth Blueprint can provide you with a clear roadmap to reduce taxes, 
+              optimize your financial structure, and accelerate your wealth building. Our expert team is ready to 
+              create your personalized strategy.
+            </p>
+            <a
+              href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#996516] text-white px-8 py-4 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold"
+            >
+              Schedule Your Consultation
+            </a>
           </div>
         </div>
       </section>
