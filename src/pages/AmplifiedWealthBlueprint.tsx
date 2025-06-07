@@ -106,13 +106,35 @@ function AmplifiedWealthBlueprint() {
             <h1 className="text-5xl md:text-6xl font-bold text-[#174a21] mb-12 leading-tight">
               The Amplified Wealth Blueprint (Tax Plan)
             </h1>
-            <p className="text-xl text-[#174a21]/80 mb-6 leading-relaxed">
+            <p className="text-xl text-[#174a21]/80 leading-relaxed">
               A focused, high-impact advisory engagement that gives you a personalized tax savings roadmap, 
               including compensation strategy, entity optimization, and retirement planning.
             </p>
-            <p className="text-lg font-medium text-[#996516] italic">
-              Ideal for clients who want to start smart or fix what's not working.
-            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Ideal For Section */}
+      <section className="py-20 px-4 bg-[#174a21]/5">
+        <div className="container mx-auto">
+          <h2 className="text-4xl font-bold text-[#174a21] mb-16 text-center">Ideal for if you want</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {outcomes.map((outcome, index) => (
+              <div 
+                key={index}
+                className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300"
+              >
+                <div className="flex items-start gap-4">
+                  <div className="flex-shrink-0 mt-1">
+                    {outcome.icon}
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-[#174a21] mb-3">{outcome.title}</h3>
+                    <p className="text-[#174a21]/80">{outcome.description}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -145,31 +167,6 @@ function AmplifiedWealthBlueprint() {
                         </li>
                       ))}
                     </ul>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Outcomes Section */}
-      <section className="py-20 px-4 bg-[#174a21]/5">
-        <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-[#174a21] mb-16 text-center">🎯 Outcomes</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {outcomes.map((outcome, index) => (
-              <div 
-                key={index}
-                className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300"
-              >
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 mt-1">
-                    {outcome.icon}
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-[#174a21] mb-3">{outcome.title}</h3>
-                    <p className="text-[#174a21]/80">{outcome.description}</p>
                   </div>
                 </div>
               </div>
