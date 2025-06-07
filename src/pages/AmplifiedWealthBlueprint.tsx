@@ -226,4 +226,19 @@ function AmplifiedWealthBlueprint() {
                     {outcome.icon}
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-
+                    <h3 className="text-xl font-semibold text-[#174a21] mb-3">{outcome.title}</h3>
+                    <p className="text-[#174a21]/80">{outcome.description}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <FooterSection />
+    </div>
+  );
+}
+
+export default AmplifiedWealthBlueprint;
