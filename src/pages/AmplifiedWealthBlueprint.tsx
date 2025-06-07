@@ -106,11 +106,15 @@ function AmplifiedWealthBlueprint() {
             <h1 className="text-5xl md:text-6xl font-bold text-[#174a21] mb-12 leading-tight">
               The Amplified Wealth Blueprint (Tax Plan)
             </h1>
-            <p className="text-xl text-[#174a21]/80 mb-12 leading-relaxed">
+            <p className="text-xl text-[#174a21]/80 mb-8 leading-relaxed">
               A focused, high-impact advisory engagement that gives you a personalized tax savings roadmap, 
-              including compensation strategy, entity optimization, and retirement planning. Ideal for clients 
-              who want to start smart or fix what's not working.
+              including compensation strategy, entity optimization, and retirement planning.
             </p>
+            <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 mb-12 border-l-4 border-[#996516]">
+              <p className="text-lg font-semibold text-[#174a21]">
+                Ideal for clients who want to start smart or fix what's not working.
+              </p>
+            </div>
           </div>
         </div>
       </section>
