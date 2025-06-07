@@ -122,7 +122,7 @@ function AmplifiedWealthBlueprint() {
               High-Impact Strategy Engagement
             </span>
             <h1 className="text-5xl md:text-6xl font-bold text-[#174a21] mb-8 leading-tight">
-              The Amplified Wealth Blueprint
+              The Amplified Wealth Blueprint (Tax Plan)
             </h1>
             <p className="text-xl text-[#174a21]/80 mb-12 leading-relaxed">
               A focused, high-impact advisory engagement that gives you a personalized tax savings roadmap, 
@@ -226,19 +226,4 @@ function AmplifiedWealthBlueprint() {
                     {outcome.icon}
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-[#174a21] mb-2">{outcome.title}</h3>
-                    <p className="text-[#174a21]/80">{outcome.description}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <FooterSection />
-    </div>
-  );
-}
-
-export default AmplifiedWealthBlueprint;
+                    <h3 className="text-xl font-semibold text-
