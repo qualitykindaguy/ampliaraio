@@ -31,7 +31,7 @@ function Services() {
     {
       icon: <Briefcase className="h-12 w-12 text-[#996516]" />,
       title: "Strategic Wealth Bridge",
-      description: "Year-Round Support for High-Earning W-2 Professionals Exploring Wealth Expansion.",
+      description: "Year-Round Support for High-Earning W-2 Professionals Exploring Wealth Expansion Through Generating Additional Income.",
       link: "/services/strategic-wealth-bridge"
     },
     {

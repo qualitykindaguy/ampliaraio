@@ -127,29 +127,8 @@ function StrategicWealthBridge() {
               Strategic Wealth Bridge
             </h1>
             <p className="text-xl text-[#174a21]/80 mb-12 leading-relaxed">
-              Year-Round Support for High-Earning W-2 Professionals Exploring Wealth Expansion
-            </p>
-            <a
-              href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-[#996516] text-white px-8 py-4 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold"
-            >
-              Schedule Your Consultation
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Positioning Statement */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto max-w-4xl">
-          <div className="bg-white p-8 rounded-2xl border-2 border-[#174a21]/10 text-center">
-            <Target className="h-16 w-16 text-[#996516] mx-auto mb-6" />
-            <h2 className="text-3xl font-bold text-[#174a21] mb-6">Positioning Statement</h2>
-            <p className="text-lg text-[#174a21]/80 leading-relaxed">
               For high-income professionals who want to deploy capital strategically, reduce taxes, 
-              and explore income-generating options — without needing a full-time business to start.
+              and explore income-generating options, without quitting their corporate job.
             </p>
           </div>
         </div>
@@ -225,30 +204,6 @@ function StrategicWealthBridge() {
                 <p className="text-[#174a21]/80">{tool.description}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Schedule Consultation Section */}
-      <section className="py-20 px-4 bg-[#174a21]">
-        <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-4xl font-bold text-white mb-8">Ready to Bridge Your Wealth Strategy?</h2>
-          <div className="bg-white rounded-2xl p-12">
-            <MessageSquare className="h-16 w-16 text-[#996516] mx-auto mb-6" />
-            <h3 className="text-2xl font-bold text-[#174a21] mb-4">Schedule Your Strategic Consultation</h3>
-            <p className="text-[#174a21]/80 text-lg mb-8 max-w-2xl mx-auto">
-              Let's discuss how our Strategic Wealth Bridge program can help you optimize your wealth strategy, 
-              reduce taxes, and explore new income opportunities. Our expert team is ready to create your 
-              personalized roadmap to financial success.
-            </p>
-            <a
-              href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-[#996516] text-white px-8 py-4 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold"
-            >
-              Schedule Your Consultation
-            </a>
           </div>
         </div>
       </section>
