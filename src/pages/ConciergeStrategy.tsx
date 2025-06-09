@@ -170,26 +170,22 @@ function ConciergeStrategy() {
       <section className="py-20 px-4">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold text-[#174a21] mb-16 text-center">What To Expect</h2>
-          <div className="space-y-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {deliverables.map((item, index) => (
               <div 
                 key={index}
-                className="bg-white p-8 rounded-2xl border-2 border-[#174a21]/10 hover:border-[#996516] transition-all duration-300"
+                className="bg-white p-8 rounded-2xl border-2 border-[#174a21]/10 hover:border-[#996516] transition-all duration-300 hover:shadow-xl group text-center"
               >
-                <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0">
-                    {item.icon}
-                  </div>
-                  <div>
-                    <div className="mb-4">
-                      <h3 className="text-2xl font-semibold text-[#174a21] mb-1">{item.title}</h3>
-                      {item.subtitle && (
-                        <p className="text-[#996516] font-medium">{item.subtitle}</p>
-                      )}
-                    </div>
-                    <p className="text-[#174a21]/80">{item.description}</p>
-                  </div>
+                <div className="mb-6 flex justify-center transform group-hover:scale-110 transition-transform duration-300">
+                  {item.icon}
                 </div>
+                <div className="mb-4">
+                  <h3 className="text-xl font-semibold text-[#174a21] mb-2">{item.title}</h3>
+                  {item.subtitle && (
+                    <p className="text-[#996516] font-medium text-sm">{item.subtitle}</p>
+                  )}
+                </div>
+                <p className="text-[#174a21]/80 leading-relaxed">{item.description}</p>
               </div>
             ))}
           </div>
