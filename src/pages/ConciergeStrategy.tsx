@@ -174,7 +174,11 @@ function ConciergeStrategy() {
             {deliverables.map((item, index) => (
               <div 
                 key={index}
-                className="bg-white p-8 rounded-2xl border-2 border-[#174a21]/10 hover:border-[#996516] transition-all duration-300 hover:shadow-xl group text-center"
+                className={`bg-white p-8 rounded-2xl border-2 border-[#174a21]/10 hover:border-[#996516] transition-all duration-300 hover:shadow-xl group text-center ${
+                  index === deliverables.length - 1 && deliverables.length % 3 === 1 
+                    ? 'md:col-span-2 lg:col-span-1 lg:col-start-2' 
+                    : ''
+                }`}
               >
                 <div className="mb-6 flex justify-center transform group-hover:scale-110 transition-transform duration-300">
                   {item.icon}
