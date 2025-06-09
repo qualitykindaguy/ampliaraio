@@ -79,7 +79,7 @@ function Services() {
               <div key={index} className="bg-white border-2 border-[#174a21]/10 rounded-lg p-6 flex flex-col h-full hover:shadow-xl transition-shadow duration-300 text-center">
                 <div className="mb-4 flex justify-center">{pkg.icon}</div>
                 <h2 className="text-xl font-semibold text-[#174a21] mb-3">{pkg.title}</h2>
-                <p className="text-[#174a21]/80 mb-6 flex-grow">{pkg.description}</p>
+                <p className="text-[#174a21]/80 mb-4 flex-grow">{pkg.description}</p>
                 <Link
                   to={pkg.link}
                   className="inline-block bg-[#996516] text-white px-6 py-2 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-center mt-auto"

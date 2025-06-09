@@ -126,7 +126,7 @@ function StrategicWealthBridge() {
             <h1 className="text-5xl md:text-6xl font-bold text-[#174a21] mb-8 leading-tight">
               Strategic Wealth Bridge
             </h1>
-            <p className="text-xl text-[#174a21]/80 mb-12 leading-relaxed">
+            <p className="text-xl text-[#174a21]/80 mb-8 leading-relaxed">
               For high-income professionals who want to deploy capital strategically, reduce taxes, 
               and explore income-generating options, without quitting their corporate job.
             </p>
@@ -137,7 +137,7 @@ function StrategicWealthBridge() {
       {/* Core Outcomes Section */}
       <section className="py-20 px-4 bg-[#174a21]/5">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-[#174a21] mb-16 text-center">Core Outcomes</h2>
+          <h2 className="text-4xl font-bold text-[#174a21] mb-16 text-center">Ideal For You If You Want:</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {coreOutcomes.map((outcome, index) => (
               <div 
@@ -162,7 +162,7 @@ function StrategicWealthBridge() {
       {/* Deliverables Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-[#174a21] mb-16 text-center">Deliverables</h2>
+          <h2 className="text-4xl font-bold text-[#174a21] mb-16 text-center">What To Expect</h2>
           <div className="space-y-8">
             {deliverables.map((item, index) => (
               <div 
