@@ -37,7 +37,7 @@ function Services() {
     {
       icon: <Award className="h-12 w-12 text-[#996516]" />,
       title: "Concierge Tax Strategy & Compliance",
-      description: "For service-based business owners who need a strategic financial partner to help them keep more, scale smarter, and never touch another spreadsheet again.",
+      description: "For service-based business owners who are already earning well, but need a strategic financial partner to help them keep more, scale smarter, and never touch another spreadsheet again.",
       link: "/services/concierge-strategy"
     },
     {

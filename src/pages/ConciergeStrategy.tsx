@@ -96,24 +96,6 @@ function ConciergeStrategy() {
     },
   ];
 
-  const techTools = [
-    {
-      title: "CFO Dashboard",
-      description: "Real-time cash flow monitoring and comprehensive planning tools",
-      icon: <Monitor className="h-6 w-6 text-[#996516]" />,
-    },
-    {
-      title: "Team Coordination",
-      description: "Seamless coordination between you and your assistant/EA",
-      icon: <UserCheck className="h-6 w-6 text-[#996516]" />,
-    },
-    {
-      title: "White-Glove Document Management",
-      description: "Professional document collection and deadline management",
-      icon: <FileText className="h-6 w-6 text-[#996516]" />,
-    },
-  ];
-
   const benefits = [
     {
       title: "Strategic Partnership",
@@ -152,20 +134,7 @@ function ConciergeStrategy() {
               Concierge Tax Strategy & Compliance
             </h1>
             <p className="text-xl text-[#174a21]/80 mb-12 leading-relaxed">
-              For: Established S-Corp Owners in High-Complexity Businesses
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Positioning Statement */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto max-w-4xl">
-          <div className="bg-white p-8 rounded-2xl border-2 border-[#174a21]/10 text-center">
-            <Target className="h-16 w-16 text-[#996516] mx-auto mb-6" />
-            <h2 className="text-3xl font-bold text-[#174a21] mb-6">Positioning Statement</h2>
-            <p className="text-lg text-[#174a21]/80 leading-relaxed">
-              For service-based business owners who are already earning well — but need a strategic financial partner 
+              For service-based business owners who are already earning well, but need a strategic financial partner 
               to help them keep more, scale smarter, and never touch another spreadsheet again.
             </p>
           </div>
@@ -175,7 +144,7 @@ function ConciergeStrategy() {
       {/* Core Outcomes Section */}
       <section className="py-20 px-4 bg-[#174a21]/5">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-[#174a21] mb-16 text-center">Core Outcomes</h2>
+          <h2 className="text-4xl font-bold text-[#174a21] mb-16 text-center">Ideal For You If You Want:</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {coreOutcomes.map((outcome, index) => (
               <div 
@@ -200,7 +169,7 @@ function ConciergeStrategy() {
       {/* Deliverables Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-[#174a21] mb-16 text-center">Deliverables</h2>
+          <h2 className="text-4xl font-bold text-[#174a21] mb-16 text-center">What To Expect</h2>
           <div className="space-y-8">
             {deliverables.map((item, index) => (
               <div 
@@ -227,36 +196,15 @@ function ConciergeStrategy() {
         </div>
       </section>
 
-      {/* Tech & Tools Section */}
-      <section className="py-20 px-4 bg-[#174a21]/5">
-        <div className="container mx-auto">
-          <h2 className="text-4xl font-bold text-[#174a21] mb-16 text-center">Tech & Tools</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {techTools.map((tool, index) => (
-              <div 
-                key={index}
-                className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 text-center"
-              >
-                <div className="mb-6 flex justify-center">
-                  {tool.icon}
-                </div>
-                <h3 className="text-xl font-semibold text-[#174a21] mb-4">{tool.title}</h3>
-                <p className="text-[#174a21]/80">{tool.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Benefits Section */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 bg-[#174a21]/5">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-4xl font-bold text-[#174a21] mb-12 text-center">Why Choose Concierge Strategy?</h2>
           <div className="space-y-6">
             {benefits.map((benefit, index) => (
               <div 
                 key={index}
-                className="flex items-start gap-4 bg-[#174a21]/5 p-6 rounded-xl hover:shadow-md transition-shadow duration-300"
+                className="flex items-start gap-4 bg-white p-6 rounded-xl hover:shadow-md transition-shadow duration-300"
               >
                 <div className="flex-shrink-0 mt-1">
                   {benefit.icon}
