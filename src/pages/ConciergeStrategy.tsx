@@ -222,10 +222,10 @@ function ConciergeStrategy() {
       {/* Schedule Consultation Section */}
       <section className="py-20 px-4 bg-[#174a21]">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-4xl font-bold text-white mb-8">Ready for White-Glove Financial Management?</h2>
+          <h2 className="text-4xl font-bold text-white mb-8">Ready for Concierge Tax Strategies?</h2>
           <div className="bg-white rounded-2xl p-12">
             <MessageSquare className="h-16 w-16 text-[#996516] mx-auto mb-6" />
-            <h3 className="text-2xl font-bold text-[#174a21] mb-4">Schedule Your Strategic Consultation</h3>
+            <h3 className="text-2xl font-bold text-[#174a21] mb-4">Schedule your Compliance Consultation</h3>
             <p className="text-[#174a21]/80 text-lg mb-8 max-w-2xl mx-auto">
               Let's discuss how our Concierge Tax Strategy & Compliance service can transform your financial management. 
               Our expert team is ready to become your dedicated financial partner, handling all the complexity while 
