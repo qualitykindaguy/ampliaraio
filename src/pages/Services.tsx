@@ -18,7 +18,7 @@ function Services() {
   const packages = [
     {
       icon: <Target className="h-12 w-12 text-[#996516]" />,
-      title: "The Amplified Wealth Blueprint (Tax Plan)",
+      title: "Amplified Wealth Blueprint (Tax Plan)",
       description: "A high-impact strategy engagement for high earners ready to reduce taxes and grow wealth with clarity.",
       link: "/services/amplified-wealth-blueprint"
     },
