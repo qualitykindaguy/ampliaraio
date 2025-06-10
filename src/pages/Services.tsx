@@ -17,14 +17,8 @@ import FooterSection from '../components/FooterSection';
 function Services() {
   const packages = [
     {
-      icon: <ClipboardCheck className="h-12 w-12 text-[#996516]" />,
-      title: "Tax Preparation",
-      description: "Accurate and efficient tax filing services for individuals and businesses. Delivered virtually to maximize savings and ensure compliance, covering one tax season.",
-      link: "/services/tax-preparation"
-    },
-    {
       icon: <Target className="h-12 w-12 text-[#996516]" />,
-      title: "The Amplified Wealth Blueprint",
+      title: "The Amplified Wealth Blueprint (Tax Plan)",
       description: "A high-impact strategy engagement for high earners ready to reduce taxes and grow wealth with clarity.",
       link: "/services/amplified-wealth-blueprint"
     },
@@ -41,16 +35,16 @@ function Services() {
       link: "/services/concierge-strategy"
     },
     {
-      icon: <BookOpen className="h-12 w-12 text-[#996516]" />,
-      title: "Annual Bookkeeping Services Starter",
-      description: "Professional monthly bookkeeping services designed for growing businesses managing up to 70 monthly transactions. Includes detailed financial tracking, regular reporting, and year-end documentation.",
-      link: "/services/bookkeeping"
+      icon: <ClipboardCheck className="h-12 w-12 text-[#996516]" />,
+      title: "Tax Preparation",
+      description: "Accurate and efficient tax filing services for individuals and businesses. Delivered virtually to maximize savings and ensure compliance, covering one tax season.",
+      link: "/services/tax-preparation"
     },
     {
-      icon: <LineChart className="h-12 w-12 text-[#996516]" />,
-      title: "Annual Bookkeeping Growth+",
-      description: "Monthly bookkeeping services tailored for established businesses managing 71-250 monthly transactions. Includes comprehensive financial management, advanced reporting, and strategic guidance.",
-      link: "/services/bookkeeping-growth"
+      icon: <BookOpen className="h-12 w-12 text-[#996516]" />,
+      title: "Annual Bookkeeping Services",
+      description: "Professional monthly bookkeeping services. Includes detailed financial tracking, regular reporting, and year-end documentation.",
+      link: "/services/bookkeeping"
     },
     {
       icon: <Clock className="h-12 w-12 text-[#996516]" />,
