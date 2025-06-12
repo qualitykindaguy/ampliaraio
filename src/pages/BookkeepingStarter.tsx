@@ -48,8 +48,8 @@ function BookkeepingStarter() {
 
   const benefits = [
     {
-      title: "Perfect for Growing Businesses",
-      description: "Ideal for businesses managing up to 70 monthly transactions, providing the foundation for organized financial management.",
+      title: "Checked & Balanced Books",
+      description: "Balanced books. Bulletproof clarity. No surprises.",
       icon: <BookOpen className="h-12 w-12 text-[#996516]" />,
     },
     {
@@ -76,10 +76,10 @@ function BookkeepingStarter() {
               Professional Bookkeeping Services
             </span>
             <h1 className="text-5xl md:text-6xl font-bold text-[#174a21] mb-8 leading-tight">
-              Annual Bookkeeping Starter
+              Annual Bookkeeping Services
             </h1>
             <p className="text-xl text-[#174a21]/80 mb-12 leading-relaxed">
-              Professional monthly bookkeeping services designed for growing businesses managing up to 70 monthly transactions.
+              Professional monthly bookkeeping services designed for managing monthly transactions.
               Our comprehensive service includes detailed financial tracking, regular reporting, and year-end documentation
               to keep your business organized and compliant.
             </p>
@@ -137,7 +137,7 @@ function BookkeepingStarter() {
             <MessageSquare className="h-16 w-16 text-[#996516] mx-auto mb-6" />
             <h3 className="text-2xl font-bold text-[#174a21] mb-4">Let's Discuss Your Bookkeeping Needs</h3>
             <p className="text-[#174a21]/80 text-lg mb-8 max-w-2xl mx-auto">
-              Schedule a consultation with our expert team to discuss how our Annual Bookkeeping Starter package can help streamline your business finances and set you up for success.
+              Schedule a consultation with our expert team to discuss how our Annual Bookkeeping Services can help streamline your business finances and set you up for success.
             </p>
             <a
               href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
