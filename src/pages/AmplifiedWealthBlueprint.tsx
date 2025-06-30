@@ -72,7 +72,7 @@ function AmplifiedWealthBlueprint() {
   const outcomes = [
     {
       title: "Immediate Tax Clarity",
-      description: "Clarity on how to reduce your tax burden within 30 days",
+      description: "Clarity on how to reduce your tax burden",
       icon: <Lightbulb className="h-6 w-6 text-[#996516]" />,
     },
     {
