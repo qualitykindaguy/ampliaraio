@@ -24,7 +24,7 @@ function AmplifiedWealthBlueprint() {
   const included = [
     {
       title: "Tax & Financial Deep Dive",
-      subtitle: "90-minute strategy call",
+      subtitle: "Strategy call",
       description: "Comprehensive review of your current financial landscape",
       features: [
         "Review of your current income, entity structure, compensation, and planning gaps",
