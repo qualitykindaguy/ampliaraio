@@ -46,7 +46,7 @@ function AmplifiedWealthBlueprint() {
       icon: <FileText className="h-8 w-8 text-[#996516]" />,
     },
     {
-      title: "One-Page Implementation Roadmap",
+      title: "Implementation Roadmap",
       subtitle: "Clear action plan",
       description: "Prioritized steps to implement your strategy",
       features: [
