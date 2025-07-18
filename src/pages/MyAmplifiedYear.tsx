@@ -20,7 +20,7 @@ function MyAmplifiedYear() {
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold text-[#174a21] mb-6 leading-tight">
-              Something <span className="text-[#996516] relative">
+              Something <span className="text-[#996516] relative inline-block">
                 BIG
                 <div className="absolute -top-2 -right-2 text-yellow-400">
                   <Star className="h-8 w-8 fill-current animate-bounce" />
@@ -35,9 +35,9 @@ function MyAmplifiedYear() {
               <span className="ml-2 text-[#174a21]/80 font-medium">Coming Soon</span>
             </div>
             
-            <p className="text-xl md:text-2xl text-[#174a21]/80 mb-12 leading-relaxed">
+            <p className="text-lg md:text-xl text-[#174a21]/80 mb-12 leading-relaxed max-w-3xl mx-auto">
               Get ready to transform your financial future with <strong>My Amplified Year</strong> - 
-              the ultimate financial planning system designed to amplify your wealth and success.
+              a chic, modern financial planner designed to amplify your wealth and success.
             </p>
           </div>
         </div>
@@ -46,21 +46,21 @@ function MyAmplifiedYear() {
       {/* Preview Features */}
       <section className="py-20 px-4 bg-[#174a21]/5">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-[#174a21] mb-16 text-center">What's Coming Will Change Everything</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-[#174a21] mb-16 text-center px-4">What's Coming Will Change Everything</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="bg-white p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow duration-300">
               <Target className="h-12 w-12 text-[#996516] mx-auto mb-6" />
-              <h3 className="text-xl font-semibold text-[#174a21] mb-4">Strategic Financial Planning</h3>
+              <h3 className="text-lg md:text-xl font-semibold text-[#174a21] mb-4">Strategic Financial Planning</h3>
               <p className="text-[#174a21]/80">Revolutionary planning tools that will transform how you approach your financial goals</p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow duration-300">
               <TrendingUp className="h-12 w-12 text-[#996516] mx-auto mb-6" />
-              <h3 className="text-xl font-semibold text-[#174a21] mb-4">Wealth Amplification System</h3>
+              <h3 className="text-lg md:text-xl font-semibold text-[#174a21] mb-4">Wealth Amplification System</h3>
               <p className="text-[#174a21]/80">Proven strategies and frameworks to accelerate your wealth building journey</p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow duration-300">
               <BookOpen className="h-12 w-12 text-[#996516] mx-auto mb-6" />
-              <h3 className="text-xl font-semibold text-[#174a21] mb-4">Expert Guidance</h3>
+              <h3 className="text-lg md:text-xl font-semibold text-[#174a21] mb-4">Expert Guidance</h3>
               <p className="text-[#174a21]/80">Professional insights and actionable steps from certified financial experts</p>
             </div>
           </div>
@@ -72,8 +72,8 @@ function MyAmplifiedYear() {
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12">
             <Calendar className="h-16 w-16 text-[#996516] mx-auto mb-6" />
-            <h2 className="text-4xl font-bold text-[#174a21] mb-6">Get the Inside Scoop</h2>
-            <p className="text-xl text-[#174a21]/80 mb-8">
+            <h2 className="text-2xl md:text-4xl font-bold text-[#174a21] mb-6 px-4">Get the Inside Scoop</h2>
+            <p className="text-lg md:text-xl text-[#174a21]/80 mb-8 max-w-3xl mx-auto px-4">
               Be among the first to know when <strong>My Amplified Year</strong> launches. 
               Join our exclusive insider list for early access, special pricing, and bonus content.
             </p>
@@ -86,14 +86,14 @@ function MyAmplifiedYear() {
           
           <div className="bg-white rounded-2xl shadow-xl p-8 border-2 border-[#996516]/20">
             <div className="mb-6 text-center">
-              <h3 className="text-2xl font-semibold text-[#174a21] mb-2">Reserve Your Spot</h3>
+              <h3 className="text-xl md:text-2xl font-semibold text-[#174a21] mb-2">Reserve Your Spot</h3>
               <p className="text-[#174a21]/80">Fill out the form below to secure your early access</p>
             </div>
             
-            <div className="min-h-[500px]">
+            <div className="min-h-[444px] w-full overflow-hidden">
               <iframe
                 src="https://api.taxnitro.com/widget/form/gASBGaRIppZUg8vyLPDW"
-                style={{width:'100%', height:'500px', border:'none', borderRadius:'4px'}}
+                style={{width:'100%', height:'444px', border:'none', borderRadius:'4px'}}
                 id="inline-gASBGaRIppZUg8vyLPDW"
                 data-layout="{'id':'INLINE'}"
                 data-trigger-type="alwaysShow"
@@ -102,11 +102,11 @@ function MyAmplifiedYear() {
                 data-activation-value=""
                 data-deactivation-type="neverDeactivate"
                 data-deactivation-value=""
-                data-form-name="My Amplified Year"
-                data-height="500"
+                data-form-name="Fundable Founders"
+                data-height="444"
                 data-layout-iframe-id="inline-gASBGaRIppZUg8vyLPDW"
                 data-form-id="gASBGaRIppZUg8vyLPDW"
-                title="My Amplified Year"
+                title="Fundable Founders"
               />
             </div>
           </div>
@@ -116,8 +116,8 @@ function MyAmplifiedYear() {
       {/* CTA Section */}
       <section className="py-20 px-4 bg-[#174a21]">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-4xl font-bold text-white mb-8">Don't Miss Out</h2>
-          <p className="text-xl text-white/90 mb-8 leading-relaxed">
+          <h2 className="text-2xl md:text-4xl font-bold text-white mb-8 px-4">Don't Miss Out</h2>
+          <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto px-4">
             <strong>My Amplified Year</strong> is launching soon, and early access spots are limited. 
             Join our insider list now to be the first to experience this game-changing financial planning system.
           </p>
