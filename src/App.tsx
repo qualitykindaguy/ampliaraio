@@ -13,6 +13,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import LiveAmplified from './pages/LiveAmplified';
 import ShopAmplified from './pages/ShopAmplified';
+import FundableFounders from './pages/FundableFounders';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/liveamplified" element={<LiveAmplified />} />
       <Route path="/shopamplified" element={<ShopAmplified />} />
+      <Route path="/fundable-founders" element={<FundableFounders />} />
     </Routes>
   );
 }
