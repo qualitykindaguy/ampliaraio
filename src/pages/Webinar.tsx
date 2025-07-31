@@ -1,7 +1,7 @@
 import React from 'react';
-import { Calendar, Star, Sparkles, Target, TrendingUp, BookOpen, Clock, Users, Award } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
+import sainteMainAbout from '../assets/sainte-main-about.svg';
 
 function Webinar() {
   return (
@@ -9,136 +9,253 @@ function Webinar() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 bg-gradient-to-br from-[#174a21]/10 via-[#996516]/5 to-white overflow-hidden relative">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,_var(--tw-gradient-stops))] from-[#996516]/20 via-transparent to-transparent"></div>
-        <div className="container mx-auto relative">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 bg-[#996516]/10 text-[#996516] px-4 py-2 rounded-full text-sm font-semibold mb-6 animate-pulse">
-              <Sparkles className="h-4 w-4" />
-              EXCLUSIVE WEBINAR
-              <Sparkles className="h-4 w-4" />
-            </div>
-            
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#174a21] mb-6 leading-tight px-4">
-              The Big Beautiful <span className="text-[#996516] relative inline-block">
-                Bill
-                <div className="absolute -top-2 -right-2 text-yellow-400">
-                  <Star className="h-6 w-6 md:h-8 w-8 fill-current animate-bounce" />
-                </div>
-              </span> Breakdown
-            </h1>
-            
-            <div className="flex justify-center items-center gap-1 mb-8">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="h-5 w-5 md:h-6 w-6 text-yellow-400 fill-current" />
-              ))}
-              <span className="ml-2 text-[#174a21]/80 font-medium text-sm md:text-base">Live Training Event</span>
-            </div>
-            
-            <p className="text-base md:text-lg lg:text-xl text-[#174a21]/80 mb-12 leading-relaxed max-w-3xl mx-auto px-4">
-              Join us for an exclusive live training where we'll break down the essential strategies 
-              for managing your business finances, optimizing tax savings, and building sustainable wealth.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* What You'll Learn */}
-      <section className="py-20 px-4 bg-[#174a21]/5">
-        <div className="container mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#174a21] mb-16 text-center px-4">What You'll Discover</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <div className="bg-white p-6 md:p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow duration-300">
-              <Target className="h-10 w-10 md:h-12 w-12 text-[#996516] mx-auto mb-6" />
-              <h3 className="text-lg md:text-xl font-semibold text-[#174a21] mb-4">Strategic Tax Planning</h3>
-              <p className="text-[#174a21]/80 text-sm md:text-base">Learn proven strategies to minimize your tax burden and maximize your savings</p>
-            </div>
-            <div className="bg-white p-6 md:p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow duration-300">
-              <TrendingUp className="h-10 w-10 md:h-12 w-12 text-[#996516] mx-auto mb-6" />
-              <h3 className="text-lg md:text-xl font-semibold text-[#174a21] mb-4">Business Structure Optimization</h3>
-              <p className="text-[#174a21]/80 text-sm md:text-base">Discover the right business structure to protect and grow your wealth</p>
-            </div>
-            <div className="bg-white p-6 md:p-8 rounded-2xl shadow-lg text-center hover:shadow-xl transition-shadow duration-300">
-              <BookOpen className="h-10 w-10 md:h-12 w-12 text-[#996516] mx-auto mb-6" />
-              <h3 className="text-lg md:text-xl font-semibold text-[#174a21] mb-4">Financial Management Systems</h3>
-              <p className="text-[#174a21]/80 text-sm md:text-base">Build systems that keep your finances organized and compliant year-round</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Webinar Details */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto max-w-4xl">
-          <div className="text-center mb-12">
-            <Calendar className="h-12 w-12 md:h-16 w-16 text-[#996516] mx-auto mb-6" />
-            <h2 className="text-2xl md:text-4xl font-bold text-[#174a21] mb-6 px-4">Reserve Your Spot</h2>
-            <p className="text-base md:text-lg lg:text-xl text-[#174a21]/80 mb-8 max-w-3xl mx-auto px-4">
-              This exclusive training is designed for entrepreneurs and business owners ready to take control 
-              of their financial future. Space is limited to ensure personalized attention.
-            </p>
-            <div className="inline-flex items-center gap-2 bg-[#174a21]/10 text-[#174a21] px-4 py-2 rounded-full text-sm font-semibold mb-8">
-              <Sparkles className="h-4 w-4" />
-              Limited Seats Available
-              <Sparkles className="h-4 w-4" />
-            </div>
+      <section className="pt-32 pb-0 px-4 bg-gray-100 relative">
+        <div className="container mx-auto text-center">
+          {/* FREE WEBINAR Badge */}
+          <div className="inline-block bg-[#D4AF37] text-black px-6 py-2 rounded-full font-bold text-sm mb-8">
+            FREE WEBINAR
           </div>
           
-          <div className="bg-white rounded-2xl shadow-xl p-6 md:p-8 border-2 border-[#996516]/20">
-            <div className="mb-6 text-center">
-              <h3 className="text-xl md:text-2xl font-semibold text-[#174a21] mb-2">Join The Big Beautiful Bill Breakdown</h3>
-              <p className="text-[#174a21]/80">Fill out the form below to secure your spot</p>
+          {/* Main Title */}
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-black mb-4 leading-tight">
+            The Big Beautiful
+          </h1>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-[#D4AF37] mb-8 leading-tight">
+            Bill Breakdown
+          </h1>
+          
+          {/* Subtitle */}
+          <p className="text-lg md:text-xl text-black max-w-4xl mx-auto mb-12 leading-relaxed">
+            How Business Owners Can Use the New Tax Code to Pay<br />
+            $0 in taxes, Build their business, and Retire Rich
+          </p>
+        </div>
+        
+        {/* Hero Image */}
+        <div className="relative">
+          <img
+            src={sainteMainAbout}
+            alt="Sainte Billings, CPA"
+            className="w-full max-w-4xl mx-auto"
+            width="800"
+            height="600"
+          />
+          {/* Name Badge Overlay */}
+          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-[#D4AF37] text-black px-6 py-2 font-bold text-sm md:text-base">
+            Sainte 'Ms. Business' Billings, Certified Public Accountant
+          </div>
+        </div>
+      </section>
+
+      {/* Registration Section */}
+      <section className="py-0 px-4 bg-black text-white">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-screen">
+            {/* Left Side - Content */}
+            <div className="space-y-8">
+              <div className="text-sm font-bold text-white mb-4">FREE WEBINAR</div>
+              
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-black leading-tight">
+                The tax game has <span className="text-[#D4AF37]">changed</span><br />
+                — and if you're still playing<br />
+                by the <span className="text-[#D4AF37]">old rules</span>, you're<br />
+                <span className="text-[#D4AF37]">underbuilding</span>.
+              </h2>
+              
+              <p className="text-lg text-gray-300 leading-relaxed">
+                Join Ms Business on August 7th @ 12PM EST
+              </p>
             </div>
-            
-            <div className="min-h-[444px] w-full overflow-hidden">
-              <iframe
-                src="https://api.taxnitro.com/widget/form/gASBGaRIppZUg8vyLPDW"
-                style={{width:'100%', height:'444px', border:'none', borderRadius:'4px'}}
-                id="inline-gASBGaRIppZUg8vyLPDW"
-                data-layout="{'id':'INLINE'}"
-                data-trigger-type="alwaysShow"
-                data-trigger-value=""
-                data-activation-type="alwaysActivated"
-                data-activation-value=""
-                data-deactivation-type="neverDeactivate"
-                data-deactivation-value=""
-                data-form-name="Fundable Founders"
-                data-height="444"
-                data-layout-iframe-id="inline-gASBGaRIppZUg8vyLPDW"
-                data-form-id="gASBGaRIppZUg8vyLPDW"
-                title="Fundable Founders"
-              />
+
+            {/* Right Side - Form */}
+            <div className="bg-white rounded-lg p-8">
+              <div className="min-h-[500px] w-full overflow-hidden">
+                <iframe
+                  src="https://api.taxnitro.com/widget/form/gASBGaRIppZUg8vyLPDW"
+                  style={{width:'100%', height:'500px', border:'none', borderRadius:'4px'}}
+                  id="inline-gASBGaRIppZUg8vyLPDW"
+                  data-layout="{'id':'INLINE'}"
+                  data-trigger-type="alwaysShow"
+                  data-trigger-value=""
+                  data-activation-type="alwaysActivated"
+                  data-activation-value=""
+                  data-deactivation-type="neverDeactivate"
+                  data-deactivation-value=""
+                  data-form-name="Big Beautiful Bill Breakdown"
+                  data-height="500"
+                  data-layout-iframe-id="inline-gASBGaRIppZUg8vyLPDW"
+                  data-form-id="gASBGaRIppZUg8vyLPDW"
+                  title="Big Beautiful Bill Breakdown Registration"
+                />
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Benefits Section */}
-      <section className="py-20 px-4 bg-[#174a21]">
-        <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-2xl md:text-4xl font-bold text-white mb-8 px-4">Why Attend This Webinar?</h2>
-          <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 md:p-8">
-            <div className="flex justify-center items-center gap-2 mb-6">
-              <Star className="h-6 w-6 text-yellow-400 fill-current" />
-              <span className="text-white font-semibold text-sm md:text-base">Exclusive Benefits</span>
-              <Star className="h-6 w-6 text-yellow-400 fill-current" />
+      {/* What You'll Learn Section */}
+      <section className="py-16 px-4 bg-black text-white">
+        <div className="container mx-auto text-center">
+          <div className="bg-white text-black p-12 rounded-lg max-w-6xl mx-auto">
+            <p className="text-lg mb-8 leading-relaxed">
+              An eye-opening session where we unpack<br />
+              <span className="italic text-[#D4AF37]">Trump's "Big Beautiful Bill"</span> — what it really means for your money,<br />
+              and how to legally use it to create wealth that lasts for generations.
+            </p>
+            
+            <h3 className="text-3xl md:text-4xl font-black text-black mb-8">
+              What You'll Learn When You Sign Up
+            </h3>
+            
+            <div className="space-y-4 text-left max-w-4xl mx-auto">
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white text-sm">✓</span>
+                </div>
+                <p className="text-lg">What is Trump's "Big Beautiful Bill" and how it will affect you.</p>
+              </div>
+              
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white text-sm">✓</span>
+                </div>
+                <p className="text-lg">How business owners & Investors can use the new tax code pay little to nothing in taxes</p>
+              </div>
+              
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white text-sm">✓</span>
+                </div>
+                <p className="text-lg">The tax-code loopholes hiding in plain sight</p>
+              </div>
+              
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white text-sm">✓</span>
+                </div>
+                <p className="text-lg">What most business owners get wrong about tax strategy, legacy, and wealth protection — and how to fix it fast</p>
+              </div>
+              
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white text-sm">✓</span>
+                </div>
+                <p className="text-lg">How to set up your business to outlive you using trusts, business layering, and smart legacy moves</p>
+              </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-white/90">
-              <div className="flex items-center gap-3">
-                <Clock className="h-5 w-5 text-[#996516] flex-shrink-0" />
-                <span className="text-sm md:text-base">Live Q&A with tax experts</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Why You Can't Afford to Miss This */}
+      <section className="py-16 px-4 bg-gray-100">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Left Side - Content */}
+            <div>
+              <h3 className="text-3xl md:text-4xl font-black text-black mb-8 text-center lg:text-left">
+                Why You Can't Afford to Miss This
+              </h3>
+              
+              <p className="text-lg text-black mb-8 text-center lg:text-left leading-relaxed">
+                Let's be real — taxes are one of your biggest<br />
+                expenses as a business owner.<br />
+                Here's why this free session is a must-attend:
+              </p>
+              
+              <ul className="space-y-4 text-black">
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-black rounded-full mt-3 flex-shrink-0"></span>
+                  <div>
+                    <strong>You're overpaying taxes</strong> — and don't even know it.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-black rounded-full mt-3 flex-shrink-0"></span>
+                  <div>
+                    <strong>The tax rules have changed</strong> — most are still using the old playbook.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-black rounded-full mt-3 flex-shrink-0"></span>
+                  <div>
+                    <strong>Your business should fund your retirement</strong>, not just your bills.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-black rounded-full mt-3 flex-shrink-0"></span>
+                  <div>
+                    <strong>Hidden tax loopholes exist</strong> — we'll show you where.
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-2 h-2 bg-black rounded-full mt-3 flex-shrink-0"></span>
+                  <div>
+                    <strong>Wealth requires strategy</strong> — not hustle or hope.
+                  </div>
+                </li>
+              </ul>
+              
+              <div className="mt-8 text-center lg:text-left">
+                <button className="bg-[#D4AF37] text-black px-8 py-3 rounded-lg font-bold text-lg hover:bg-[#B8941F] transition duration-300">
+                  REGISTER NOW!
+                </button>
               </div>
-              <div className="flex items-center gap-3">
-                <Users className="h-5 w-5 text-[#996516] flex-shrink-0" />
-                <span className="text-sm md:text-base">Interactive training format</span>
+            </div>
+
+            {/* Right Side - Image */}
+            <div className="relative">
+              <img
+                src={sainteMainAbout}
+                alt="Sainte Billings, CPA"
+                className="w-full max-w-lg mx-auto"
+                width="500"
+                height="600"
+              />
+              {/* Name Badge Overlay */}
+              <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-[#D4AF37] text-black px-6 py-2 font-bold text-sm">
+                Sainte 'Ms. Business' Billings, Certified Public Accountant
               </div>
-              <div className="flex items-center gap-3">
-                <Award className="h-5 w-5 text-[#996516] flex-shrink-0" />
-                <span className="text-sm md:text-base">Actionable strategies you can implement immediately</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="py-16 px-4 bg-black text-white">
+        <div className="container mx-auto text-center">
+          <h3 className="text-3xl md:text-4xl font-bold text-[#D4AF37] mb-12">
+            How Our Webinars & Programs Have Impacted the Attendees
+          </h3>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <div className="bg-[#D4AF37] text-black p-8 rounded-lg">
+              <div className="flex items-start gap-4">
+                <img
+                  src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg"
+                  alt="Testimonial"
+                  className="w-16 h-16 rounded-full object-cover flex-shrink-0"
+                />
+                <div className="text-left">
+                  <p className="text-lg font-semibold mb-2">
+                    Ms. Business you provided a wealth of knowledge...
+                  </p>
+                </div>
               </div>
-              <div className="flex items-center gap-3">
-                <BookOpen className="h-5 w-5 text-[#996516] flex-shrink-0" />
-                <span className="text-sm md:text-base">Exclusive resources and templates</span>
+            </div>
+            
+            <div className="bg-[#D4AF37] text-black p-8 rounded-lg">
+              <div className="flex items-start gap-4">
+                <img
+                  src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg"
+                  alt="Testimonial"
+                  className="w-16 h-16 rounded-full object-cover flex-shrink-0"
+                />
+                <div className="text-left">
+                  <p className="text-lg font-semibold mb-2">
+                    I feel super blessed to be apart of such a...
+                  </p>
+                </div>
               </div>
             </div>
           </div>
