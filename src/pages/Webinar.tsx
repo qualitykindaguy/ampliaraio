@@ -36,9 +36,9 @@ function Webinar() {
           <img
             src={sainteMainAbout}
             alt="Sainte Billings, CPA"
-            className="w-full max-w-4xl mx-auto"
-            width="800"
-            height="600"
+            className="w-full max-w-2xl mx-auto"
+            width="600"
+            height="450"
           />
           {/* Name Badge Overlay */}
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-[#D4AF37] text-black px-6 py-2 font-bold text-sm md:text-base">
