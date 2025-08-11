@@ -42,7 +42,7 @@ function Webinar() {
           />
           {/* Name Badge Overlay */}
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-[#D4AF37] text-black px-6 py-2 font-bold text-sm md:text-base">
-            Sainte 'Ms. Business' Billings, Certified Public Accountant
+            Sainte Billings, Certified Public Accountant
           </div>
         </div>
       </section>
@@ -214,7 +214,7 @@ function Webinar() {
               />
               {/* Name Badge Overlay */}
               <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-[#D4AF37] text-black px-6 py-2 font-bold text-sm">
-                Sainte 'Ms. Business' Billings, Certified Public Accountant
+                Sainte Billings, Certified Public Accountant
               </div>
             </div>
           </div>
