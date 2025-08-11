@@ -205,12 +205,12 @@ function Webinar() {
               <img
                 src={sainteNew}
                 alt="Sainte Billings, CPA"
-                className="w-full max-w-lg mx-auto"
+                className="w-full max-w-lg mx-auto h-auto object-cover"
                 width="500"
-                height="600"
+                height="700"
               />
               {/* Name Badge Overlay */}
-              <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-[#D4AF37] text-black px-6 py-2 font-bold text-sm">
+              <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 bg-[#D4AF37] text-black px-6 py-2 font-bold text-sm">
                 Sainte Billings, Certified Public Accountant
               </div>
             </div>
