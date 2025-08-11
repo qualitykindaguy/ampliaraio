@@ -18,7 +18,8 @@ function Webinar() {
           
           {/* Main Title */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-black mb-8 leading-tight">
-            Momentum, On Repeat
+            Momentum<br />
+            <span className="text-[#D4AF37]">On Repeat</span>
           </h1>
           
           {/* Subtitle */}
