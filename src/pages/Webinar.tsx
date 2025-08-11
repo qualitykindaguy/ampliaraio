@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
-import sainteMainAbout from '../assets/sainte-main-about.svg';
+import sainteNew from '../assets/sainte-new.png';
 
 function Webinar() {
   return (
@@ -31,7 +31,7 @@ function Webinar() {
         {/* Hero Image */}
         <div className="relative">
           <img
-            src={sainteMainAbout}
+            src={sainteNew}
             alt="Sainte Billings, CPA"
             className="w-full max-w-2xl mx-auto"
             width="600"
@@ -203,7 +203,7 @@ function Webinar() {
             {/* Right Side - Image */}
             <div className="relative">
               <img
-                src={sainteMainAbout}
+                src={sainteNew}
                 alt="Sainte Billings, CPA"
                 className="w-full max-w-lg mx-auto"
                 width="500"
