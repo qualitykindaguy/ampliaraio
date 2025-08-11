@@ -17,17 +17,13 @@ function Webinar() {
           </div>
           
           {/* Main Title */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-black mb-4 leading-tight">
-            The Big Beautiful
-          </h1>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-[#D4AF37] mb-8 leading-tight">
-            Bill Breakdown
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-black mb-8 leading-tight">
+            Momentum, On Repeat
           </h1>
           
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-black max-w-4xl mx-auto mb-12 leading-relaxed">
-            How Business Owners Can Use the New Tax Code to Pay<br />
-            $0 in taxes, Build their business, and Retire Rich
+            A recurring space to refine your goals and align your finances.
           </p>
         </div>
         
