@@ -90,59 +90,6 @@ function Webinar() {
         </div>
       </section>
 
-      {/* What You'll Learn Section */}
-      <section className="py-16 px-4 bg-black text-white">
-        <div className="container mx-auto text-center">
-          <div className="bg-white text-black p-12 rounded-lg max-w-6xl mx-auto">
-            <p className="text-lg mb-8 leading-relaxed">
-              An eye-opening session where we unpack<br />
-              <span className="italic text-[#D4AF37]">Trump's "Big Beautiful Bill"</span> — what it really means for your money,<br />
-              and how to legally use it to create wealth that lasts for generations.
-            </p>
-            
-            <h3 className="text-3xl md:text-4xl font-black text-black mb-8">
-              What You'll Learn When You Sign Up
-            </h3>
-            
-            <div className="space-y-4 text-left max-w-4xl mx-auto">
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white text-sm">✓</span>
-                </div>
-                <p className="text-lg">What is Trump's "Big Beautiful Bill" and how it will affect you.</p>
-              </div>
-              
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white text-sm">✓</span>
-                </div>
-                <p className="text-lg">How business owners & Investors can use the new tax code pay little to nothing in taxes</p>
-              </div>
-              
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white text-sm">✓</span>
-                </div>
-                <p className="text-lg">The tax-code loopholes hiding in plain sight</p>
-              </div>
-              
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white text-sm">✓</span>
-                </div>
-                <p className="text-lg">What most business owners get wrong about tax strategy, legacy, and wealth protection — and how to fix it fast</p>
-              </div>
-              
-              <div className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-black rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white text-sm">✓</span>
-                </div>
-                <p className="text-lg">How to set up your business to outlive you using trusts, business layering, and smart legacy moves</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Why You Can't Afford to Miss This */}
       <section className="py-16 px-4 bg-gray-100">
