@@ -60,7 +60,7 @@ function Webinar() {
               </h2>
               
               <p className="text-lg text-gray-300 leading-relaxed">
-                Join Ms Business on August 7th @ 12PM EST
+                Join us on each month!
               </p>
             </div>
 
