@@ -67,6 +67,25 @@ function TaxRendezvous() {
                 <div className="text-sm text-purple-200">Quick Assessment</div>
               </div>
             </div>
+            
+            <div className="mt-12">
+              <a
+                href="https://api.taxnitro.com/widget/form/shz0IvJZskAEK5VEhM3C"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-[#174a21] text-white px-12 py-4 rounded-xl hover:bg-[#174a21]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105 mr-4"
+              >
+                Start Your Free Assessment
+              </a>
+              <a
+                href="https://api.taxnitro.com/widget/form/shz0IvJZskAEK5VEhM3C"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-[#996516] text-white px-12 py-4 rounded-xl hover:bg-[#996516]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+              >
+                Discover Your Savings
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -87,6 +106,16 @@ function TaxRendezvous() {
                   </div>
                   <h3 className="text-xl font-semibold text-gray-800 mb-4">{feature.title}</h3>
                   <p className="text-gray-600">{feature.description}</p>
+                  <div className="mt-6">
+                    <a
+                      href="https://api.taxnitro.com/widget/form/shz0IvJZskAEK5VEhM3C"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block bg-[#174a21] text-white px-6 py-2 rounded-lg hover:bg-[#174a21]/90 transition duration-300 font-semibold"
+                    >
+                      Get Started
+                    </a>
+                  </div>
                 </div>
               ))}
             </div>
@@ -114,6 +143,17 @@ function TaxRendezvous() {
                 <div className="text-white">
                   <p className="text-xl font-semibold">— Sarah Johnson</p>
                   <p className="text-indigo-200">Business Owner, Marketing Agency</p>
+                </div>
+                
+                <div className="mt-8">
+                  <a
+                    href="https://api.taxnitro.com/widget/form/shz0IvJZskAEK5VEhM3C"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-[#996516] text-white px-8 py-3 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold shadow-lg"
+                  >
+                    Start My Assessment
+                  </a>
                 </div>
               </div>
               
@@ -154,6 +194,17 @@ function TaxRendezvous() {
               </div>
             ))}
           </div>
+          
+          <div className="text-center mt-12">
+            <a
+              href="https://api.taxnitro.com/widget/form/shz0IvJZskAEK5VEhM3C"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#174a21] text-white px-10 py-4 rounded-xl hover:bg-[#174a21]/90 transition duration-300 text-lg font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+            >
+              Take the Free Assessment Now
+            </a>
+          </div>
         </div>
       </section>
 
@@ -185,14 +236,24 @@ function TaxRendezvous() {
             </div>
             
             <div className="text-center">
-              <a
-                href="https://api.taxnitro.com/widget/form/shz0IvJZskAEK5VEhM3C"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-purple-600 text-white px-12 py-4 rounded-xl hover:bg-purple-700 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
-              >
-                Start Your Free Tax Assessment
-              </a>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a
+                  href="https://api.taxnitro.com/widget/form/shz0IvJZskAEK5VEhM3C"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-[#174a21] text-white px-12 py-4 rounded-xl hover:bg-[#174a21]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+                >
+                  Start Your Free Assessment
+                </a>
+                <a
+                  href="https://api.taxnitro.com/widget/form/shz0IvJZskAEK5VEhM3C"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-[#996516] text-white px-12 py-4 rounded-xl hover:bg-[#996516]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+                >
+                  Discover Hidden Savings
+                </a>
+              </div>
               <p className="text-gray-500 text-sm mt-4">
                 Takes less than 5 minutes • No obligation • 100% confidential
               </p>
