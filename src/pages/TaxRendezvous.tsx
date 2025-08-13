@@ -184,24 +184,18 @@ function TaxRendezvous() {
               </p>
             </div>
             
-            <div className="min-h-[500px] w-full overflow-hidden rounded-xl">
-              <iframe
-                src="https://api.taxnitro.com/widget/form/shz0IvJZskAEK5VEhM3C"
-                style={{width:'100%', height:'500px', border:'none', borderRadius:'12px'}}
-                id="inline-shz0IvJZskAEK5VEhM3C"
-                data-layout="{'id':'INLINE'}"
-                data-trigger-type="alwaysShow"
-                data-trigger-value=""
-                data-activation-type="alwaysActivated"
-                data-activation-value=""
-                data-deactivation-type="neverDeactivate"
-                data-deactivation-value=""
-                data-form-name="Tax Rendezvous Assessment"
-                data-height="500"
-                data-layout-iframe-id="inline-shz0IvJZskAEK5VEhM3C"
-                data-form-id="shz0IvJZskAEK5VEhM3C"
-                title="Tax Rendezvous Assessment"
-              />
+            <div className="text-center">
+              <a
+                href="https://api.taxnitro.com/widget/form/shz0IvJZskAEK5VEhM3C"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-purple-600 text-white px-12 py-4 rounded-xl hover:bg-purple-700 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+              >
+                Start Your Free Tax Assessment
+              </a>
+              <p className="text-gray-500 text-sm mt-4">
+                Takes less than 5 minutes • No obligation • 100% confidential
+              </p>
             </div>
           </div>
         </div>
@@ -239,8 +233,6 @@ function TaxRendezvous() {
       </section>
 
       <FooterSection />
-      
-      <script src="https://api.taxnitro.com/js/form_embed.js"></script>
     </div>
   );
 }
