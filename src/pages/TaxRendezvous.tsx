@@ -36,7 +36,7 @@ function TaxRendezvous() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-4 bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 text-white relative overflow-hidden">
+      <section className="pt-32 pb-16 px-4 bg-[#174a21] text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center">
@@ -73,7 +73,7 @@ function TaxRendezvous() {
                 href="https://api.taxnitro.com/widget/form/shz0IvJZskAEK5VEhM3C"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-[#174a21] text-white px-12 py-4 rounded-xl hover:bg-[#174a21]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105 mr-4"
+                className="inline-block bg-white text-[#174a21] px-12 py-4 rounded-xl hover:bg-gray-100 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105 mr-4"
               >
                 Start Your Free Assessment
               </a>
@@ -124,7 +124,7 @@ function TaxRendezvous() {
       </section>
 
       {/* Testimonial Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-indigo-600 to-purple-600">
+      <section className="py-20 px-4 bg-[#996516]">
         <div className="container mx-auto">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -142,7 +142,7 @@ function TaxRendezvous() {
                 
                 <div className="text-white">
                   <p className="text-xl font-semibold">— Sarah Johnson</p>
-                  <p className="text-white/80">Business Owner, Marketing Agency</p>
+                  <p className="text-white/90">Business Owner, Marketing Agency</p>
                 </div>
                 
                 <div className="mt-8">
@@ -150,7 +150,7 @@ function TaxRendezvous() {
                     href="https://api.taxnitro.com/widget/form/shz0IvJZskAEK5VEhM3C"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block bg-[#996516] text-white px-8 py-3 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold shadow-lg"
+                    className="inline-block bg-white text-[#996516] px-8 py-3 rounded-lg hover:bg-gray-100 transition duration-300 text-lg font-semibold shadow-lg"
                   >
                     Start My Assessment
                   </a>
@@ -186,7 +186,7 @@ function TaxRendezvous() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {benefits.map((benefit, index) => (
-              <div key={index} className="flex items-start gap-4 bg-gradient-to-r from-[#174a21]/5 to-[#996516]/5 p-6 rounded-xl border border-[#174a21]/20">
+              <div key={index} className="flex items-start gap-4 bg-gray-50 p-6 rounded-xl border border-gray-200">
                 <div className="flex-shrink-0">
                   <CheckCircle2 className="h-6 w-6 text-[#174a21]" />
                 </div>
@@ -209,7 +209,7 @@ function TaxRendezvous() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 bg-gradient-to-br from-gray-900 via-[#174a21] to-[#996516]">
+      <section className="py-20 px-4 bg-gray-900">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
@@ -241,7 +241,7 @@ function TaxRendezvous() {
                   href="https://api.taxnitro.com/widget/form/shz0IvJZskAEK5VEhM3C"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-[#174a21] text-white px-12 py-4 rounded-xl hover:bg-[#174a21]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+                  className="inline-block bg-[#174a21] text-white px-12 py-4 rounded-xl hover:bg-[#174a21]/80 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
                 >
                   Start Your Free Assessment
                 </a>
@@ -249,7 +249,7 @@ function TaxRendezvous() {
                   href="https://api.taxnitro.com/widget/form/shz0IvJZskAEK5VEhM3C"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-[#996516] text-white px-12 py-4 rounded-xl hover:bg-[#996516]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+                  className="inline-block bg-[#996516] text-white px-12 py-4 rounded-xl hover:bg-[#996516]/80 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
                 >
                   Discover Hidden Savings
                 </a>
