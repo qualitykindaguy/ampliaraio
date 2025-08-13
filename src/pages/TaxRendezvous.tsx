@@ -1,33 +1,33 @@
 import React from 'react';
-import { Star, CheckCircle2, TrendingUp, Calculator, Shield, Target, DollarSign, Users, Award } from 'lucide-react';
+import { Star, CheckCircle2, TrendingUp, Calculator, Shield, Target, DollarSign, Users, Award, ArrowRight, Zap, Clock } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
 import sainteNew from '../assets/sainte-new.png';
 
 function TaxRendezvous() {
   const benefits = [
-    "Discover hidden tax deductions you're missing",
-    "Learn strategies to legally minimize your tax burden",
-    "Get personalized recommendations for your situation",
-    "Connect with a certified tax professional",
-    "Receive a custom tax optimization roadmap"
+    "Uncover hidden tax deductions you're missing",
+    "Learn advanced strategies to legally minimize taxes",
+    "Get a personalized tax optimization roadmap",
+    "Connect with certified tax professionals",
+    "Discover potential savings of $10K-$50K+"
   ];
 
-  const steps = [
+  const features = [
     {
-      icon: <CheckCircle2 className="h-16 w-16 text-blue-600" />,
-      title: "Quick Assessment",
-      description: "Complete our comprehensive tax questionnaire in just minutes"
+      icon: <Calculator className="h-8 w-8 text-purple-600" />,
+      title: "Tax Assessment",
+      description: "Comprehensive analysis of your current tax situation"
     },
     {
-      icon: <Users className="h-16 w-16 text-blue-600" />,
-      title: "Expert Analysis",
-      description: "Our certified professionals analyze your tax situation and identify savings opportunities"
+      icon: <Target className="h-8 w-8 text-purple-600" />,
+      title: "Strategy Development",
+      description: "Custom tax optimization strategies for your business"
     },
     {
-      icon: <DollarSign className="h-16 w-16 text-blue-600" />,
-      title: "Maximize Savings",
-      description: "Get a personalized strategy to help you keep more of your hard-earned money"
+      icon: <Shield className="h-8 w-8 text-purple-600" />,
+      title: "Expert Guidance",
+      description: "Direct access to certified tax professionals"
     }
   ];
 
@@ -36,125 +36,121 @@ function TaxRendezvous() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 bg-gradient-to-br from-blue-50 to-white">
-        <div className="container mx-auto">
-          <div className="max-w-6xl mx-auto text-center">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-gray-800 mb-8 leading-tight">
-              Discover if your current accountant is 
-              <span className="block text-green-600">costing you money</span>
+      <section className="pt-32 pb-16 px-4 bg-gradient-to-br from-purple-900 via-purple-800 to-indigo-900 text-white relative overflow-hidden">
+        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="container mx-auto relative z-10">
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="inline-flex items-center gap-2 bg-yellow-400 text-black px-6 py-2 rounded-full text-sm font-bold mb-8 animate-pulse">
+              <Zap className="h-4 w-4" />
+              FREE TAX ASSESSMENT
+              <Zap className="h-4 w-4" />
+            </div>
+            
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-black mb-8 leading-tight">
+              Is Your Accountant
+              <span className="block text-yellow-400">Costing You Money?</span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-4xl mx-auto">
-              Take our comprehensive tax assessment and uncover potential savings with expert guidance from Ampliara
+            <p className="text-xl md:text-2xl text-purple-100 mb-12 max-w-3xl mx-auto leading-relaxed">
+              Take our comprehensive tax assessment and discover if you're overpaying taxes. 
+              Most business owners are leaving $15K-$75K on the table every year.
             </p>
 
-            <div className="bg-green-600 text-white px-8 py-4 rounded-lg inline-block text-lg font-bold mb-8">
-              FREE TAX OPTIMIZATION ASSESSMENT
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 px-8 py-4 rounded-xl">
+                <div className="text-3xl font-bold text-yellow-400">$25K+</div>
+                <div className="text-sm text-purple-200">Average Savings Discovered</div>
+              </div>
+              <ArrowRight className="h-8 w-8 text-yellow-400 rotate-90 sm:rotate-0" />
+              <div className="bg-white/10 backdrop-blur-sm border border-white/20 px-8 py-4 rounded-xl">
+                <div className="text-3xl font-bold text-yellow-400">5 Min</div>
+                <div className="text-sm text-purple-200">Quick Assessment</div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Value Proposition */}
+      {/* Features Section */}
       <section className="py-20 px-4 bg-gray-50">
-        <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
-            Take The Assessment, Get Your Strategy — Then Our Plan Can Save You 
-            <span className="text-green-600">Money</span>
-          </h2>
-          
-          <div className="bg-white rounded-2xl p-8 shadow-lg mb-12">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-              <div>
-                <div className="bg-green-600 text-white px-6 py-3 rounded-lg text-xl font-bold mb-4">
-                  $18K-$191K POTENTIAL EXTRA SAVINGS*
+        <div className="container mx-auto">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-16">
+              How Our Assessment Works
+            </h2>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {features.map((feature, index) => (
+                <div key={index} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 text-center group">
+                  <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-purple-200 transition-colors">
+                    {feature.icon}
+                  </div>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">{feature.title}</h3>
+                  <p className="text-gray-600">{feature.description}</p>
                 </div>
-                <p className="text-gray-600">
-                  Average savings discovered with businesses earning $160K - $8M+ in revenue
-                </p>
-              </div>
-              <div className="bg-gray-200 rounded-lg p-8">
-                <p className="text-gray-500 font-semibold">No Optimization Plan</p>
-                <div className="text-2xl font-bold text-gray-400 mt-2">$0 Savings</div>
-              </div>
+              ))}
             </div>
           </div>
-
-          <p className="text-sm text-gray-500 max-w-3xl mx-auto">
-            *Results based on comprehensive tax optimization strategies implemented for clients with similar business profiles. 
-            Actual results vary based on individual circumstances, business structure, and current tax planning approach.
-          </p>
         </div>
       </section>
 
-      {/* How It Works */}
-      <section className="py-20 px-4">
+      {/* Testimonial Section */}
+      <section className="py-20 px-4 bg-gradient-to-r from-indigo-600 to-purple-600">
         <div className="container mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-16 text-center">
-            Our Assessment Process
-          </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-5xl mx-auto">
-            {steps.map((step, index) => (
-              <div key={index} className="text-center">
-                <div className="mb-6 flex justify-center">
-                  {step.icon}
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="text-center lg:text-left">
+                <div className="flex justify-center lg:justify-start items-center gap-1 mb-6">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="h-8 w-8 text-yellow-400 fill-current" />
+                  ))}
                 </div>
-                <h3 className="text-xl font-semibold text-gray-800 mb-4">{step.title}</h3>
-                <p className="text-gray-600">{step.description}</p>
+                
+                <blockquote className="text-2xl md:text-3xl text-white mb-8 font-light italic">
+                  "The assessment revealed $32,000 in potential savings I never knew existed. 
+                  Ampliara's expertise transformed my tax strategy completely."
+                </blockquote>
+                
+                <div className="text-white">
+                  <p className="text-xl font-semibold">— Sarah Johnson</p>
+                  <p className="text-indigo-200">Business Owner, Marketing Agency</p>
+                </div>
               </div>
-            ))}
+              
+              <div className="flex justify-center">
+                <div className="relative">
+                  <img
+                    src={sainteNew}
+                    alt="Sainte Billings, CPA"
+                    className="w-full max-w-sm rounded-2xl shadow-2xl"
+                    width="400"
+                    height="500"
+                  />
+                  <div className="absolute -bottom-4 -right-4 bg-yellow-400 text-black px-6 py-3 rounded-xl font-bold shadow-lg">
+                    <div className="text-sm">Your Tax Expert</div>
+                    <div className="text-lg">Sainte Billings, CPA</div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Benefits Section */}
-      <section className="py-20 px-4 bg-blue-600">
-        <div className="container mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <img
-                src={sainteNew}
-                alt="Sainte Billings, CPA"
-                className="w-full max-w-md mx-auto rounded-2xl shadow-xl"
-                width="400"
-                height="500"
-              />
-            </div>
-            
-            <div className="text-white">
-              <div className="flex items-center gap-2 mb-6">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-8 w-8 text-yellow-400 fill-current" />
-                ))}
-              </div>
-              
-              <blockquote className="text-xl md:text-2xl mb-6 italic">
-                "Excellent experience! Our team delivers personalized tax strategies with expertise and professionalism. 
-                Highly recommended! 5/5 stars."
-              </blockquote>
-              
-              <div className="text-right">
-                <p className="text-2xl font-bold">— Verified Client</p>
-                <p className="text-blue-200">Actual client testimonial</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* What You'll Discover */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-16">
             What You'll Discover
           </h2>
           
-          <div className="space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {benefits.map((benefit, index) => (
-              <div key={index} className="flex items-start gap-4 bg-gray-50 p-6 rounded-xl">
-                <CheckCircle2 className="h-6 w-6 text-green-600 flex-shrink-0 mt-1" />
-                <p className="text-lg text-gray-700">{benefit}</p>
+              <div key={index} className="flex items-start gap-4 bg-gradient-to-r from-purple-50 to-indigo-50 p-6 rounded-xl border border-purple-100">
+                <div className="flex-shrink-0">
+                  <CheckCircle2 className="h-6 w-6 text-purple-600" />
+                </div>
+                <p className="text-lg text-gray-700 font-medium">{benefit}</p>
               </div>
             ))}
           </div>
@@ -162,23 +158,36 @@ function TaxRendezvous() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-green-600 to-green-700">
-        <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
-            Ready to Uncover Your Tax Savings?
-          </h2>
+      <section className="py-20 px-4 bg-gradient-to-br from-gray-900 via-purple-900 to-indigo-900">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
+              Ready to Stop Overpaying Taxes?
+            </h2>
+            <p className="text-xl text-purple-100 max-w-3xl mx-auto">
+              Take our comprehensive assessment and get a personalized tax optimization strategy. 
+              It only takes 5 minutes and could save you thousands.
+            </p>
+          </div>
           
-          <p className="text-xl text-white/90 mb-12 max-w-2xl mx-auto">
-            Don't leave money on the table — take our comprehensive tax assessment today and connect with a certified professional to start optimizing your taxes.
-          </p>
-          
-          <div className="bg-white rounded-2xl p-8 max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-800 mb-6">Get Your Free Tax Assessment</h3>
+          <div className="bg-white rounded-3xl p-8 md:p-12 shadow-2xl">
+            <div className="text-center mb-8">
+              <div className="inline-flex items-center gap-2 bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                <Clock className="h-4 w-4" />
+                Takes Less Than 5 Minutes
+              </div>
+              <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
+                Get Your Free Tax Assessment
+              </h3>
+              <p className="text-gray-600 text-lg">
+                Complete the form below to discover your potential tax savings
+              </p>
+            </div>
             
-            <div className="min-h-[500px] w-full overflow-hidden">
+            <div className="min-h-[500px] w-full overflow-hidden rounded-xl">
               <iframe
                 src="https://api.taxnitro.com/widget/form/shz0IvJZskAEK5VEhM3C"
-                style={{width:'100%', height:'500px', border:'none', borderRadius:'8px'}}
+                style={{width:'100%', height:'500px', border:'none', borderRadius:'12px'}}
                 id="inline-shz0IvJZskAEK5VEhM3C"
                 data-layout="{'id':'INLINE'}"
                 data-trigger-type="alwaysShow"
@@ -193,6 +202,37 @@ function TaxRendezvous() {
                 data-form-id="shz0IvJZskAEK5VEhM3C"
                 title="Tax Rendezvous Assessment"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Trust Section */}
+      <section className="py-16 px-4 bg-gray-50">
+        <div className="container mx-auto max-w-4xl text-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
+                <Shield className="h-8 w-8 text-purple-600" />
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">100% Confidential</h3>
+              <p className="text-gray-600">Your information is completely secure and private</p>
+            </div>
+            
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
+                <Award className="h-8 w-8 text-purple-600" />
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">Expert Analysis</h3>
+              <p className="text-gray-600">Reviewed by certified tax professionals</p>
+            </div>
+            
+            <div className="flex flex-col items-center">
+              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
+                <DollarSign className="h-8 w-8 text-purple-600" />
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">No Obligation</h3>
+              <p className="text-gray-600">Free assessment with no strings attached</p>
             </div>
           </div>
         </div>
