@@ -15,17 +15,17 @@ function TaxRendezvous() {
 
   const features = [
     {
-      icon: <Calculator className="h-8 w-8 text-purple-600" />,
+      icon: <Calculator className="h-8 w-8 text-[#174a21]" />,
       title: "Tax Assessment",
       description: "Comprehensive analysis of your current tax situation"
     },
     {
-      icon: <Target className="h-8 w-8 text-purple-600" />,
+      icon: <Target className="h-8 w-8 text-[#174a21]" />,
       title: "Strategy Development",
       description: "Custom tax optimization strategies for your business"
     },
     {
-      icon: <Shield className="h-8 w-8 text-purple-600" />,
+      icon: <Shield className="h-8 w-8 text-[#174a21]" />,
       title: "Expert Guidance",
       description: "Direct access to certified tax professionals"
     }
@@ -51,7 +51,7 @@ function TaxRendezvous() {
               <span className="block text-yellow-400">Costing You Money?</span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-purple-100 mb-12 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto leading-relaxed">
               Take our comprehensive tax assessment and discover if you're overpaying taxes. 
               Most business owners are leaving $15K-$75K on the table every year.
             </p>
@@ -64,7 +64,7 @@ function TaxRendezvous() {
               <ArrowRight className="h-8 w-8 text-yellow-400 rotate-90 sm:rotate-0" />
               <div className="bg-white/10 backdrop-blur-sm border border-white/20 px-8 py-4 rounded-xl">
                 <div className="text-3xl font-bold text-yellow-400">5 Min</div>
-                <div className="text-sm text-purple-200">Quick Assessment</div>
+                <div className="text-sm text-white/80">Quick Assessment</div>
               </div>
             </div>
             
@@ -101,7 +101,7 @@ function TaxRendezvous() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {features.map((feature, index) => (
                 <div key={index} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 text-center group">
-                  <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-purple-200 transition-colors">
+                  <div className="w-16 h-16 bg-[#174a21]/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-[#174a21]/20 transition-colors">
                     {feature.icon}
                   </div>
                   <h3 className="text-xl font-semibold text-gray-800 mb-4">{feature.title}</h3>
@@ -142,7 +142,7 @@ function TaxRendezvous() {
                 
                 <div className="text-white">
                   <p className="text-xl font-semibold">— Sarah Johnson</p>
-                  <p className="text-indigo-200">Business Owner, Marketing Agency</p>
+                  <p className="text-white/80">Business Owner, Marketing Agency</p>
                 </div>
                 
                 <div className="mt-8">
@@ -186,9 +186,9 @@ function TaxRendezvous() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {benefits.map((benefit, index) => (
-              <div key={index} className="flex items-start gap-4 bg-gradient-to-r from-purple-50 to-indigo-50 p-6 rounded-xl border border-purple-100">
+              <div key={index} className="flex items-start gap-4 bg-gradient-to-r from-[#174a21]/5 to-[#996516]/5 p-6 rounded-xl border border-[#174a21]/20">
                 <div className="flex-shrink-0">
-                  <CheckCircle2 className="h-6 w-6 text-purple-600" />
+                  <CheckCircle2 className="h-6 w-6 text-[#174a21]" />
                 </div>
                 <p className="text-lg text-gray-700 font-medium">{benefit}</p>
               </div>
@@ -209,13 +209,13 @@ function TaxRendezvous() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 bg-gradient-to-br from-gray-900 via-purple-900 to-indigo-900">
+      <section className="py-20 px-4 bg-gradient-to-br from-gray-900 via-[#174a21] to-[#996516]">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
               Ready to Stop Overpaying Taxes?
             </h2>
-            <p className="text-xl text-purple-100 max-w-3xl mx-auto">
+            <p className="text-xl text-white/90 max-w-3xl mx-auto">
               Take our comprehensive assessment and get a personalized tax optimization strategy. 
               It only takes 5 minutes and could save you thousands.
             </p>
@@ -223,7 +223,7 @@ function TaxRendezvous() {
           
           <div className="bg-white rounded-3xl p-8 md:p-12 shadow-2xl">
             <div className="text-center mb-8">
-              <div className="inline-flex items-center gap-2 bg-purple-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+              <div className="inline-flex items-center gap-2 bg-[#174a21]/10 text-[#174a21] px-4 py-2 rounded-full text-sm font-semibold mb-4">
                 <Clock className="h-4 w-4" />
                 Takes Less Than 5 Minutes
               </div>
@@ -267,24 +267,24 @@ function TaxRendezvous() {
         <div className="container mx-auto max-w-4xl text-center">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
-                <Shield className="h-8 w-8 text-purple-600" />
+              <div className="w-16 h-16 bg-[#174a21]/10 rounded-full flex items-center justify-center mb-4">
+                <Shield className="h-8 w-8 text-[#174a21]" />
               </div>
               <h3 className="text-lg font-semibold text-gray-800 mb-2">100% Confidential</h3>
               <p className="text-gray-600">Your information is completely secure and private</p>
             </div>
             
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
-                <Award className="h-8 w-8 text-purple-600" />
+              <div className="w-16 h-16 bg-[#174a21]/10 rounded-full flex items-center justify-center mb-4">
+                <Award className="h-8 w-8 text-[#174a21]" />
               </div>
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Expert Analysis</h3>
               <p className="text-gray-600">Reviewed by certified tax professionals</p>
             </div>
             
             <div className="flex flex-col items-center">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
-                <DollarSign className="h-8 w-8 text-purple-600" />
+              <div className="w-16 h-16 bg-[#174a21]/10 rounded-full flex items-center justify-center mb-4">
+                <DollarSign className="h-8 w-8 text-[#174a21]" />
               </div>
               <h3 className="text-lg font-semibold text-gray-800 mb-2">No Obligation</h3>
               <p className="text-gray-600">Free assessment with no strings attached</p>
