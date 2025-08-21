@@ -102,10 +102,10 @@ function Webinar() {
                 </div>
               </div>
               
-              <div className="min-h-[500px] w-full overflow-hidden">
+              <div className="w-full h-[500px] md:h-[600px] overflow-hidden rounded-lg">
                 <iframe
                   src="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
-                  style={{width:'100%', height:'100%', border:'none', borderRadius:'4px'}}
+                  className="w-full h-full border-none rounded-lg"
                   id="inline-ivupNG3kiDfoxBnvBIDn"
                   data-layout="{'id':'INLINE'}"
                   data-trigger-type="alwaysShow"
