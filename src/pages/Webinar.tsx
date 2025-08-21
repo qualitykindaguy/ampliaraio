@@ -36,6 +36,95 @@ function Webinar() {
       <Navbar />
 
       {/* Hero Section */}
+      <section className="pt-32 pb-16 px-4 bg-gradient-to-br from-gray-100 via-white to-gray-50">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start max-w-6xl mx-auto">
+            {/* Left Side - Content */}
+            <div className="space-y-8">
+              <div className="inline-block px-6 py-3 bg-[#D4AF37] text-black rounded-full text-sm font-bold">
+                FREE LIVE WEBINAR
+              </div>
+              
+              <h1 className="text-4xl md:text-6xl font-black leading-tight text-black">
+                The tax game has <span className="text-[#D4AF37]">CHANGED</span>
+              </h1>
+              
+              <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
+                And if you're still playing by the old rules, you're not just behind — you're UNDERBUILDING.
+              </p>
+              
+              <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
+                Every month you wait is another month of MISSED strategy, WASTED dollars, and COMPOUNDING regret.
+              </p>
+
+              {/* CTA Section */}
+              <div className="space-y-6">
+                <h2 className="text-2xl md:text-3xl font-bold text-black">Secure Your Free Spot Below</h2>
+                <p className="text-lg text-gray-700">This isn't just another webinar...</p>
+                <p className="text-lg text-black font-bold">It's the most PROFITABLE hour of your month!</p>
+                <a
+                  href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-[#D4AF37] text-black px-8 py-4 rounded-xl hover:bg-[#B8941F] transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+                >
+                  REGISTER NOW!
+                </a>
+              </div>
+            </div>
+
+            {/* Right Side - Date Card */}
+            <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-lg">
+              <div className="text-center mb-6">
+                <div className="text-2xl md:text-3xl font-bold text-black mb-2">September 24, 2025</div>
+                <div className="text-gray-600 text-lg">Mark your calendar now!</div>
+              </div>
+              
+              <div className="space-y-6">
+                <h3 className="text-2xl font-bold text-black">Don't Miss Out!</h3>
+                <p className="text-lg text-gray-700">
+                  This webinar will reveal the exact strategies we use to help business owners save 
+                  5-6 figures annually in taxes.
+                </p>
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <p className="text-black font-semibold mb-4">What you'll get:</p>
+                  <ul className="text-left space-y-2 text-gray-700">
+                    <li className="flex items-center gap-2">
+                      <CheckCircle2 className="h-5 w-5 text-[#D4AF37]" />
+                      Tax reduction strategies
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle2 className="h-5 w-5 text-[#D4AF37]" />
+                      Business structure optimization
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle2 className="h-5 w-5 text-[#D4AF37]" />
+                      Wealth building techniques
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle2 className="h-5 w-5 text-[#D4AF37]" />
+                      Live Q&A session
+                    </li>
+                  </ul>
+                </div>
+                <a
+                  href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-[#D4AF37] text-black px-10 py-4 rounded-xl hover:bg-[#B8941F] transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105 w-full text-center"
+                >
+                  SECURE YOUR SPOT NOW!
+                </a>
+                <p className="text-sm text-gray-500 text-center">
+                  Limited seats available • 100% Free
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Hero Section */}
       <section className="pt-32 pb-16 px-4 bg-gray-50">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start max-w-6xl mx-auto">
