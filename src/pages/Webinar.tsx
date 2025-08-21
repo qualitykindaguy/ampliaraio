@@ -87,11 +87,19 @@ function Webinar() {
                 <h3 className="text-2xl md:text-3xl font-bold text-black mb-4">Secure Your Free Spot Below</h3>
                 <p className="text-lg text-gray-700 mb-2">This isn't just another webinar...</p>
                 <p className="text-lg text-black font-bold">It's the most PROFITABLE hour of your month!</p>
+                <a
+                  href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-[#D4AF37] text-black px-8 py-4 rounded-xl hover:bg-[#B8941F] transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+                >
+                  REGISTER NOW!
+                </a>
               </div>
             </div>
 
             {/* Right Side - Form */}
-            <div className="bg-white border-2 border-gray-200 rounded-2xl p-8 shadow-lg">
+            <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 md:p-8 shadow-lg mx-4 md:mx-0 text-center">
               <div className="text-center mb-6">
                 <div className="bg-[#D4AF37] text-black px-6 py-3 rounded-full font-bold text-lg mb-4 inline-block">
                   REGISTER NOW!
@@ -102,24 +110,32 @@ function Webinar() {
                 </div>
               </div>
               
-              <div className="w-full h-[500px] md:h-[600px] overflow-hidden rounded-lg">
-                <iframe
-                  src="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
-                  className="w-full h-full border-none rounded-lg"
-                  id="inline-ivupNG3kiDfoxBnvBIDn"
-                  data-layout="{'id':'INLINE'}"
-                  data-trigger-type="alwaysShow"
-                  data-trigger-value=""
-                  data-activation-type="alwaysActivated"
-                  data-activation-value=""
-                  data-deactivation-type="neverDeactivate"
-                  data-deactivation-value=""
-                  data-form-name="Tax Webinar"
-                  data-height="447"
-                  data-layout-iframe-id="inline-ivupNG3kiDfoxBnvBIDn"
-                  data-form-id="ivupNG3kiDfoxBnvBIDn"
-                  title="Tax Webinar"
-                />
+              <div className="space-y-6">
+                <h3 className="text-2xl font-bold text-black">Don't Miss Out!</h3>
+                <p className="text-lg text-gray-700">
+                  This webinar will reveal the exact strategies we use to help business owners save 
+                  5-6 figures annually in taxes.
+                </p>
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <p className="text-black font-semibold mb-4">What you'll get:</p>
+                  <ul className="text-left space-y-2 text-gray-700">
+                    <li>✓ Tax reduction strategies</li>
+                    <li>✓ Business structure optimization</li>
+                    <li>✓ Wealth building techniques</li>
+                    <li>✓ Live Q&A session</li>
+                  </ul>
+                </div>
+                <a
+                  href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-[#D4AF37] text-black px-10 py-4 rounded-xl hover:bg-[#B8941F] transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105 w-full"
+                >
+                  SECURE YOUR SPOT NOW!
+                </a>
+                <p className="text-sm text-gray-500">
+                  Limited seats available • 100% Free
+                </p>
               </div>
             </div>
           </div>
@@ -177,6 +193,17 @@ function Webinar() {
                 </div>
                 <p className="text-lg md:text-xl text-white">Wealth isn't built on hustle or hope — it's built on SMART strategy</p>
               </div>
+            </div>
+            
+            <div className="text-center mt-12">
+              <a
+                href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-[#D4AF37] text-black px-10 py-4 rounded-xl hover:bg-[#B8941F] transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+              >
+                CLAIM YOUR SEAT NOW!
+              </a>
             </div>
           </div>
         </div>
@@ -242,6 +269,17 @@ function Webinar() {
               
               <p className="text-lg md:text-xl text-black mb-2">NO pressure.</p>
               <p className="text-lg md:text-xl text-black font-semibold">Just REAL strategy that WORKS.</p>
+              
+              <div className="mt-8">
+                <a
+                  href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-[#D4AF37] text-black px-8 py-3 rounded-xl hover:bg-[#B8941F] transition duration-300 text-lg font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+                >
+                  REGISTER FOR FREE!
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -331,7 +369,6 @@ function Webinar() {
 
       <FooterSection />
       
-      <script src="https://api.taxnitro.com/js/form_embed.js"></script>
     </div>
   );
 }
