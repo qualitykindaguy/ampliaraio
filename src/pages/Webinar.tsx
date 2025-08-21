@@ -9,22 +9,30 @@ function Webinar() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-8 md:pb-0 px-4 md:px-6 lg:px-8 bg-[#174a21] relative">
+      <section className="pt-32 pb-8 md:pb-0 px-4 md:px-6 lg:px-8 bg-black relative">
         <div className="container mx-auto text-center px-4 md:px-0">
           {/* FREE LIVE WEBINAR Badge */}
-          <div className="inline-block bg-[#996516] text-white px-6 py-2 rounded-full font-bold text-sm mb-6 md:mb-8">
+          <div className="inline-block bg-white text-black px-6 py-2 rounded-full font-bold text-sm mb-6 md:mb-8">
             FREE LIVE WEBINAR
           </div>
           
           {/* Date Badge */}
-          <div className="inline-block bg-white/20 backdrop-blur-sm text-white px-6 md:px-8 py-3 rounded-full font-bold text-base md:text-lg mb-6 md:mb-8 border border-white/30">
-            📅 September 24, 2025
+          <div className="bg-white text-black px-12 md:px-16 py-6 md:py-8 rounded-2xl shadow-2xl mb-8 md:mb-12 transform hover:scale-105 transition-transform duration-300">
+            <div className="text-4xl md:text-6xl lg:text-7xl font-black mb-2">
+              SEPTEMBER 24
+            </div>
+            <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-700">
+              2025
+            </div>
+            <div className="text-lg md:text-xl font-semibold text-gray-600 mt-2">
+              MARK YOUR CALENDAR
+            </div>
           </div>
           
           {/* Main Title */}
           <h1 className="text-3xl md:text-6xl lg:text-7xl font-black text-white mb-6 md:mb-8 leading-tight px-2 md:px-0">
             MOMENTUM<br />
-            <span className="text-[#996516]">ON REPEAT</span>
+            <span className="text-white">ON REPEAT</span>
           </h1>
           
           {/* Subtitle */}
@@ -48,40 +56,40 @@ function Webinar() {
             height="450"
           />
           {/* Name Badge Overlay */}
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-[#996516] text-white px-6 py-2 font-bold text-sm md:text-base">
+          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-white text-black px-6 py-2 font-bold text-sm md:text-base">
             Sainte Billings, Certified Public Accountant
           </div>
         </div>
       </section>
 
       {/* Registration Section */}
-      <section className="py-8 md:py-0 px-4 md:px-6 lg:px-8 bg-[#996516] text-white">
+      <section className="py-8 md:py-0 px-4 md:px-6 lg:px-8 bg-white text-black">
         <div className="container mx-auto px-4 md:px-0">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center min-h-screen py-8 md:py-0">
             {/* Left Side - Content */}
             <div className="space-y-6 md:space-y-8">
               <h2 className="text-2xl md:text-4xl lg:text-5xl font-black leading-tight px-2 md:px-0">
-                The tax game has <span className="text-[#174a21]">CHANGED</span>
+                The tax game has <span className="text-black">CHANGED</span>
               </h2>
               
-              <p className="text-base md:text-lg text-white/90 leading-relaxed px-2 md:px-0">
+              <p className="text-base md:text-lg text-gray-700 leading-relaxed px-2 md:px-0">
                 And if you're still playing by the old rules, you're not just behind — you're UNDERBUILDING.
               </p>
               
-              <p className="text-base md:text-lg text-white/90 leading-relaxed px-2 md:px-0">
+              <p className="text-base md:text-lg text-gray-700 leading-relaxed px-2 md:px-0">
                 Every month you wait is another month of MISSED strategy, WASTED dollars, and COMPOUNDING regret.
               </p>
             </div>
 
             {/* Right Side - Form */}
-            <div className="bg-white rounded-lg p-6 md:p-8 mx-4 md:mx-0">
+            <div className="bg-black rounded-lg p-6 md:p-8 mx-4 md:mx-0">
               <div className="text-center mb-6">
-                <h3 className="text-xl md:text-2xl font-bold text-[#174a21] mb-4">Secure Your Free Spot Below</h3>
-                <p className="text-sm md:text-base text-[#174a21]/80 mb-4">This isn't just another webinar...</p>
-                <p className="text-sm md:text-base text-[#174a21]/80 font-semibold">It's the most PROFITABLE hour of your month!</p>
-                <div className="mt-4 p-3 bg-[#174a21]/10 rounded-lg mx-2 md:mx-0">
-                  <p className="text-[#174a21] font-bold text-base md:text-lg">📅 September 24, 2025</p>
-                  <p className="text-[#174a21]/80 text-sm">Mark your calendar now!</p>
+                <h3 className="text-xl md:text-2xl font-bold text-white mb-4">Secure Your Free Spot Below</h3>
+                <p className="text-sm md:text-base text-gray-300 mb-4">This isn't just another webinar...</p>
+                <p className="text-sm md:text-base text-white font-semibold">It's the most PROFITABLE hour of your month!</p>
+                <div className="mt-4 p-3 bg-white/10 rounded-lg mx-2 md:mx-0">
+                  <p className="text-white font-bold text-base md:text-lg">September 24, 2025</p>
+                  <p className="text-gray-300 text-sm">Mark your calendar now!</p>
                 </div>
               </div>
               
@@ -110,18 +118,18 @@ function Webinar() {
       </section>
 
       {/* Why Attend Section */}
-      <section className="py-12 md:py-16 px-4 md:px-6 lg:px-8 bg-[#174a21]">
+      <section className="py-12 md:py-16 px-4 md:px-6 lg:px-8 bg-black">
         <div className="container mx-auto px-4 md:px-0">
           <div className="max-w-4xl mx-auto">
             <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-white mb-6 md:mb-8 text-center px-2 md:px-0">
               Why You NEED to Attend
             </h3>
             
-            <p className="text-base md:text-lg text-white/90 mb-6 md:mb-8 text-center leading-relaxed px-4 md:px-0">
+            <p className="text-base md:text-lg text-gray-300 mb-6 md:mb-8 text-center leading-relaxed px-4 md:px-0">
               Taxes are probably your BIGGEST business expense.
             </p>
             
-            <p className="text-base md:text-lg text-white/90 mb-6 md:mb-8 text-center leading-relaxed px-4 md:px-0">
+            <p className="text-base md:text-lg text-gray-300 mb-6 md:mb-8 text-center leading-relaxed px-4 md:px-0">
               And chances are, you're paying WAY too much without even realizing it.
             </p>
             
@@ -129,25 +137,25 @@ function Webinar() {
               Here's what you'll DISCOVER inside this game-changing session:
             </p>
             
-            <ul className="space-y-3 md:space-y-4 text-white/90 max-w-3xl mx-auto px-4 md:px-0">
+            <ul className="space-y-3 md:space-y-4 text-gray-300 max-w-3xl mx-auto px-4 md:px-0">
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-[#996516] rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-white rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
                 <div className="text-sm md:text-base">You're unknowingly DONATING thousands to the IRS (and how to STOP it)</div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-[#996516] rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-white rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
                 <div className="text-sm md:text-base">The tax code has CHANGED — your strategy hasn't (this is COSTING you)</div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-[#996516] rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-white rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
                 <div className="text-sm md:text-base">Your business should be building WEALTH, not just covering bills</div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-[#996516] rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-white rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
                 <div className="text-sm md:text-base">HIDDEN tax loopholes exist — and we'll show you EXACTLY where to find them</div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-[#996516] rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-white rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
                 <div className="text-sm md:text-base">Wealth isn't built on hustle or hope — it's built on SMART strategy</div>
               </li>
             </ul>
@@ -156,65 +164,65 @@ function Webinar() {
       </section>
 
       {/* Training Benefits Section */}
-      <section className="py-12 md:py-16 px-4 md:px-6 lg:px-8 bg-[#996516]">
+      <section className="py-12 md:py-16 px-4 md:px-6 lg:px-8 bg-white">
         <div className="container mx-auto px-4 md:px-0">
           <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-white mb-6 md:mb-8 px-2 md:px-0">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-black mb-6 md:mb-8 px-2 md:px-0">
               Turn Insight Into INCOME
             </h3>
             
-            <p className="text-base md:text-lg text-white/90 mb-4 px-4 md:px-0">
+            <p className="text-base md:text-lg text-gray-700 mb-4 px-4 md:px-0">
               This isn't some basic "tax tips" webinar.
             </p>
             
-            <p className="text-base md:text-lg text-white/90 mb-6 md:mb-8 px-4 md:px-0">
+            <p className="text-base md:text-lg text-gray-700 mb-6 md:mb-8 px-4 md:px-0">
               It's REAL, tactical training from strategies we use to help business owners save 5-6 figures a year.
             </p>
             
-            <p className="text-base md:text-lg text-white mb-6 md:mb-8 font-bold px-4 md:px-0">
+            <p className="text-base md:text-lg text-black mb-6 md:mb-8 font-bold px-4 md:px-0">
               You'll MASTER:
             </p>
             
-            <ul className="space-y-3 md:space-y-4 text-white/90 max-w-3xl mx-auto mb-8 md:mb-12 text-left px-4 md:px-0">
+            <ul className="space-y-3 md:space-y-4 text-gray-700 max-w-3xl mx-auto mb-8 md:mb-12 text-left px-4 md:px-0">
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-white rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-black rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
                 <div className="text-sm md:text-base">How to LEGALLY slash your taxable income</div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-white rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-black rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
                 <div className="text-sm md:text-base">How to turn everyday spending into POWERFUL deductions</div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-white rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-black rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
                 <div className="text-sm md:text-base">How to structure your business for MAXIMUM tax advantages</div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-white rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-black rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
                 <div className="text-sm md:text-base">What your accountant probably ISN'T telling you (this will shock you)</div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-white rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-black rounded-full mt-2 md:mt-3 flex-shrink-0"></span>
                 <div className="text-sm md:text-base">How to make the IRS work FOR YOU (yes, really!)</div>
               </li>
             </ul>
             
-            <div className="bg-white/10 backdrop-blur-sm p-6 md:p-8 rounded-lg mx-4 md:mx-0">
-              <p className="text-base md:text-lg text-white mb-4">
+            <div className="bg-black/10 backdrop-blur-sm p-6 md:p-8 rounded-lg mx-4 md:mx-0">
+              <p className="text-base md:text-lg text-black mb-4">
                 And YES — if you want our help to create your own CUSTOM plan, we'll tell you how at the end.
               </p>
               
-              <p className="text-base md:text-lg text-white mb-2">NO pressure.</p>
-              <p className="text-base md:text-lg text-white font-semibold">Just REAL strategy that WORKS.</p>
+              <p className="text-base md:text-lg text-black mb-2">NO pressure.</p>
+              <p className="text-base md:text-lg text-black font-semibold">Just REAL strategy that WORKS.</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-12 md:py-16 px-4 md:px-6 lg:px-8 bg-[#174a21] text-white">
+      <section className="py-12 md:py-16 px-4 md:px-6 lg:px-8 bg-black text-white">
         <div className="container mx-auto text-center px-4 md:px-0">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 max-w-6xl mx-auto">
-            <div className="bg-[#996516] text-white p-6 md:p-8 rounded-lg">
+            <div className="bg-white text-black p-6 md:p-8 rounded-lg">
               <div className="flex items-start gap-4">
                 <img
                   src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg"
@@ -229,7 +237,7 @@ function Webinar() {
               </div>
             </div>
             
-            <div className="bg-[#996516] text-white p-6 md:p-8 rounded-lg">
+            <div className="bg-white text-black p-6 md:p-8 rounded-lg">
               <div className="flex items-start gap-4">
                 <img
                   src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg"
@@ -248,20 +256,20 @@ function Webinar() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-12 md:py-16 px-4 md:px-6 lg:px-8 bg-[#174a21]">
+      <section className="py-12 md:py-16 px-4 md:px-6 lg:px-8 bg-white">
         <div className="container mx-auto max-w-4xl text-center px-4 md:px-0">
-          <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-white mb-6 md:mb-8 px-2 md:px-0">
+          <h3 className="text-2xl md:text-3xl lg:text-4xl font-black text-black mb-6 md:mb-8 px-2 md:px-0">
             Click Below to CLAIM Your Seat NOW
           </h3>
           
-          <p className="text-base md:text-lg text-white/90 mb-4 font-semibold px-4 md:px-0">Wealth doesn't wait.</p>
-          <p className="text-base md:text-lg text-white/90 mb-6 md:mb-8 font-semibold px-4 md:px-0">Neither should YOU.</p>
+          <p className="text-base md:text-lg text-gray-700 mb-4 font-semibold px-4 md:px-0">Wealth doesn't wait.</p>
+          <p className="text-base md:text-lg text-gray-700 mb-6 md:mb-8 font-semibold px-4 md:px-0">Neither should YOU.</p>
           
           <a
             href="https://api.taxnitro.com/widget/form/gASBGaRIppZUg8vyLPDW"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-[#996516] text-white px-6 md:px-8 py-3 md:py-4 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-base md:text-lg font-semibold mx-4 md:mx-0"
+            className="inline-block bg-black text-white px-6 md:px-8 py-3 md:py-4 rounded-lg hover:bg-gray-800 transition duration-300 text-base md:text-lg font-semibold mx-4 md:mx-0"
           >
             Register Now
           </a>
@@ -269,20 +277,20 @@ function Webinar() {
       </section>
 
       {/* P.S. Section */}
-      <section className="py-12 md:py-16 px-4 md:px-6 lg:px-8 bg-[#996516]">
+      <section className="py-12 md:py-16 px-4 md:px-6 lg:px-8 bg-black">
         <div className="container mx-auto max-w-4xl px-4 md:px-0">
           <div className="bg-white/10 backdrop-blur-sm p-6 md:p-8 rounded-lg mx-4 md:mx-0">
             <h4 className="text-lg md:text-xl font-bold text-white mb-4">P.S.</h4>
             
-            <p className="text-base md:text-lg text-white/90 mb-4">
+            <p className="text-base md:text-lg text-gray-300 mb-4">
               This is your monthly financial POWER hour.
             </p>
             
-            <p className="text-base md:text-lg text-white/90 mb-4">
+            <p className="text-base md:text-lg text-gray-300 mb-4">
               NO fluff, NO filler, NO confusing tax talk.
             </p>
             
-            <p className="text-base md:text-lg text-white/90">
+            <p className="text-base md:text-lg text-gray-300">
               Just REAL strategy you can apply IMMEDIATELY to keep more, grow more, and finally get in the financial driver's seat.
             </p>
           </div>
