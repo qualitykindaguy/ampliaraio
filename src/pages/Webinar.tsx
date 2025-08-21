@@ -16,6 +16,11 @@ function Webinar() {
             FREE LIVE WEBINAR
           </div>
           
+          {/* Date Badge */}
+          <div className="inline-block bg-white/20 backdrop-blur-sm text-white px-8 py-3 rounded-full font-bold text-lg mb-8 border border-white/30">
+            📅 September 24, 2025
+          </div>
+          
           {/* Main Title */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white mb-8 leading-tight">
             MOMENTUM<br />
@@ -74,6 +79,10 @@ function Webinar() {
                 <h3 className="text-2xl font-bold text-[#174a21] mb-4">Secure Your Free Spot Below</h3>
                 <p className="text-[#174a21]/80 mb-4">This isn't just another webinar...</p>
                 <p className="text-[#174a21]/80 font-semibold">It's the most PROFITABLE hour of your month!</p>
+                <div className="mt-4 p-3 bg-[#174a21]/10 rounded-lg">
+                  <p className="text-[#174a21] font-bold text-lg">📅 September 24, 2025</p>
+                  <p className="text-[#174a21]/80 text-sm">Mark your calendar now!</p>
+                </div>
               </div>
               
               <div className="min-h-[500px] w-full overflow-hidden">
