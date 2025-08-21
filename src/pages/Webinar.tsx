@@ -104,9 +104,9 @@ function Webinar() {
               
               <div className="min-h-[500px] w-full overflow-hidden">
                 <iframe
-                  src="https://api.taxnitro.com/widget/form/gASBGaRIppZUg8vyLPDW"
-                  style={{width:'100%', height:'500px', border:'none', borderRadius:'4px'}}
-                  id="inline-gASBGaRIppZUg8vyLPDW"
+                  src="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
+                  style={{width:'100%', height:'100%', border:'none', borderRadius:'4px'}}
+                  id="inline-ivupNG3kiDfoxBnvBIDn"
                   data-layout="{'id':'INLINE'}"
                   data-trigger-type="alwaysShow"
                   data-trigger-value=""
@@ -114,11 +114,11 @@ function Webinar() {
                   data-activation-value=""
                   data-deactivation-type="neverDeactivate"
                   data-deactivation-value=""
-                  data-form-name="Big Beautiful Bill Breakdown"
-                  data-height="500"
-                  data-layout-iframe-id="inline-gASBGaRIppZUg8vyLPDW"
-                  data-form-id="gASBGaRIppZUg8vyLPDW"
-                  title="Big Beautiful Bill Breakdown Registration"
+                  data-form-name="Tax Webinar"
+                  data-height="447"
+                  data-layout-iframe-id="inline-ivupNG3kiDfoxBnvBIDn"
+                  data-form-id="ivupNG3kiDfoxBnvBIDn"
+                  title="Tax Webinar"
                 />
               </div>
             </div>
