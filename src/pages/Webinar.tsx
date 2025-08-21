@@ -9,7 +9,7 @@ function Webinar() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-0 px-4 bg-gray-100 relative">
+      <section className="pt-32 pb-0 px-4 bg-[#174a21] relative">
         <div className="container mx-auto text-center">
           {/* FREE LIVE WEBINAR Badge */}
           <div className="inline-block bg-[#996516] text-white px-6 py-2 rounded-full font-bold text-sm mb-8">
@@ -17,17 +17,17 @@ function Webinar() {
           </div>
           
           {/* Main Title */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-black mb-8 leading-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white mb-8 leading-tight">
             MOMENTUM<br />
             <span className="text-[#996516]">ON REPEAT</span>
           </h1>
           
           {/* Subtitle */}
-          <p className="text-lg md:text-xl text-black max-w-4xl mx-auto mb-12 leading-relaxed">
+          <p className="text-lg md:text-xl text-white/90 max-w-4xl mx-auto mb-12 leading-relaxed">
             Because ONE tax season win isn't enough!
           </p>
           
-          <p className="text-lg md:text-xl text-black max-w-4xl mx-auto mb-12 leading-relaxed">
+          <p className="text-lg md:text-xl text-white/90 max-w-4xl mx-auto mb-12 leading-relaxed">
             This is your MONTHLY money strategy reset — your recurring chance to align your finances, 
             refine your goals, and build REAL wealth... ON PURPOSE.
           </p>
@@ -50,20 +50,20 @@ function Webinar() {
       </section>
 
       {/* Registration Section */}
-      <section className="py-0 px-4 bg-black text-white">
+      <section className="py-0 px-4 bg-[#996516] text-white">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-screen">
             {/* Left Side - Content */}
             <div className="space-y-8">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-black leading-tight">
-                The tax game has <span className="text-[#996516]">CHANGED</span>
+                The tax game has <span className="text-[#174a21]">CHANGED</span>
               </h2>
               
-              <p className="text-lg text-gray-300 leading-relaxed">
+              <p className="text-lg text-white/90 leading-relaxed">
                 And if you're still playing by the old rules, you're not just behind — you're UNDERBUILDING.
               </p>
               
-              <p className="text-lg text-gray-300 leading-relaxed">
+              <p className="text-lg text-white/90 leading-relaxed">
                 Every month you wait is another month of MISSED strategy, WASTED dollars, and COMPOUNDING regret.
               </p>
             </div>
@@ -101,26 +101,26 @@ function Webinar() {
       </section>
 
       {/* Why Attend Section */}
-      <section className="py-16 px-4 bg-gray-100">
+      <section className="py-16 px-4 bg-[#174a21]">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-3xl md:text-4xl font-black text-black mb-8 text-center">
+            <h3 className="text-3xl md:text-4xl font-black text-white mb-8 text-center">
               Why You NEED to Attend
             </h3>
             
-            <p className="text-lg text-black mb-8 text-center leading-relaxed">
+            <p className="text-lg text-white/90 mb-8 text-center leading-relaxed">
               Taxes are probably your BIGGEST business expense.
             </p>
             
-            <p className="text-lg text-black mb-8 text-center leading-relaxed">
+            <p className="text-lg text-white/90 mb-8 text-center leading-relaxed">
               And chances are, you're paying WAY too much without even realizing it.
             </p>
             
-            <p className="text-lg text-black mb-8 text-center leading-relaxed font-bold">
+            <p className="text-lg text-white mb-8 text-center leading-relaxed font-bold">
               Here's what you'll DISCOVER inside this game-changing session:
             </p>
             
-            <ul className="space-y-4 text-black max-w-3xl mx-auto">
+            <ul className="space-y-4 text-white/90 max-w-3xl mx-auto">
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-[#996516] rounded-full mt-3 flex-shrink-0"></span>
                 <div>You're unknowingly DONATING thousands to the IRS (and how to STOP it)</div>
@@ -147,55 +147,55 @@ function Webinar() {
       </section>
 
       {/* Training Benefits Section */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-16 px-4 bg-[#996516]">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-3xl md:text-4xl font-black text-black mb-8">
+            <h3 className="text-3xl md:text-4xl font-black text-white mb-8">
               Turn Insight Into INCOME
             </h3>
             
-            <p className="text-lg text-black mb-4">
+            <p className="text-lg text-white/90 mb-4">
               This isn't some basic "tax tips" webinar.
             </p>
             
-            <p className="text-lg text-black mb-8">
+            <p className="text-lg text-white/90 mb-8">
               It's REAL, tactical training from strategies we use to help business owners save 5-6 figures a year.
             </p>
             
-            <p className="text-lg text-black mb-8 font-bold">
+            <p className="text-lg text-white mb-8 font-bold">
               You'll MASTER:
             </p>
             
-            <ul className="space-y-4 text-black max-w-3xl mx-auto mb-12 text-left">
+            <ul className="space-y-4 text-white/90 max-w-3xl mx-auto mb-12 text-left">
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-[#174a21] rounded-full mt-3 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-white rounded-full mt-3 flex-shrink-0"></span>
                 <div>How to LEGALLY slash your taxable income</div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-[#174a21] rounded-full mt-3 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-white rounded-full mt-3 flex-shrink-0"></span>
                 <div>How to turn everyday spending into POWERFUL deductions</div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-[#174a21] rounded-full mt-3 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-white rounded-full mt-3 flex-shrink-0"></span>
                 <div>How to structure your business for MAXIMUM tax advantages</div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-[#174a21] rounded-full mt-3 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-white rounded-full mt-3 flex-shrink-0"></span>
                 <div>What your accountant probably ISN'T telling you (this will shock you)</div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="w-2 h-2 bg-[#174a21] rounded-full mt-3 flex-shrink-0"></span>
+                <span className="w-2 h-2 bg-white rounded-full mt-3 flex-shrink-0"></span>
                 <div>How to make the IRS work FOR YOU (yes, really!)</div>
               </li>
             </ul>
             
-            <div className="bg-gray-50 p-8 rounded-lg">
-              <p className="text-lg text-black mb-4">
+            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg">
+              <p className="text-lg text-white mb-4">
                 And YES — if you want our help to create your own CUSTOM plan, we'll tell you how at the end.
               </p>
               
-              <p className="text-lg text-black mb-2">NO pressure.</p>
-              <p className="text-lg text-black font-semibold">Just REAL strategy that WORKS.</p>
+              <p className="text-lg text-white mb-2">NO pressure.</p>
+              <p className="text-lg text-white font-semibold">Just REAL strategy that WORKS.</p>
             </div>
           </div>
         </div>
@@ -239,20 +239,20 @@ function Webinar() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-16 px-4 bg-gray-100">
+      <section className="py-16 px-4 bg-[#174a21]">
         <div className="container mx-auto max-w-4xl text-center">
-          <h3 className="text-3xl md:text-4xl font-black text-black mb-8">
+          <h3 className="text-3xl md:text-4xl font-black text-white mb-8">
             Click Below to CLAIM Your Seat NOW
           </h3>
           
-          <p className="text-lg text-black mb-4 font-semibold">Wealth doesn't wait.</p>
-          <p className="text-lg text-black mb-8 font-semibold">Neither should YOU.</p>
+          <p className="text-lg text-white/90 mb-4 font-semibold">Wealth doesn't wait.</p>
+          <p className="text-lg text-white/90 mb-8 font-semibold">Neither should YOU.</p>
           
           <a
             href="https://api.taxnitro.com/widget/form/gASBGaRIppZUg8vyLPDW"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-[#174a21] text-white px-8 py-4 rounded-lg hover:bg-[#174a21]/90 transition duration-300 text-lg font-semibold"
+            className="inline-block bg-[#996516] text-white px-8 py-4 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold"
           >
             Register Now
           </a>
@@ -260,20 +260,20 @@ function Webinar() {
       </section>
 
       {/* P.S. Section */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-16 px-4 bg-[#996516]">
         <div className="container mx-auto max-w-4xl">
-          <div className="bg-gray-50 p-8 rounded-lg">
-            <h4 className="text-xl font-bold text-black mb-4">P.S.</h4>
+          <div className="bg-white/10 backdrop-blur-sm p-8 rounded-lg">
+            <h4 className="text-xl font-bold text-white mb-4">P.S.</h4>
             
-            <p className="text-lg text-black mb-4">
+            <p className="text-lg text-white/90 mb-4">
               This is your monthly financial POWER hour.
             </p>
             
-            <p className="text-lg text-black mb-4">
+            <p className="text-lg text-white/90 mb-4">
               NO fluff, NO filler, NO confusing tax talk.
             </p>
             
-            <p className="text-lg text-black">
+            <p className="text-lg text-white/90">
               Just REAL strategy you can apply IMMEDIATELY to keep more, grow more, and finally get in the financial driver's seat.
             </p>
           </div>
