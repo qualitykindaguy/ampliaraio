@@ -101,9 +101,6 @@ function Webinar() {
             {/* Right Side - Form */}
             <div className="bg-white border-2 border-gray-200 rounded-2xl p-4 md:p-8 shadow-lg mx-4 md:mx-0 text-center">
               <div className="text-center mb-6">
-                <div className="bg-[#D4AF37] text-black px-6 py-3 rounded-full font-bold text-lg mb-4 inline-block">
-                  REGISTER NOW!
-                </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <p className="text-black font-bold text-xl">September 24, 2025</p>
                   <p className="text-gray-600">Mark your calendar now!</p>
