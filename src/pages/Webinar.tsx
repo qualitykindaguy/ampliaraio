@@ -196,14 +196,6 @@ function Webinar() {
             </div>
             
             <div className="text-center mt-12">
-              <a
-                href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-[#D4AF37] text-black px-10 py-4 rounded-xl hover:bg-[#B8941F] transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
-              >
-                CLAIM YOUR SEAT NOW!
-              </a>
             </div>
           </div>
         </div>
