@@ -18,17 +18,18 @@ function Webinar() {
           
           {/* Main Title */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-black mb-8 leading-tight">
-            Momentum<br />
-            <span className="text-[#996516]">On Repeat</span>
+            MOMENTUM<br />
+            <span className="text-[#996516]">ON REPEAT</span>
           </h1>
           
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-black max-w-4xl mx-auto mb-12 leading-relaxed">
-            Because one tax season win isn't enough.
+            Because ONE tax season win isn't enough!
           </p>
           
           <p className="text-lg md:text-xl text-black max-w-4xl mx-auto mb-12 leading-relaxed">
-            This is your monthly money strategy reset, your recurring chance to align your finances, refine your goals, and build real wealth, on purpose.
+            This is your MONTHLY money strategy reset — your recurring chance to align your finances, 
+            refine your goals, and build REAL wealth... ON PURPOSE.
           </p>
         </div>
         
@@ -55,15 +56,15 @@ function Webinar() {
             {/* Left Side - Content */}
             <div className="space-y-8">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-black leading-tight">
-                The tax game has <span className="text-[#996516]">changed</span>
+                The tax game has <span className="text-[#996516]">CHANGED</span>
               </h2>
               
               <p className="text-lg text-gray-300 leading-relaxed">
-                And if you're still playing by the old rules, you're not just behind, you're underbuilding.
+                And if you're still playing by the old rules, you're not just behind — you're UNDERBUILDING.
               </p>
               
               <p className="text-lg text-gray-300 leading-relaxed">
-                Every month you wait is another month of missed strategy, wasted dollars, and compounding regret.
+                Every month you wait is another month of MISSED strategy, WASTED dollars, and COMPOUNDING regret.
               </p>
             </div>
 
@@ -71,8 +72,8 @@ function Webinar() {
             <div className="bg-white rounded-lg p-8">
               <div className="text-center mb-6">
                 <h3 className="text-2xl font-bold text-[#174a21] mb-4">Secure Your Free Spot Below</h3>
-                <p className="text-[#174a21]/80 mb-4">This isn't just another webinar,</p>
-                <p className="text-[#174a21]/80">It's the most profitable hour of your month.</p>
+                <p className="text-[#174a21]/80 mb-4">This isn't just another webinar...</p>
+                <p className="text-[#174a21]/80 font-semibold">It's the most PROFITABLE hour of your month!</p>
               </div>
               
               <div className="min-h-[500px] w-full overflow-hidden">
@@ -104,41 +105,41 @@ function Webinar() {
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto">
             <h3 className="text-3xl md:text-4xl font-black text-black mb-8 text-center">
-              Why Attend
+              Why You NEED to Attend
             </h3>
             
             <p className="text-lg text-black mb-8 text-center leading-relaxed">
-              Taxes are probably your biggest business expense.
+              Taxes are probably your BIGGEST business expense.
             </p>
             
             <p className="text-lg text-black mb-8 text-center leading-relaxed">
-              And chances are, you're paying too much without even realizing it.
+              And chances are, you're paying WAY too much without even realizing it.
             </p>
             
-            <p className="text-lg text-black mb-8 text-center leading-relaxed font-semibold">
-              Here's what you'll learn inside the free session:
+            <p className="text-lg text-black mb-8 text-center leading-relaxed font-bold">
+              Here's what you'll DISCOVER inside this game-changing session:
             </p>
             
             <ul className="space-y-4 text-black max-w-3xl mx-auto">
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-[#996516] rounded-full mt-3 flex-shrink-0"></span>
-                <div>You're unknowingly donating thousands to the IRS</div>
+                <div>You're unknowingly DONATING thousands to the IRS (and how to STOP it)</div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-[#996516] rounded-full mt-3 flex-shrink-0"></span>
-                <div>The tax code has changed, your strategy hasn't</div>
+                <div>The tax code has CHANGED — your strategy hasn't (this is COSTING you)</div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-[#996516] rounded-full mt-3 flex-shrink-0"></span>
-                <div>Your business should be building wealth, not just covering bills</div>
+                <div>Your business should be building WEALTH, not just covering bills</div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-[#996516] rounded-full mt-3 flex-shrink-0"></span>
-                <div>Hidden tax loopholes exist, and we'll show you where to find them</div>
+                <div>HIDDEN tax loopholes exist — and we'll show you EXACTLY where to find them</div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-[#996516] rounded-full mt-3 flex-shrink-0"></span>
-                <div>Wealth isn't built on hustle or hope, it's built on strategy</div>
+                <div>Wealth isn't built on hustle or hope — it's built on SMART strategy</div>
               </li>
             </ul>
           </div>
@@ -150,51 +151,51 @@ function Webinar() {
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center">
             <h3 className="text-3xl md:text-4xl font-black text-black mb-8">
-              Turn Insight Into Income
+              Turn Insight Into INCOME
             </h3>
             
             <p className="text-lg text-black mb-4">
-              This isn't a basic "tax tips" webinar.
+              This isn't some basic "tax tips" webinar.
             </p>
             
             <p className="text-lg text-black mb-8">
-              It's real, tactical training from strategies we use to help business owners save 5–6 figures a year.
+              It's REAL, tactical training from strategies we use to help business owners save 5-6 figures a year.
             </p>
             
-            <p className="text-lg text-black mb-8 font-semibold">
-              You'll learn:
+            <p className="text-lg text-black mb-8 font-bold">
+              You'll MASTER:
             </p>
             
             <ul className="space-y-4 text-black max-w-3xl mx-auto mb-12 text-left">
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-[#174a21] rounded-full mt-3 flex-shrink-0"></span>
-                <div>How to legally reduce taxable income</div>
+                <div>How to LEGALLY slash your taxable income</div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-[#174a21] rounded-full mt-3 flex-shrink-0"></span>
-                <div>How to turn everyday spending into deductions</div>
+                <div>How to turn everyday spending into POWERFUL deductions</div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-[#174a21] rounded-full mt-3 flex-shrink-0"></span>
-                <div>How to structure your business for tax advantages</div>
+                <div>How to structure your business for MAXIMUM tax advantages</div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-[#174a21] rounded-full mt-3 flex-shrink-0"></span>
-                <div>What your accountant probably isn't telling you</div>
+                <div>What your accountant probably ISN'T telling you (this will shock you)</div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-[#174a21] rounded-full mt-3 flex-shrink-0"></span>
-                <div>How to make the IRS work for you</div>
+                <div>How to make the IRS work FOR YOU (yes, really!)</div>
               </li>
             </ul>
             
             <div className="bg-gray-50 p-8 rounded-lg">
               <p className="text-lg text-black mb-4">
-                And yes, if you want our help to create your own custom plan, we'll tell you how at the end.
+                And YES — if you want our help to create your own CUSTOM plan, we'll tell you how at the end.
               </p>
               
-              <p className="text-lg text-black mb-2">No pressure.</p>
-              <p className="text-lg text-black">Just real strategy.</p>
+              <p className="text-lg text-black mb-2">NO pressure.</p>
+              <p className="text-lg text-black font-semibold">Just REAL strategy that WORKS.</p>
             </div>
           </div>
         </div>
@@ -213,7 +214,7 @@ function Webinar() {
                 />
                 <div className="text-left">
                   <p className="text-lg font-semibold mb-2">
-                    "You provided a wealth of knowledge, I've already saved thousands."
+                    "You provided a WEALTH of knowledge — I've already saved THOUSANDS!"
                   </p>
                 </div>
               </div>
@@ -228,7 +229,7 @@ function Webinar() {
                 />
                 <div className="text-left">
                   <p className="text-lg font-semibold mb-2">
-                    "I feel super blessed to be a part of such a powerful community, I only wish I joined sooner."
+                    "I feel SUPER blessed to be part of such a POWERFUL community — I only wish I'd joined SOONER!"
                   </p>
                 </div>
               </div>
@@ -241,11 +242,11 @@ function Webinar() {
       <section className="py-16 px-4 bg-gray-100">
         <div className="container mx-auto max-w-4xl text-center">
           <h3 className="text-3xl md:text-4xl font-black text-black mb-8">
-            Click Below to Claim Your Seat Now
+            Click Below to CLAIM Your Seat NOW
           </h3>
           
-          <p className="text-lg text-black mb-4">Wealth doesn't wait.</p>
-          <p className="text-lg text-black mb-8">Neither should you.</p>
+          <p className="text-lg text-black mb-4 font-semibold">Wealth doesn't wait.</p>
+          <p className="text-lg text-black mb-8 font-semibold">Neither should YOU.</p>
           
           <a
             href="https://api.taxnitro.com/widget/form/gASBGaRIppZUg8vyLPDW"
@@ -265,15 +266,15 @@ function Webinar() {
             <h4 className="text-xl font-bold text-black mb-4">P.S.</h4>
             
             <p className="text-lg text-black mb-4">
-              This is your monthly financial power hour.
+              This is your monthly financial POWER hour.
             </p>
             
             <p className="text-lg text-black mb-4">
-              No fluff, no filler, no confusing tax talk.
+              NO fluff, NO filler, NO confusing tax talk.
             </p>
             
             <p className="text-lg text-black">
-              Just real strategy you can apply immediately to keep more, grow more, and finally get in the financial driver's seat.
+              Just REAL strategy you can apply IMMEDIATELY to keep more, grow more, and finally get in the financial driver's seat.
             </p>
           </div>
         </div>
