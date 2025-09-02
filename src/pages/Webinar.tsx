@@ -72,8 +72,9 @@ function Webinar() {
                 />
                 {/* Name tag below image */}
                 <div className="mt-4 text-center">
-                  <div className="inline-block bg-white px-6 py-3 rounded-xl shadow-lg border-2 border-[#996516]">
-                    <p className="text-lg font-bold text-[#174a21]">Sainte Billings, CPA</p>
+                  <div className="inline-block bg-gradient-to-r from-[#996516] to-[#174a21] px-8 py-4 rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 border-4 border-white">
+                    <p className="text-xl font-black text-white tracking-wide">SAINTE BILLINGS, CPA</p>
+                    <div className="w-full h-1 bg-white/30 rounded-full mt-2"></div>
                   </div>
                 </div>
                 {/* Gradient overlay for smooth transition */}
