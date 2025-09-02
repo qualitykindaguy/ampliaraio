@@ -96,9 +96,6 @@ function Webinar() {
             </p>
             
             <p className="text-lg md:text-xl text-[#174a21] mb-12 font-bold">
-            </p>
-            
-            <p className="text-lg md:text-xl text-yellow-600 mb-12 font-bold">
               Here's what you'll DISCOVER inside this game-changing session:
             </p>
             
@@ -220,7 +217,7 @@ function Webinar() {
       {/* Testimonials Section */}
       <section className="py-16 px-4 bg-black text-white">
         <div className="container mx-auto text-center">
-          <h3 className="text-3xl md:text-4xl font-black text-[#174a21] mb-12">
+          <h3 className="text-3xl md:text-4xl font-black text-white mb-12">
             How Our Webinars & Programs Have Impacted the Attendees
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
