@@ -268,11 +268,10 @@ function Webinar() {
               <p className="text-4xl font-bold text-[#174a21] mb-2">September 24, 2025</p>
               <p className="text-gray-600 text-lg">Mark your calendar now!</p>
             </div>
-          </div>
           
           <div className="mb-12">
             <h4 className="text-2xl font-bold text-[#174a21] mb-8">What You'll Get:</h4>
-            <div className="space-y-4 max-w-2xl mx-auto">
+            <div className="space-y-4 max-w-2xl mx-auto mb-12">
               <div className="flex items-start gap-4">
                 <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
                   <span className="text-white text-sm font-bold">✓</span>
@@ -298,9 +297,7 @@ function Webinar() {
                 <span className="text-lg text-gray-700 font-medium">Live Q&A session</span>
               </div>
             </div>
-          </div>
-          
-          <div className="mb-12">
+            
             <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
               This webinar will reveal the exact strategies we use to help business owners save 
               5-6 figures annually in taxes.
