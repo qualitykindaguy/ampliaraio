@@ -56,8 +56,12 @@ function Webinar() {
 
             <div className="bg-gradient-to-r from-[#174a21] to-[#174a21]/90 text-white p-12 rounded-3xl shadow-2xl">
               <h3 className="text-3xl md:text-4xl font-bold mb-6">Secure Your Free Spot</h3>
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-3 mb-6 inline-block">
+                <p className="text-2xl font-bold text-white">September 24, 2025</p>
+                <p className="text-white/90 text-sm">Mark your calendar now!</p>
+              </div>
               <p className="text-xl mb-2">This isn't just another webinar...</p>
-              <p className="text-2xl font-bold mb-8">It's the most <span className="text-yellow-300">PROFITABLE</span> hour of your month!</p>
+              <p className="text-2xl font-bold mb-8">It's the most <span className="text-yellow-600">PROFITABLE</span> hour of your month!</p>
               <a
                 href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
                 target="_blank"
