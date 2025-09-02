@@ -322,6 +322,7 @@ function Webinar() {
               Limited seats available • 100% Free • No obligation
             </p>
           </div>
+          </div>
         </div>
       </section>
 
