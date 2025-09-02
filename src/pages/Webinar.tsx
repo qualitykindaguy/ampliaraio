@@ -154,17 +154,96 @@ function Webinar() {
               Turn Insight Into INCOME
             </h3>
             
-            <div className="bg-white rounded-2xl p-8 shadow-lg mb-8">
-              <p className="text-xl md:text-2xl text-gray-700 mb-4 font-medium">
-                This isn't some basic "tax tips" webinar.
-              </p>
-            
-              <p className="text-xl md:text-2xl text-gray-700 font-medium">
-                It's REAL, tactical training from strategies we use to help business owners save 5-6 figures a year.
-              </p>
+            <div className="relative mb-12">
+              <div className="absolute inset-0 bg-gradient-to-r from-[#174a21]/20 via-[#996516]/20 to-[#174a21]/20 rounded-3xl transform rotate-1"></div>
+              <div className="relative bg-white rounded-3xl p-8 border-4 border-[#174a21]">
+                <p className="text-xl md:text-2xl text-gray-700 mb-4 font-bold">
+                  This isn't some basic "tax tips" webinar.
+                </p>
+                <p className="text-xl md:text-2xl text-[#174a21] font-black">
+                  It's REAL, tactical training from strategies we use to help business owners save 5-6 figures a year.
+                </p>
+              </div>
             </div>
             
-            <h4 className="text-2xl md:text-3xl font-bold text-[#174a21] mb-8">
+            <h4 className="text-3xl md:text-4xl font-black text-[#174a21] mb-12 relative">
+              <span className="bg-yellow-400 px-4 py-2 rounded-lg text-black shadow-lg transform -rotate-1 inline-block">
+                You'll MASTER:
+              </span>
+            </h4>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+              <div className="bg-gradient-to-br from-[#174a21] to-[#174a21]/80 text-white p-6 rounded-2xl transform hover:scale-105 transition-all duration-300 shadow-xl">
+                <div className="flex items-center gap-4 mb-3">
+                  <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
+                    <span className="text-black font-bold text-lg">1</span>
+                  </div>
+                  <div className="h-1 bg-yellow-400 flex-1 rounded"></div>
+                </div>
+                <p className="text-lg font-bold">How to LEGALLY slash your taxable income</p>
+              </div>
+              
+              <div className="bg-gradient-to-br from-[#996516] to-[#996516]/80 text-white p-6 rounded-2xl transform hover:scale-105 transition-all duration-300 shadow-xl">
+                <div className="flex items-center gap-4 mb-3">
+                  <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
+                    <span className="text-black font-bold text-lg">2</span>
+                  </div>
+                  <div className="h-1 bg-yellow-400 flex-1 rounded"></div>
+                </div>
+                <p className="text-lg font-bold">How to turn everyday spending into POWERFUL deductions</p>
+              </div>
+              
+              <div className="bg-gradient-to-br from-[#996516] to-[#996516]/80 text-white p-6 rounded-2xl transform hover:scale-105 transition-all duration-300 shadow-xl">
+                <div className="flex items-center gap-4 mb-3">
+                  <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
+                    <span className="text-black font-bold text-lg">3</span>
+                  </div>
+                  <div className="h-1 bg-yellow-400 flex-1 rounded"></div>
+                </div>
+                <p className="text-lg font-bold">How to structure your business for MAXIMUM tax advantages</p>
+              </div>
+              
+              <div className="bg-gradient-to-br from-[#174a21] to-[#174a21]/80 text-white p-6 rounded-2xl transform hover:scale-105 transition-all duration-300 shadow-xl">
+                <div className="flex items-center gap-4 mb-3">
+                  <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
+                    <span className="text-black font-bold text-lg">4</span>
+                  </div>
+                  <div className="h-1 bg-yellow-400 flex-1 rounded"></div>
+                </div>
+                <p className="text-lg font-bold">What your accountant probably ISN'T telling you (this will shock you)</p>
+              </div>
+            </div>
+            
+            <div className="bg-gradient-to-br from-black to-gray-800 text-white p-6 rounded-2xl transform hover:scale-105 transition-all duration-300 shadow-xl mb-8">
+              <div className="flex items-center gap-4 mb-3">
+                <div className="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center">
+                  <span className="text-black font-bold text-lg">5</span>
+                </div>
+                <div className="h-1 bg-yellow-400 flex-1 rounded"></div>
+              </div>
+              <p className="text-lg font-bold">How to make the IRS work FOR YOU (yes, really!)</p>
+            </div>
+            
+            <div className="relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 rounded-2xl transform rotate-1"></div>
+              <div className="relative bg-black text-white p-8 rounded-2xl border-4 border-yellow-400">
+                <p className="text-2xl md:text-3xl font-black mb-6">
+                  Just REAL strategy that <span className="text-yellow-400">WORKS</span>.
+                </p>
+                
+                <a
+                  href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-yellow-400 text-black px-12 py-4 rounded-xl hover:bg-yellow-300 transition duration-300 text-2xl font-black shadow-lg hover:shadow-xl transform hover:scale-110"
+                >
+                  I WANT INCOME TODAY!
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
               You'll MASTER:
             </h4>
             
