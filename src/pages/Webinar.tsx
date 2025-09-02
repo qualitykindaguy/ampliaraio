@@ -168,54 +168,50 @@ function Webinar() {
               You'll MASTER:
             </h4>
             
-            <div className="bg-white rounded-2xl p-8 shadow-lg mb-8">
-              <div className="space-y-4 text-left max-w-3xl mx-auto">
-                <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg">
-                  <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white font-bold">✓</span>
-                  </div>
-                  <p className="text-lg md:text-xl text-gray-700 font-medium">How to LEGALLY slash your taxable income</p>
+            <div className="space-y-4 text-left max-w-3xl mx-auto mb-8">
+              <div className="flex items-start gap-4">
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white font-bold">✓</span>
                 </div>
-                <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg">
-                  <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white font-bold">✓</span>
-                  </div>
-                  <p className="text-lg md:text-xl text-gray-700 font-medium">How to turn everyday spending into POWERFUL deductions</p>
+                <p className="text-lg md:text-xl text-gray-700 font-medium">How to LEGALLY slash your taxable income</p>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white font-bold">✓</span>
                 </div>
-                <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg">
-                  <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white font-bold">✓</span>
-                  </div>
-                  <p className="text-lg md:text-xl text-gray-700 font-medium">How to structure your business for MAXIMUM tax advantages</p>
+                <p className="text-lg md:text-xl text-gray-700 font-medium">How to turn everyday spending into POWERFUL deductions</p>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white font-bold">✓</span>
                 </div>
-                <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg">
-                  <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white font-bold">✓</span>
-                  </div>
-                  <p className="text-lg md:text-xl text-gray-700 font-medium">What your accountant probably ISN'T telling you (this will shock you)</p>
+                <p className="text-lg md:text-xl text-gray-700 font-medium">How to structure your business for MAXIMUM tax advantages</p>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white font-bold">✓</span>
                 </div>
-                <div className="flex items-start gap-4 p-4 bg-gray-50 rounded-lg">
-                  <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-white font-bold">✓</span>
-                  </div>
-                  <p className="text-lg md:text-xl text-gray-700 font-medium">How to make the IRS work FOR YOU (yes, really!)</p>
+                <p className="text-lg md:text-xl text-gray-700 font-medium">What your accountant probably ISN'T telling you (this will shock you)</p>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white font-bold">✓</span>
                 </div>
+                <p className="text-lg md:text-xl text-gray-700 font-medium">How to make the IRS work FOR YOU (yes, really!)</p>
               </div>
             </div>
             
-            <div className="bg-gradient-to-r from-[#174a21] to-[#174a21]/90 text-white p-8 rounded-2xl shadow-xl">
-              <p className="text-lg md:text-xl text-white font-bold">Just REAL strategy that WORKS.</p>
+            <p className="text-lg md:text-xl text-gray-700 font-bold mb-8">Just REAL strategy that WORKS.</p>
               
-              <div className="mt-8">
-                <a
-                  href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-white text-[#174a21] px-10 py-4 rounded-xl hover:bg-gray-100 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
-                >
-                  I WANT INCOME TODAY!
-                </a>
-              </div>
+            <div className="text-center">
+              <a
+                href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-[#174a21] text-white px-10 py-4 rounded-xl hover:bg-[#174a21]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+              >
+                I WANT INCOME TODAY!
+              </a>
             </div>
           </div>
         </div>
