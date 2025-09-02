@@ -47,7 +47,7 @@ function Webinar() {
                   <p className="text-white/90 text-sm">Mark your calendar now!</p>
                 </div>
                 <p className="text-lg mb-2">This isn't just another webinar...</p>
-                <p className="text-xl font-bold mb-6">It's the most <span className="text-yellow-600">PROFITABLE</span> hour of your month!</p>
+                <p className="text-xl font-bold mb-6">It's the most <span className="text-[#174a21]">PROFITABLE</span> hour of your month!</p>
                 <a
                   href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
                   target="_blank"
