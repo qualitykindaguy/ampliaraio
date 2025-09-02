@@ -81,7 +81,7 @@ function Webinar() {
       <section className="py-16 px-4 bg-black text-white">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-3xl md:text-5xl font-black text-white mb-8">
+            <h3 className="text-3xl md:text-5xl font-black text-[#996516] mb-8">
               What You'll Learn When You Sign Up
             </h3>
             
@@ -93,38 +93,38 @@ function Webinar() {
               And chances are, you're paying WAY too much without even realizing it.
             </p>
             
-            <p className="text-lg md:text-xl text-yellow-600 mb-12 font-bold">
+            <p className="text-lg md:text-xl text-white mb-12 font-bold">
               Here's what you'll DISCOVER inside this game-changing session:
             </p>
             
             <div className="space-y-6 text-left max-w-3xl mx-auto">
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white font-bold">✓</span>
+                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-[#174a21] font-bold">✓</span>
                 </div>
                 <p className="text-lg md:text-xl text-white">You're unknowingly DONATING thousands to the IRS (and how to STOP it)</p>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white font-bold">✓</span>
+                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-[#174a21] font-bold">✓</span>
                 </div>
                 <p className="text-lg md:text-xl text-white">The tax code has CHANGED — your strategy hasn't (this is COSTING you)</p>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white font-bold">✓</span>
+                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-[#174a21] font-bold">✓</span>
                 </div>
                 <p className="text-lg md:text-xl text-white">Your business should be building WEALTH, not just covering bills</p>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white font-bold">✓</span>
+                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-[#174a21] font-bold">✓</span>
                 </div>
                 <p className="text-lg md:text-xl text-white">HIDDEN tax loopholes exist — and we'll show you EXACTLY where to find them</p>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white font-bold">✓</span>
+                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-[#174a21] font-bold">✓</span>
                 </div>
                 <p className="text-lg md:text-xl text-white">Wealth isn't built on hustle or hope — it's built on SMART strategy</p>
               </div>
@@ -135,7 +135,7 @@ function Webinar() {
                 href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-[#174a21] text-white px-10 py-4 rounded-xl hover:bg-[#174a21]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+                className="inline-block bg-white text-[#174a21] px-10 py-4 rounded-xl hover:bg-gray-100 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
               >
                 I'm ready to SAVE on Taxes
               </a>
