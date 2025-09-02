@@ -204,7 +204,7 @@ function Webinar() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-16 px-4 bg-black text-white">
+      <section className="py-16 px-4 bg-[#996516] text-white">
         <div className="container mx-auto text-center">
           <h3 className="text-3xl md:text-4xl font-black text-white mb-12">
             How Our Webinars & Programs Have Impacted the Attendees
