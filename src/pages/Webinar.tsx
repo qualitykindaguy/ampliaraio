@@ -67,6 +67,10 @@ function Webinar() {
                   src={sainteNew}
                   alt="Sainte Billings, CPA"
                   className="w-full h-auto rounded-lg"
+                  style={{
+                    maskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)',
+                    WebkitMaskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)'
+                  }}
                   width="400"
                   height="500"
                 />
