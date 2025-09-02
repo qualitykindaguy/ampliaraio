@@ -290,27 +290,6 @@ function Webinar() {
         </div>
       </section>
 
-      {/* P.S. Section */}
-      <section className="py-16 px-4 bg-black">
-        <div className="container mx-auto max-w-4xl">
-          <div className="bg-gray-900 p-8 rounded-2xl border border-gray-700">
-            <h4 className="text-xl md:text-2xl font-bold text-[#174a21] mb-6">P.S.</h4>
-            
-            <p className="text-lg md:text-xl text-white mb-4">
-              This is your monthly financial POWER hour.
-            </p>
-            
-            <p className="text-lg md:text-xl text-white mb-4">
-              NO fluff, NO filler, NO confusing tax talk.
-            </p>
-            
-            <p className="text-lg md:text-xl text-white">
-              Just REAL strategy you can apply IMMEDIATELY to keep more, grow more, and finally get in the financial driver's seat.
-            </p>
-          </div>
-        </div>
-      </section>
-
       <FooterSection />
       
     </div>
