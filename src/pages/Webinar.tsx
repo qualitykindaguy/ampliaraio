@@ -274,25 +274,25 @@ function Webinar() {
             <h4 className="text-2xl font-bold text-[#174a21] mb-8">What You'll Get:</h4>
             <div className="space-y-4 max-w-2xl mx-auto">
               <div className="flex items-start gap-4">
-                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
                   <span className="text-white text-sm font-bold">✓</span>
                 </div>
                 <span className="text-lg text-gray-700 font-medium">Tax reduction strategies</span>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
                   <span className="text-white text-sm font-bold">✓</span>
                 </div>
                 <span className="text-lg text-gray-700 font-medium">Business structure optimization</span>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
                   <span className="text-white text-sm font-bold">✓</span>
                 </div>
                 <span className="text-lg text-gray-700 font-medium">Wealth building techniques</span>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
                   <span className="text-white text-sm font-bold">✓</span>
                 </div>
                 <span className="text-lg text-gray-700 font-medium">Live Q&A session</span>
