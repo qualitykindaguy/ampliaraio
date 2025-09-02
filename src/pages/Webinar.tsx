@@ -70,6 +70,12 @@ function Webinar() {
                   width="400"
                   height="500"
                 />
+                {/* Name tag below image */}
+                <div className="mt-4 text-center">
+                  <div className="inline-block bg-white px-6 py-3 rounded-xl shadow-lg border-2 border-[#996516]">
+                    <p className="text-lg font-bold text-[#174a21]">Sainte Billings, CPA</p>
+                  </div>
+                </div>
                 {/* Gradient overlay for smooth transition */}
                 <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-white to-transparent rounded-b-lg"></div>
               </div>
