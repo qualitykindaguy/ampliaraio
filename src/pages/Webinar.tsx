@@ -249,9 +249,9 @@ function Webinar() {
             href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-[#174a21] text-white px-10 py-4 rounded-xl hover:bg-[#174a21]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+            className="inline-block bg-white text-[#174a21] px-10 py-4 rounded-xl hover:bg-gray-100 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
           >
-            Join the Impact
+            JOIN THE IMPACT
           </a>
         </div>
       </section>
