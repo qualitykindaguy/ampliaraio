@@ -9,58 +9,16 @@ function Webinar() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-4 bg-gray-50">
+      <section className="pt-24 pb-0 bg-white">
         <div className="container mx-auto text-center">
-          {/* FREE WEBINAR Badge */}
-          <div className="inline-block bg-[#D4AF37] text-black px-8 py-3 rounded-full font-bold text-lg mb-8">
-            FREE LIVE WEBINAR
-          </div>
-          
-          {/* Date Badge */}
-          <div className="bg-white text-black px-16 py-8 rounded-2xl shadow-lg mb-12 max-w-md mx-auto transform hover:scale-105 transition-transform duration-300">
-            <div className="text-5xl md:text-6xl font-black mb-2">
-              SEPTEMBER 24
-            </div>
-            <div className="text-3xl md:text-4xl font-bold text-gray-700">
-              2025
-            </div>
-            <div className="text-lg font-semibold text-gray-600 mt-2">
-              MARK YOUR CALENDAR
-            </div>
-          </div>
-          
-          {/* Main Title */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-black mb-4 leading-tight">
-            MOMENTUM
-          </h1>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-[#D4AF37] mb-8 leading-tight">
-            ON REPEAT
-          </h1>
-          
-          {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-black max-w-4xl mx-auto mb-8 leading-relaxed font-medium">
-            Because ONE tax season win isn't enough!
-          </p>
-          
-          <p className="text-lg md:text-xl text-gray-700 max-w-4xl mx-auto mb-12 leading-relaxed">
-            This is your MONTHLY money strategy reset — your recurring chance to align your finances, 
-            refine your goals, and build REAL wealth... ON PURPOSE.
-          </p>
-        </div>
-        
-        {/* Hero Image */}
-        <div className="relative max-w-2xl mx-auto">
+          {/* Hero Image */}
           <img
             src={sainteNew}
             alt="Sainte Billings, CPA"
-            className="w-full rounded-2xl shadow-xl"
-            width="600"
-            height="450"
+            className="w-full h-auto"
+            width="800"
+            height="600"
           />
-          {/* Name Badge Overlay */}
-          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-[#D4AF37] text-black px-6 py-3 font-bold text-lg rounded-lg shadow-lg">
-            Sainte Billings, Certified Public Accountant
-          </div>
         </div>
       </section>
 
