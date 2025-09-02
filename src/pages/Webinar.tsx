@@ -77,8 +77,6 @@ function Webinar() {
                     <div className="w-full h-1 bg-white/30 rounded-full mt-2"></div>
                   </div>
                 </div>
-                {/* Gradient overlay for smooth transition */}
-                <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-white to-transparent rounded-b-lg"></div>
               </div>
             </div>
           </div>
