@@ -272,30 +272,30 @@ function Webinar() {
           
           <div className="mb-12">
             <h4 className="text-2xl font-bold text-[#174a21] mb-8">What You'll Get:</h4>
-            <div className="space-y-4 max-w-2xl mx-auto">
-              <div className="flex items-center justify-center gap-3">
-                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+              <div className="flex items-center gap-4 bg-white/50 p-4 rounded-xl">
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
                   <span className="text-white text-sm font-bold">✓</span>
                 </div>
-                <span className="text-lg text-gray-700">Tax reduction strategies</span>
+                <span className="text-lg text-gray-700 font-medium">Tax reduction strategies</span>
               </div>
-              <div className="flex items-center justify-center gap-3">
-                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="flex items-center gap-4 bg-white/50 p-4 rounded-xl">
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
                   <span className="text-white text-sm font-bold">✓</span>
                 </div>
-                <span className="text-lg text-gray-700">Business structure optimization</span>
+                <span className="text-lg text-gray-700 font-medium">Business structure optimization</span>
               </div>
-              <div className="flex items-center justify-center gap-3">
-                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="flex items-center gap-4 bg-white/50 p-4 rounded-xl">
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
                   <span className="text-white text-sm font-bold">✓</span>
                 </div>
-                <span className="text-lg text-gray-700">Wealth building techniques</span>
+                <span className="text-lg text-gray-700 font-medium">Wealth building techniques</span>
               </div>
-              <div className="flex items-center justify-center gap-3">
-                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
+              <div className="flex items-center gap-4 bg-white/50 p-4 rounded-xl">
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
                   <span className="text-white text-sm font-bold">✓</span>
                 </div>
-                <span className="text-lg text-gray-700">Live Q&A session</span>
+                <span className="text-lg text-gray-700 font-medium">Live Q&A session</span>
               </div>
             </div>
           </div>
