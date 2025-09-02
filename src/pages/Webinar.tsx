@@ -268,6 +268,7 @@ function Webinar() {
               <p className="text-4xl font-bold text-[#174a21] mb-2">September 24, 2025</p>
               <p className="text-gray-600 text-lg">Mark your calendar now!</p>
             </div>
+          </div>
           
           <div className="mb-12">
             <h4 className="text-2xl font-bold text-[#174a21] mb-8">What You'll Get:</h4>
@@ -322,7 +323,6 @@ function Webinar() {
               Limited seats available • 100% Free • No obligation
             </p>
           </div>
-          </div>
         </div>
       </section>
 
@@ -354,5 +354,3 @@ function Webinar() {
 }
 
 export default Webinar;
-  )
-}
