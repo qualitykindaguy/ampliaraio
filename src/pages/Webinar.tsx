@@ -95,7 +95,7 @@ function Webinar() {
               And chances are, you're paying WAY too much without even realizing it.
             </p>
             
-            <p className="text-lg md:text-xl text-[#174a21] mb-12 font-bold">
+            <p className="text-lg md:text-xl text-yellow-600 mb-12 font-bold">
               Here's what you'll DISCOVER inside this game-changing session:
             </p>
             
