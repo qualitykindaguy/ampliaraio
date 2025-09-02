@@ -99,32 +99,32 @@ function Webinar() {
             
             <div className="space-y-6 text-left max-w-3xl mx-auto">
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-[#174a21] font-bold">✓</span>
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white font-bold">✓</span>
                 </div>
                 <p className="text-lg md:text-xl text-white">You're unknowingly DONATING thousands to the IRS (and how to STOP it)</p>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-[#174a21] font-bold">✓</span>
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white font-bold">✓</span>
                 </div>
                 <p className="text-lg md:text-xl text-white">The tax code has CHANGED — your strategy hasn't (this is COSTING you)</p>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-[#174a21] font-bold">✓</span>
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white font-bold">✓</span>
                 </div>
                 <p className="text-lg md:text-xl text-white">Your business should be building WEALTH, not just covering bills</p>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-[#174a21] font-bold">✓</span>
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white font-bold">✓</span>
                 </div>
                 <p className="text-lg md:text-xl text-white">HIDDEN tax loopholes exist — and we'll show you EXACTLY where to find them</p>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-[#174a21] font-bold">✓</span>
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white font-bold">✓</span>
                 </div>
                 <p className="text-lg md:text-xl text-white">Wealth isn't built on hustle or hope — it's built on SMART strategy</p>
               </div>
