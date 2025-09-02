@@ -9,37 +9,33 @@ function Webinar() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-12 px-4 bg-white">
-        <div className="container mx-auto">
-          <div className="text-center mb-8">
-            {/* Header */}
-            <h1 className="text-3xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight text-black">
-              FROM LIMITATIONS TO LEVERAGE:
-              <span className="block text-[#174a21] mt-2">THE HIGH-INCOME EDGE</span>
-            </h1>
-            
-            <div className="flex items-center justify-center gap-4 mb-6">
-              <div className="flex items-center gap-2 text-[#174a21]">
-                <span className="text-2xl">»»»</span>
-                <span className="text-xl font-semibold tracking-wider">LIVE WEBINAR</span>
-                <span className="text-2xl">«««</span>
-              </div>
+      <section className="pt-32 pb-16 px-4 bg-white">
+        <div className="container mx-auto text-center">
+          {/* Header */}
+          <h1 className="text-4xl md:text-6xl font-black mb-8 leading-tight text-black">
+            FROM LIMITATIONS TO LEVERAGE:
+            <span className="block text-[#174a21] mt-2">THE HIGH-INCOME EDGE</span>
+          </h1>
+          
+          <div className="flex items-center justify-center gap-4 mb-8">
+            <div className="flex items-center gap-2 text-[#174a21]">
+              <span className="text-2xl">»»»</span>
+              <span className="text-xl font-semibold tracking-wider">LIVE WEBINAR</span>
+              <span className="text-2xl">«««</span>
             </div>
           </div>
           
-          {/* Hero Image - Bigger and lower */}
-          <div className="flex justify-center">
-            <div className="relative w-full max-w-md">
-              <img
-                src={sainteNew}
-                alt="Sainte Billings, CPA"
-                className="w-full h-auto rounded-lg"
-                width="400"
-                height="500"
-              />
-              {/* Gradient overlay for smooth transition */}
-              <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent rounded-b-lg"></div>
-            </div>
+          {/* Hero Image - Smaller */}
+          <div className="relative w-full max-w-md mx-auto">
+            <img
+              src={sainteNew}
+              alt="Sainte Billings, CPA"
+              className="w-full h-auto rounded-lg"
+              width="400"
+              height="500"
+            />
+            {/* Gradient overlay for smooth transition */}
+            <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-white to-transparent rounded-b-lg"></div>
           </div>
         </div>
       </section>
@@ -47,12 +43,12 @@ function Webinar() {
       {/* Registration Section */}
       <section className="py-8 px-4 bg-white">
         <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl md:text-6xl font-black leading-tight text-black mb-8 text-left">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl md:text-6xl font-black leading-tight text-black mb-8">
               The tax game has <span className="text-[#174a21]">CHANGED</span>
             </h2>
             
-            <div className="space-y-6 mb-12 text-center">
+            <div className="space-y-6 mb-12">
               <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
                 And if you're still playing by the old rules, you're not just behind — you're <strong>UNDERBUILDING</strong>.
               </p>
@@ -325,6 +321,27 @@ function Webinar() {
             </a>
             <p className="text-sm text-gray-500 mt-4">
               Limited seats available • 100% Free • No obligation
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* P.S. Section */}
+      <section className="py-16 px-4 bg-black">
+        <div className="container mx-auto max-w-4xl">
+          <div className="bg-gray-900 p-8 rounded-2xl border border-gray-700">
+            <h4 className="text-xl md:text-2xl font-bold text-[#174a21] mb-6">P.S.</h4>
+            
+            <p className="text-lg md:text-xl text-white mb-4">
+              This is your monthly financial POWER hour.
+            </p>
+            
+            <p className="text-lg md:text-xl text-white mb-4">
+              NO fluff, NO filler, NO confusing tax talk.
+            </p>
+            
+            <p className="text-lg md:text-xl text-white">
+              Just REAL strategy you can apply IMMEDIATELY to keep more, grow more, and finally get in the financial driver's seat.
             </p>
           </div>
         </div>
