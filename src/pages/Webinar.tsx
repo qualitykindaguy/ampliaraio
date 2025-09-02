@@ -243,6 +243,17 @@ function Webinar() {
             </div>
           </div>
         </div>
+        
+        <div className="text-center mt-12">
+          <a
+            href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#174a21] text-white px-10 py-4 rounded-xl hover:bg-[#174a21]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+          >
+            Join the Impact
+          </a>
+        </div>
       </section>
 
       {/* Final CTA Section */}
