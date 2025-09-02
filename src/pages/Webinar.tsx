@@ -200,8 +200,6 @@ function Webinar() {
                 <p className="text-lg md:text-xl text-gray-700 font-medium">How to make the IRS work FOR YOU (yes, really!)</p>
               </div>
             </div>
-            
-            <p className="text-lg md:text-xl text-gray-700 font-bold mb-8">Just REAL strategy that WORKS.</p>
               
             <div className="text-center">
               <a
