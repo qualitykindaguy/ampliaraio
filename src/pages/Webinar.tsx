@@ -14,7 +14,7 @@ function Webinar() {
           {/* Centered Header */}
           <h1 className="text-4xl md:text-6xl font-black mb-8 leading-tight text-black">
             FROM LIMITATIONS TO LEVERAGE:
-            <span className="block text-[#174a21] mt-2">THE HIGH-INCOME EDGE</span>
+            <span className="block text-[#996516] mt-2">THE HIGH-INCOME EDGE</span>
           </h1>
           
           <div className="mb-12"></div>
