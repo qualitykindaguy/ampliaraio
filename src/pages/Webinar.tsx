@@ -262,16 +262,17 @@ function Webinar() {
             Don't Miss Out!
           </h3>
           
+          <div className="mb-8">
+            <p className="text-2xl md:text-3xl font-bold text-[#174a21] italic">
+              Wealth doesn't wait. <span className="text-[#996516]">Neither should YOU.</span>
+            </p>
+          </div>
+          
           <div className="mb-12">
             <div className="bg-[#174a21]/10 p-8 rounded-2xl mb-8 max-w-md mx-auto">
               <p className="text-4xl font-bold text-[#174a21] mb-2">September 24, 2025</p>
               <p className="text-gray-600 text-lg">Mark your calendar now!</p>
             </div>
-          </div>
-          
-          <div className="mb-8">
-            <p className="text-xl md:text-2xl text-gray-700 mb-2 font-semibold">Wealth doesn't wait.</p>
-            <p className="text-xl md:text-2xl text-gray-700 mb-8 font-semibold">Neither should YOU.</p>
           </div>
           
           <div className="text-center">
