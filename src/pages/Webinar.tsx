@@ -154,16 +154,6 @@ function Webinar() {
               Turn Insight Into INCOME
             </h3>
             
-            <div className="bg-white rounded-2xl p-8 shadow-lg mb-8">
-              <p className="text-xl md:text-2xl text-gray-700 mb-4 font-medium">
-                This isn't some basic "tax tips" webinar.
-              </p>
-            
-              <p className="text-xl md:text-2xl text-gray-700 font-medium">
-                It's REAL, tactical training from strategies we use to help business owners save 5-6 figures a year.
-              </p>
-            </div>
-            
             <h4 className="text-2xl md:text-3xl font-bold text-[#174a21] mb-8">
               You'll MASTER:
             </h4>
