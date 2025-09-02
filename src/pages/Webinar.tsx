@@ -230,7 +230,7 @@ function Webinar() {
             <div className="bg-[#174a21] text-white p-8 rounded-2xl shadow-lg">
               <div className="flex items-start gap-4">
                 <img
-                  src="https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg"
+                  src="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg"
                   alt="Testimonial"
                   className="w-16 h-16 rounded-full object-cover flex-shrink-0"
                 />
