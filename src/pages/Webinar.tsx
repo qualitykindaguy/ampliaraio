@@ -17,6 +17,8 @@ function Webinar() {
             <span className="block text-[#174a21] mt-2">THE HIGH-INCOME EDGE</span>
           </h1>
           
+          <div className="mb-12"></div>
+          
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Left Column - Content */}
             <div className="text-center lg:text-left">
