@@ -29,11 +29,11 @@ function Webinar() {
                 </h2>
                 
                 <div className="space-y-4">
-                  <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-                    And if you're still playing by the old rules, you're not just behind — you're <strong>UNDERBUILDING</strong>.
+                  <p className="text-lg md:text-xl text-black leading-relaxed">
+                    And if you're still playing by the old rules, you're not just behind — you're <strong>BLEEDING</strong>.
                   </p>
                   
-                  <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
+                  <p className="text-lg md:text-xl text-black leading-relaxed">
                     Every month you wait is another month of <strong>MISSED strategy</strong>, <strong>WASTED dollars</strong>, and <strong>COMPOUNDING regret</strong>.
                   </p>
                 </div>
