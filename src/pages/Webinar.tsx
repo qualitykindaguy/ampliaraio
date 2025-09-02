@@ -43,7 +43,7 @@ function Webinar() {
             {/* Left Side - Content */}
             <div className="space-y-8">
               <h2 className="text-3xl md:text-5xl font-black leading-tight text-black">
-                The tax game has <span className="text-[#D4AF37]">CHANGED</span>
+                The tax game has <span className="text-[#174a21]">CHANGED</span>
               </h2>
               
               <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
@@ -63,7 +63,7 @@ function Webinar() {
                   href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-[#D4AF37] text-black px-8 py-4 rounded-xl hover:bg-[#B8941F] transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+                  className="inline-block bg-[#174a21] text-white px-8 py-4 rounded-xl hover:bg-[#174a21]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
                 >
                   REGISTER NOW!
                 </a>
@@ -98,7 +98,7 @@ function Webinar() {
                   href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-[#D4AF37] text-black px-10 py-4 rounded-xl hover:bg-[#B8941F] transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105 w-full"
+                  className="inline-block bg-[#174a21] text-white px-10 py-4 rounded-xl hover:bg-[#174a21]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105 w-full"
                 >
                   SECURE YOUR SPOT NOW!
                 </a>
@@ -127,38 +127,38 @@ function Webinar() {
               And chances are, you're paying WAY too much without even realizing it.
             </p>
             
-            <p className="text-lg md:text-xl text-[#D4AF37] mb-12 font-bold">
+            <p className="text-lg md:text-xl text-[#174a21] mb-12 font-bold">
               Here's what you'll DISCOVER inside this game-changing session:
             </p>
             
             <div className="space-y-6 text-left max-w-3xl mx-auto">
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#D4AF37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-black font-bold">✓</span>
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white font-bold">✓</span>
                 </div>
                 <p className="text-lg md:text-xl text-white">You're unknowingly DONATING thousands to the IRS (and how to STOP it)</p>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#D4AF37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-black font-bold">✓</span>
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white font-bold">✓</span>
                 </div>
                 <p className="text-lg md:text-xl text-white">The tax code has CHANGED — your strategy hasn't (this is COSTING you)</p>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#D4AF37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-black font-bold">✓</span>
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white font-bold">✓</span>
                 </div>
                 <p className="text-lg md:text-xl text-white">Your business should be building WEALTH, not just covering bills</p>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#D4AF37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-black font-bold">✓</span>
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white font-bold">✓</span>
                 </div>
                 <p className="text-lg md:text-xl text-white">HIDDEN tax loopholes exist — and we'll show you EXACTLY where to find them</p>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#D4AF37] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-black font-bold">✓</span>
+                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                  <span className="text-white font-bold">✓</span>
                 </div>
                 <p className="text-lg md:text-xl text-white">Wealth isn't built on hustle or hope — it's built on SMART strategy</p>
               </div>
@@ -236,7 +236,7 @@ function Webinar() {
                   href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-[#D4AF37] text-black px-8 py-3 rounded-xl hover:bg-[#B8941F] transition duration-300 text-lg font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+                  className="inline-block bg-[#174a21] text-white px-8 py-3 rounded-xl hover:bg-[#174a21]/90 transition duration-300 text-lg font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
                 >
                   REGISTER FOR FREE!
                 </a>
@@ -249,11 +249,11 @@ function Webinar() {
       {/* Testimonials Section */}
       <section className="py-16 px-4 bg-black text-white">
         <div className="container mx-auto text-center">
-          <h3 className="text-3xl md:text-4xl font-black text-[#D4AF37] mb-12">
+          <h3 className="text-3xl md:text-4xl font-black text-[#174a21] mb-12">
             How Our Webinars & Programs Have Impacted the Attendees
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            <div className="bg-[#D4AF37] text-black p-8 rounded-2xl shadow-lg">
+            <div className="bg-[#174a21] text-white p-8 rounded-2xl shadow-lg">
               <div className="flex items-start gap-4">
                 <img
                   src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg"
@@ -268,7 +268,7 @@ function Webinar() {
               </div>
             </div>
             
-            <div className="bg-[#D4AF37] text-black p-8 rounded-2xl shadow-lg">
+            <div className="bg-[#174a21] text-white p-8 rounded-2xl shadow-lg">
               <div className="flex items-start gap-4">
                 <img
                   src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg"
@@ -300,7 +300,7 @@ function Webinar() {
             href="https://api.taxnitro.com/widget/form/gASBGaRIppZUg8vyLPDW"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-[#D4AF37] text-black px-12 py-4 rounded-2xl hover:bg-[#B8941F] transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+            className="inline-block bg-[#174a21] text-white px-12 py-4 rounded-2xl hover:bg-[#174a21]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
           >
             REGISTER NOW!
           </a>
@@ -311,7 +311,7 @@ function Webinar() {
       <section className="py-16 px-4 bg-black">
         <div className="container mx-auto max-w-4xl">
           <div className="bg-gray-900 p-8 rounded-2xl border border-gray-700">
-            <h4 className="text-xl md:text-2xl font-bold text-[#D4AF37] mb-6">P.S.</h4>
+            <h4 className="text-xl md:text-2xl font-bold text-[#174a21] mb-6">P.S.</h4>
             
             <p className="text-lg md:text-xl text-white mb-4">
               This is your monthly financial POWER hour.
