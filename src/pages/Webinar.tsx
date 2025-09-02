@@ -259,70 +259,71 @@ function Webinar() {
       {/* Final CTA Section */}
       <section className="py-16 px-4 bg-gray-50">
         <div className="container mx-auto max-w-4xl text-center">
-          <div className="bg-white rounded-3xl p-12 shadow-xl border border-gray-200">
-            <h3 className="text-4xl md:text-5xl font-black text-black mb-8">
-              Don't Miss Out!
-            </h3>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-              <div className="text-left">
-                <h4 className="text-2xl font-bold text-[#174a21] mb-4">What You'll Get:</h4>
-                <ul className="space-y-3 text-lg text-gray-700">
-                  <li className="flex items-center gap-3">
-                    <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-white text-sm font-bold">✓</span>
-                    </div>
-                    Tax reduction strategies
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-white text-sm font-bold">✓</span>
-                    </div>
-                    Business structure optimization
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-white text-sm font-bold">✓</span>
-                    </div>
-                    Wealth building techniques
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-white text-sm font-bold">✓</span>
-                    </div>
-                    Live Q&A session
-                  </li>
-                </ul>
-              </div>
-              
-              <div className="text-center md:text-left">
-                <div className="bg-[#174a21]/10 p-6 rounded-2xl mb-6">
-                  <p className="text-3xl font-bold text-[#174a21] mb-2">September 24, 2025</p>
-                  <p className="text-gray-600">Mark your calendar now!</p>
+          <h3 className="text-4xl md:text-5xl font-black text-black mb-12">
+            Don't Miss Out!
+          </h3>
+          
+          <div className="mb-12">
+            <div className="bg-[#174a21]/10 p-8 rounded-2xl mb-8 max-w-md mx-auto">
+              <p className="text-4xl font-bold text-[#174a21] mb-2">September 24, 2025</p>
+              <p className="text-gray-600 text-lg">Mark your calendar now!</p>
+            </div>
+          </div>
+          
+          <div className="mb-12">
+            <h4 className="text-2xl font-bold text-[#174a21] mb-8">What You'll Get:</h4>
+            <div className="space-y-4 max-w-2xl mx-auto">
+              <div className="flex items-center justify-center gap-3">
+                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
+                  <span className="text-white text-sm font-bold">✓</span>
                 </div>
-                <p className="text-lg text-gray-700 mb-4">
-                  This webinar will reveal the exact strategies we use to help business owners save 
-                  5-6 figures annually in taxes.
-                </p>
+                <span className="text-lg text-gray-700">Tax reduction strategies</span>
+              </div>
+              <div className="flex items-center justify-center gap-3">
+                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
+                  <span className="text-white text-sm font-bold">✓</span>
+                </div>
+                <span className="text-lg text-gray-700">Business structure optimization</span>
+              </div>
+              <div className="flex items-center justify-center gap-3">
+                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
+                  <span className="text-white text-sm font-bold">✓</span>
+                </div>
+                <span className="text-lg text-gray-700">Wealth building techniques</span>
+              </div>
+              <div className="flex items-center justify-center gap-3">
+                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
+                  <span className="text-white text-sm font-bold">✓</span>
+                </div>
+                <span className="text-lg text-gray-700">Live Q&A session</span>
               </div>
             </div>
-            
-            <div className="text-center">
-              <p className="text-xl md:text-2xl text-gray-700 mb-2 font-semibold">Wealth doesn't wait.</p>
-              <p className="text-xl md:text-2xl text-gray-700 mb-8 font-semibold">Neither should YOU.</p>
-              
-              <a
-                href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-[#174a21] text-white px-12 py-4 rounded-2xl hover:bg-[#174a21]/90 transition duration-300 text-2xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
-              >
-                CLAIM YOUR SEAT NOW!
-              </a>
-              <p className="text-sm text-gray-500 mt-4">
-                Limited seats available • 100% Free • No obligation
-              </p>
-            </div>
+          </div>
+          
+          <div className="mb-12">
+            <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
+              This webinar will reveal the exact strategies we use to help business owners save 
+              5-6 figures annually in taxes.
+            </p>
+          </div>
+          
+          <div className="mb-8">
+            <p className="text-xl md:text-2xl text-gray-700 mb-2 font-semibold">Wealth doesn't wait.</p>
+            <p className="text-xl md:text-2xl text-gray-700 mb-8 font-semibold">Neither should YOU.</p>
+          </div>
+          
+          <div className="text-center">
+            <a
+              href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#174a21] text-white px-12 py-4 rounded-2xl hover:bg-[#174a21]/90 transition duration-300 text-2xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+            >
+              CLAIM YOUR SEAT NOW!
+            </a>
+            <p className="text-sm text-gray-500 mt-4">
+              Limited seats available • 100% Free • No obligation
+            </p>
           </div>
         </div>
       </section>
