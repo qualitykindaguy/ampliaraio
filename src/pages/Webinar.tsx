@@ -268,41 +268,6 @@ function Webinar() {
             </div>
           </div>
           
-          <div className="mb-12">
-            <h4 className="text-2xl font-bold text-[#174a21] mb-8">What You'll Get:</h4>
-            <div className="space-y-4 max-w-2xl mx-auto mb-12 text-left">
-              <div className="flex items-start gap-4">
-                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-white text-sm font-bold">✓</span>
-                </div>
-                <span className="text-lg text-gray-700 font-medium">Tax reduction strategies</span>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-white text-sm font-bold">✓</span>
-                </div>
-                <span className="text-lg text-gray-700 font-medium">Business structure optimization</span>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-white text-sm font-bold">✓</span>
-                </div>
-                <span className="text-lg text-gray-700 font-medium">Wealth building techniques</span>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="w-6 h-6 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-white text-sm font-bold">✓</span>
-                </div>
-                <span className="text-lg text-gray-700 font-medium">Live Q&A session</span>
-              </div>
-            </div>
-            
-            <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
-              This webinar will reveal the exact strategies we use to help business owners save 
-              5-6 figures annually in taxes.
-            </p>
-          </div>
-          
           <div className="mb-8">
             <p className="text-xl md:text-2xl text-gray-700 mb-2 font-semibold">Wealth doesn't wait.</p>
             <p className="text-xl md:text-2xl text-gray-700 mb-8 font-semibold">Neither should YOU.</p>
