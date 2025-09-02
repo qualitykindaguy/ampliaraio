@@ -210,7 +210,7 @@ function Webinar() {
             How Our Webinars & Programs Have Impacted the Attendees
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            <div className="bg-[#174a21] text-white p-8 rounded-2xl shadow-lg">
+            <div className="bg-white text-[#174a21] p-8 rounded-2xl shadow-lg">
               <div className="flex items-start gap-4">
                 <img
                   src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
@@ -225,7 +225,7 @@ function Webinar() {
               </div>
             </div>
             
-            <div className="bg-[#174a21] text-white p-8 rounded-2xl shadow-lg">
+            <div className="bg-white text-[#174a21] p-8 rounded-2xl shadow-lg">
               <div className="flex items-start gap-4">
                 <img
                   src="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg"
