@@ -11,15 +11,15 @@ function Webinar() {
       {/* Hero Section */}
       <section className="pt-32 pb-16 px-4 bg-white">
         <div className="container mx-auto text-center">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* Centered Header */}
+          <h1 className="text-4xl md:text-6xl font-black mb-8 leading-tight text-black">
+            FROM LIMITATIONS TO LEVERAGE:
+            <span className="block text-[#174a21] mt-2">THE HIGH-INCOME EDGE</span>
+          </h1>
+          
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             {/* Left Column - Content */}
             <div className="text-center lg:text-left">
-              {/* Header */}
-              <h1 className="text-4xl md:text-6xl font-black mb-8 leading-tight text-black">
-                FROM LIMITATIONS TO LEVERAGE:
-                <span className="block text-[#174a21] mt-2">THE HIGH-INCOME EDGE</span>
-              </h1>
-              
               <div className="flex items-center justify-center lg:justify-start gap-4 mb-8">
                 <div className="flex items-center gap-2 text-[#174a21]">
                   <span className="text-2xl">»»»</span>
