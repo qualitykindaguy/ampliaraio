@@ -204,11 +204,6 @@ function Webinar() {
             </div>
             
             <div className="bg-gradient-to-r from-[#174a21] to-[#174a21]/90 text-white p-8 rounded-2xl shadow-xl">
-              <p className="text-lg md:text-xl text-white mb-4 font-medium">
-                And YES — if you want our help to create your own CUSTOM plan, we'll tell you how at the end.
-              </p>
-              
-              <p className="text-lg md:text-xl text-white mb-2 font-medium">NO pressure.</p>
               <p className="text-lg md:text-xl text-white font-bold">Just REAL strategy that WORKS.</p>
               
               <div className="mt-8">
