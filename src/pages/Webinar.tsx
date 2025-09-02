@@ -78,10 +78,10 @@ function Webinar() {
       </section>
 
       {/* Why Attend Section */}
-      <section className="py-16 px-4 bg-black text-white">
+      <section className="py-16 px-4 bg-[#996516] text-white">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-3xl md:text-5xl font-black text-[#996516] mb-8">
+            <h3 className="text-3xl md:text-5xl font-black text-white mb-8">
               What You'll Learn When You Sign Up
             </h3>
             
