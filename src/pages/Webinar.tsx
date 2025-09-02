@@ -53,7 +53,7 @@ function Webinar() {
                   href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-white text-[#174a21] px-8 py-3 rounded-xl hover:bg-gray-100 transition duration-300 text-lg font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+                  className="inline-block bg-[#996516] text-white px-8 py-3 rounded-xl hover:bg-[#996516]/90 transition duration-300 text-lg font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
                 >
                   REGISTER NOW!
                 </a>
