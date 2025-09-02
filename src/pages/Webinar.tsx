@@ -9,15 +9,29 @@ function Webinar() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-0 bg-white">
+      <section className="pt-32 pb-16 px-4 bg-white">
         <div className="container mx-auto text-center">
-          {/* Hero Image */}
+          {/* Header */}
+          <h1 className="text-4xl md:text-6xl font-black mb-8 leading-tight text-black">
+            FROM LIMITATIONS TO LEVERAGE:
+            <span className="block text-[#174a21] mt-2">THE HIGH-INCOME EDGE</span>
+          </h1>
+          
+          <div className="flex items-center justify-center gap-4 mb-8">
+            <div className="flex items-center gap-2 text-[#174a21]">
+              <span className="text-2xl">»»»</span>
+              <span className="text-xl font-semibold tracking-wider">LIVE WEBINAR</span>
+              <span className="text-2xl">«««</span>
+            </div>
+          </div>
+          
+          {/* Hero Image - Smaller */}
           <img
             src={sainteNew}
             alt="Sainte Billings, CPA"
-            className="w-full h-auto"
-            width="800"
-            height="600"
+            className="w-full max-w-md mx-auto h-auto rounded-lg"
+            width="400"
+            height="500"
           />
         </div>
       </section>
