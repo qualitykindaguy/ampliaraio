@@ -26,18 +26,22 @@ function Webinar() {
           </div>
           
           {/* Hero Image - Smaller */}
-          <img
-            src={sainteNew}
-            alt="Sainte Billings, CPA"
-            className="w-full max-w-md mx-auto h-auto rounded-lg"
-            width="400"
-            height="500"
-          />
+          <div className="relative w-full max-w-md mx-auto">
+            <img
+              src={sainteNew}
+              alt="Sainte Billings, CPA"
+              className="w-full h-auto rounded-lg"
+              width="400"
+              height="500"
+            />
+            {/* Gradient overlay for smooth transition */}
+            <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-white to-transparent rounded-b-lg"></div>
+          </div>
         </div>
       </section>
 
       {/* Registration Section */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-8 px-4 bg-white">
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-6xl font-black leading-tight text-black mb-8">
