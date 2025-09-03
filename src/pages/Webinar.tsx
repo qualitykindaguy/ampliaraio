@@ -45,7 +45,27 @@ function Webinar() {
                 <p className="text-lg mb-4 text-white/90">To keep the money inside in your wallet!</p>
                 <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-3 mb-4 inline-block">
                   <p className="text-xl font-bold text-white">September 24, 2025</p>
-                  <p className="text-white/90 text-sm">Mark your calendar now!</p>
+                  <div className="mt-2">
+                    <p className="text-white/90 text-sm mb-2">Mark your calendar now!</p>
+                    <div className="flex flex-col sm:flex-row gap-2 justify-center">
+                      <a
+                        href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=From%20Limitations%20to%20Leverage%3A%20The%20High-Income%20Edge&dates=20250924T180000Z/20250924T190000Z&details=Join%20Sainte%20Billings%2C%20CPA%20for%20this%20game-changing%20webinar%20on%20tax%20strategies%20for%20high-income%20earners.%20Learn%20how%20to%20legally%20slash%20your%20taxable%20income%20and%20turn%20everyday%20spending%20into%20powerful%20deductions."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs bg-white/20 hover:bg-white/30 text-white px-3 py-1 rounded-lg transition duration-300"
+                      >
+                        + Google
+                      </a>
+                      <a
+                        href="https://outlook.live.com/calendar/0/deeplink/compose?subject=From%20Limitations%20to%20Leverage%3A%20The%20High-Income%20Edge&startdt=2025-09-24T18%3A00%3A00.000Z&enddt=2025-09-24T19%3A00%3A00.000Z&body=Join%20Sainte%20Billings%2C%20CPA%20for%20this%20game-changing%20webinar%20on%20tax%20strategies%20for%20high-income%20earners.%20Learn%20how%20to%20legally%20slash%20your%20taxable%20income%20and%20turn%20everyday%20spending%20into%20powerful%20deductions."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xs bg-white/20 hover:bg-white/30 text-white px-3 py-1 rounded-lg transition duration-300"
+                      >
+                        + Outlook
+                      </a>
+                    </div>
+                  </div>
                 </div>
                 <p className="text-lg mb-2">This isn't just another webinar...</p>
                 <p className="text-xl font-bold mb-6">It's the most <span className="text-[#996516]">PROFITABLE</span> hour of your month!</p>
@@ -280,7 +300,27 @@ function Webinar() {
           <div className="mb-12">
             <div className="bg-[#174a21]/10 p-8 rounded-2xl mb-8 max-w-md mx-auto">
               <p className="text-4xl font-bold text-[#174a21] mb-2">September 24, 2025</p>
-              <p className="text-gray-600 text-lg">Mark your calendar now!</p>
+              <div className="mt-2">
+                <p className="text-gray-600 text-lg mb-3">Mark your calendar now!</p>
+                <div className="flex flex-col sm:flex-row gap-2 justify-center">
+                  <a
+                    href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=From%20Limitations%20to%20Leverage%3A%20The%20High-Income%20Edge&dates=20250924T180000Z/20250924T190000Z&details=Join%20Sainte%20Billings%2C%20CPA%20for%20this%20game-changing%20webinar%20on%20tax%20strategies%20for%20high-income%20earners.%20Learn%20how%20to%20legally%20slash%20your%20taxable%20income%20and%20turn%20everyday%20spending%20into%20powerful%20deductions."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm bg-[#174a21]/20 hover:bg-[#174a21]/30 text-[#174a21] px-4 py-2 rounded-lg transition duration-300 font-semibold"
+                  >
+                    + Add to Google Calendar
+                  </a>
+                  <a
+                    href="https://outlook.live.com/calendar/0/deeplink/compose?subject=From%20Limitations%20to%20Leverage%3A%20The%20High-Income%20Edge&startdt=2025-09-24T18%3A00%3A00.000Z&enddt=2025-09-24T19%3A00%3A00.000Z&body=Join%20Sainte%20Billings%2C%20CPA%20for%20this%20game-changing%20webinar%20on%20tax%20strategies%20for%20high-income%20earners.%20Learn%20how%20to%20legally%20slash%20your%20taxable%20income%20and%20turn%20everyday%20spending%20into%20powerful%20deductions."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm bg-[#174a21]/20 hover:bg-[#174a21]/30 text-[#174a21] px-4 py-2 rounded-lg transition duration-300 font-semibold"
+                  >
+                    + Add to Outlook
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           
