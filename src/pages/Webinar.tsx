@@ -47,24 +47,6 @@ function Webinar() {
                   <p className="text-xl font-bold text-white">September 24, 2025</p>
                   <div className="mt-2">
                     <p className="text-white/90 text-sm mb-2">Mark your calendar now!</p>
-                    <div className="flex flex-col sm:flex-row gap-2 justify-center">
-                      <a
-                        href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=From%20Limitations%20to%20Leverage%3A%20The%20High-Income%20Edge&dates=20250924T180000Z/20250924T190000Z&details=Join%20Sainte%20Billings%2C%20CPA%20for%20this%20game-changing%20webinar%20on%20tax%20strategies%20for%20high-income%20earners.%20Learn%20how%20to%20legally%20slash%20your%20taxable%20income%20and%20turn%20everyday%20spending%20into%20powerful%20deductions."
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-xs bg-white/20 hover:bg-white/30 text-white px-3 py-1 rounded-lg transition duration-300"
-                      >
-                        + Google
-                      </a>
-                      <a
-                        href="https://outlook.live.com/calendar/0/deeplink/compose?subject=From%20Limitations%20to%20Leverage%3A%20The%20High-Income%20Edge&startdt=2025-09-24T18%3A00%3A00.000Z&enddt=2025-09-24T19%3A00%3A00.000Z&body=Join%20Sainte%20Billings%2C%20CPA%20for%20this%20game-changing%20webinar%20on%20tax%20strategies%20for%20high-income%20earners.%20Learn%20how%20to%20legally%20slash%20your%20taxable%20income%20and%20turn%20everyday%20spending%20into%20powerful%20deductions."
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-xs bg-white/20 hover:bg-white/30 text-white px-3 py-1 rounded-lg transition duration-300"
-                      >
-                        + Outlook
-                      </a>
-                    </div>
                   </div>
                 </div>
                 <p className="text-lg mb-2">This isn't just another webinar...</p>
