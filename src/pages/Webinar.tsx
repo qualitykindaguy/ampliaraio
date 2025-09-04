@@ -321,13 +321,9 @@ function Webinar() {
         </div>
       </section>
       
+      <FooterSection />
     </div>
   );
-}
-
-      <FooterSection />
-export default Webinar;
-  )
 }
 
 export default Webinar;
