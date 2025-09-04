@@ -304,11 +304,30 @@ function Webinar() {
           <div className="mb-12">
             <div className="bg-[#174a21]/10 p-8 rounded-2xl mb-8 max-w-md mx-auto">
               <p className="text-4xl font-bold text-[#174a21] mb-2">September 24, 2025</p>
+            </div>
+          </div>
+          
+          <div className="text-center">
+            <a
+              href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#174a21] text-white px-12 py-4 rounded-2xl hover:bg-[#174a21]/90 transition duration-300 text-2xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+              onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
+            >
+              CLAIM YOUR SEAT NOW!
+            </a>
+          </div>
+        </div>
+      </section>
       
     </div>
   );
 }
 
+      <FooterSection />
 export default Webinar;
   )
 }
+
+export default Webinar;
