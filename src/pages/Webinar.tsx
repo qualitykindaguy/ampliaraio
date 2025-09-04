@@ -49,7 +49,7 @@ function Webinar() {
                     <p className="text-white/90 text-sm mb-2">Mark your calendar now!</p>
                     <div className="flex flex-col sm:flex-row gap-2 justify-center">
                       <a
-                        href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250924T230000Z%2F20250925T000000Z&details=Join%20Sainte%20Billings%2C%20Tax%20Consultant%20and%20CPA%2C%20for%20a%20powerful%2C%20practical%20session%20on%20tax%20strategy%20for%20entrepreneurs.%20Whether%20you%27re%20gearing%20up%20for%20Q4%20or%20still%20catching%20your%20breath%20from%20tax%20season%2C%20this%20webinar%20will%20help%20you%20get%20clear%2C%20compliant%2C%20and%20cash-wise.%0A%0ASainte%20will%20cover%3A%0A%0AHow%20to%20read%20your%20business%20finances%20through%20a%20tax%20lens%0A%0ACommon%20tax%20mistakes%20%28and%20how%20to%20fix%20them%20before%20year-end%29%0A%0AWhat%E2%80%99s%20deductible%E2%80%94and%20what%E2%80%99s%20dangerous%0A%0AWhy%20tax%20planning%20is%20your%20secret%20weapon%20for%20profitability%0A%0AYou%27ll%20leave%20with%20clarity%2C%20confidence%2C%20and%20next%20steps%20for%20aligning%20your%20money%20with%20your%20mission.%0A%0APerfect%20for%3A%20Entrepreneurs%2C%20service-based%20business%20owners%2C%20and%20anyone%20ready%20to%20stop%20winging%20it%20with%20the%20tax%20code.&location=&text=Unlock%20The%20Code%20"
+                        href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=From%20Limitations%20to%20Leverage%3A%20The%20High-Income%20Edge&dates=20250924T180000Z/20250924T190000Z&details=Join%20Sainte%20Billings%2C%20CPA%20for%20this%20game-changing%20webinar%20on%20tax%20strategies%20for%20high-income%20earners.%20Learn%20how%20to%20legally%20slash%20your%20taxable%20income%20and%20turn%20everyday%20spending%20into%20powerful%20deductions."
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-xs bg-white/20 hover:bg-white/30 text-white px-3 py-1 rounded-lg transition duration-300"
@@ -57,7 +57,7 @@ function Webinar() {
                         + Google
                       </a>
                       <a
-                        href="https://outlook.live.com/calendar/0/action/compose?allday=false&body=Join%20Sainte%20Billings%2C%20Tax%20Consultant%20and%20CPA%2C%20for%20a%20powerful%2C%20practical%20session%20on%20tax%20strategy%20for%20entrepreneurs.%20Whether%20you%27re%20gearing%20up%20for%20Q4%20or%20still%20catching%20your%20breath%20from%20tax%20season%2C%20this%20webinar%20will%20help%20you%20get%20clear%2C%20compliant%2C%20and%20cash-wise.%0A%0ASainte%20will%20cover%3A%0A%0AHow%20to%20read%20your%20business%20finances%20through%20a%20tax%20lens%0A%0ACommon%20tax%20mistakes%20%28and%20how%20to%20fix%20them%20before%20year-end%29%0A%0AWhat%E2%80%99s%20deductible%E2%80%94and%20what%E2%80%99s%20dangerous%0A%0AWhy%20tax%20planning%20is%20your%20secret%20weapon%20for%20profitability%0A%0AYou%27ll%20leave%20with%20clarity%2C%20confidence%2C%20and%20next%20steps%20for%20aligning%20your%20money%20with%20your%20mission.%0A%0APerfect%20for%3A%20Entrepreneurs%2C%20service-based%20business%20owners%2C%20and%20anyone%20ready%20to%20stop%20winging%20it%20with%20the%20tax%20code.&enddt=2025-09-24T20%3A00%3A00&location=&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2025-09-24T19%3A00%3A00&subject=Unlock%20The%20Code%20"
+                        href="https://outlook.live.com/calendar/0/deeplink/compose?subject=From%20Limitations%20to%20Leverage%3A%20The%20High-Income%20Edge&startdt=2025-09-24T18%3A00%3A00.000Z&enddt=2025-09-24T19%3A00%3A00.000Z&body=Join%20Sainte%20Billings%2C%20CPA%20for%20this%20game-changing%20webinar%20on%20tax%20strategies%20for%20high-income%20earners.%20Learn%20how%20to%20legally%20slash%20your%20taxable%20income%20and%20turn%20everyday%20spending%20into%20powerful%20deductions."
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-xs bg-white/20 hover:bg-white/30 text-white px-3 py-1 rounded-lg transition duration-300"
@@ -70,10 +70,11 @@ function Webinar() {
                 <p className="text-lg mb-2">This isn't just another webinar...</p>
                 <p className="text-xl font-bold mb-6">It's the most <span className="text-[#996516]">PROFITABLE</span> hour of your month!</p>
                 <a
-                  href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
+                  href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-white text-[#996516] px-8 py-3 rounded-xl hover:bg-gray-100 transition duration-300 text-lg font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+                  onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
                 >
                   REGISTER NOW!
                 </a>
@@ -222,10 +223,11 @@ function Webinar() {
               
             <div className="text-center">
               <a
-                href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
+                href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-[#996516] text-white px-10 py-4 rounded-xl hover:bg-[#996516]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+                onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
               >
                 I WANT INCOME TODAY!
               </a>
@@ -275,10 +277,11 @@ function Webinar() {
         
         <div className="text-center mt-12">
           <a
-            href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
+            href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-white text-[#174a21] px-10 py-4 rounded-xl hover:bg-gray-100 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+            onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
           >
             JOIN THE IMPACT
           </a>
@@ -305,7 +308,7 @@ function Webinar() {
                 <p className="text-gray-600 text-lg mb-3">Mark your calendar now!</p>
                 <div className="flex flex-col sm:flex-row gap-2 justify-center">
                   <a
-                    href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250924T230000Z%2F20250925T000000Z&details=Join%20Sainte%20Billings%2C%20Tax%20Consultant%20and%20CPA%2C%20for%20a%20powerful%2C%20practical%20session%20on%20tax%20strategy%20for%20entrepreneurs.%20Whether%20you%27re%20gearing%20up%20for%20Q4%20or%20still%20catching%20your%20breath%20from%20tax%20season%2C%20this%20webinar%20will%20help%20you%20get%20clear%2C%20compliant%2C%20and%20cash-wise.%0A%0ASainte%20will%20cover%3A%0A%0AHow%20to%20read%20your%20business%20finances%20through%20a%20tax%20lens%0A%0ACommon%20tax%20mistakes%20%28and%20how%20to%20fix%20them%20before%20year-end%29%0A%0AWhat%E2%80%99s%20deductible%E2%80%94and%20what%E2%80%99s%20dangerous%0A%0AWhy%20tax%20planning%20is%20your%20secret%20weapon%20for%20profitability%0A%0AYou%27ll%20leave%20with%20clarity%2C%20confidence%2C%20and%20next%20steps%20for%20aligning%20your%20money%20with%20your%20mission.%0A%0APerfect%20for%3A%20Entrepreneurs%2C%20service-based%20business%20owners%2C%20and%20anyone%20ready%20to%20stop%20winging%20it%20with%20the%20tax%20code.&location=&text=Unlock%20The%20Code%20"
+                    href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=From%20Limitations%20to%20Leverage%3A%20The%20High-Income%20Edge&dates=20250924T180000Z/20250924T190000Z&details=Join%20Sainte%20Billings%2C%20CPA%20for%20this%20game-changing%20webinar%20on%20tax%20strategies%20for%20high-income%20earners.%20Learn%20how%20to%20legally%20slash%20your%20taxable%20income%20and%20turn%20everyday%20spending%20into%20powerful%20deductions."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm bg-[#174a21]/20 hover:bg-[#174a21]/30 text-[#174a21] px-4 py-2 rounded-lg transition duration-300 font-semibold"
@@ -313,7 +316,7 @@ function Webinar() {
                     + Add to Google Calendar
                   </a>
                   <a
-                    href="https://outlook.live.com/calendar/0/action/compose?allday=false&body=Join%20Sainte%20Billings%2C%20Tax%20Consultant%20and%20CPA%2C%20for%20a%20powerful%2C%20practical%20session%20on%20tax%20strategy%20for%20entrepreneurs.%20Whether%20you%27re%20gearing%20up%20for%20Q4%20or%20still%20catching%20your%20breath%20from%20tax%20season%2C%20this%20webinar%20will%20help%20you%20get%20clear%2C%20compliant%2C%20and%20cash-wise.%0A%0ASainte%20will%20cover%3A%0A%0AHow%20to%20read%20your%20business%20finances%20through%20a%20tax%20lens%0A%0ACommon%20tax%20mistakes%20%28and%20how%20to%20fix%20them%20before%20year-end%29%0A%0AWhat%E2%80%99s%20deductible%E2%80%94and%20what%E2%80%99s%20dangerous%0A%0AWhy%20tax%20planning%20is%20your%20secret%20weapon%20for%20profitability%0A%0AYou%27ll%20leave%20with%20clarity%2C%20confidence%2C%20and%20next%20steps%20for%20aligning%20your%20money%20with%20your%20mission.%0A%0APerfect%20for%3A%20Entrepreneurs%2C%20service-based%20business%20owners%2C%20and%20anyone%20ready%20to%20stop%20winging%20it%20with%20the%20tax%20code.&enddt=2025-09-24T20%3A00%3A00&location=&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2025-09-24T19%3A00%3A00&subject=Unlock%20The%20Code%20"
+                    href="https://outlook.live.com/calendar/0/deeplink/compose?subject=From%20Limitations%20to%20Leverage%3A%20The%20High-Income%20Edge&startdt=2025-09-24T18%3A00%3A00.000Z&enddt=2025-09-24T19%3A00%3A00.000Z&body=Join%20Sainte%20Billings%2C%20CPA%20for%20this%20game-changing%20webinar%20on%20tax%20strategies%20for%20high-income%20earners.%20Learn%20how%20to%20legally%20slash%20your%20taxable%20income%20and%20turn%20everyday%20spending%20into%20powerful%20deductions."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm bg-[#174a21]/20 hover:bg-[#174a21]/30 text-[#174a21] px-4 py-2 rounded-lg transition duration-300 font-semibold"
@@ -327,10 +330,11 @@ function Webinar() {
           
           <div className="text-center">
             <a
-              href="https://api.taxnitro.com/widget/form/ivupNG3kiDfoxBnvBIDn"
+              href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-[#174a21] text-white px-12 py-4 rounded-2xl hover:bg-[#174a21]/90 transition duration-300 text-2xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+              onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
             >
               CLAIM YOUR SEAT NOW!
             </a>
