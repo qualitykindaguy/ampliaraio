@@ -151,7 +151,7 @@ function Webinar() {
                 className="inline-block bg-white text-[#174a21] px-10 py-4 rounded-xl hover:bg-gray-100 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
                 onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
               >
-                I'm ready to SAVE on Taxes
+                I'M LOCKED IN!
               </a>
             </div>
           </div>
