@@ -221,19 +221,19 @@ function Webinar() {
       {/* Final CTA Section */}
       <section className="py-16 px-4 bg-[#996516]">
         <div className="container mx-auto max-w-4xl text-center">
-          <h3 className="text-4xl md:text-5xl font-black text-black mb-12">
+          <h3 className="text-4xl md:text-5xl font-black text-white mb-12">
             Don't Miss Out!
           </h3>
           
           <div className="mb-8">
-            <p className="text-2xl md:text-3xl font-bold text-[#174a21] italic">
-              Wealth doesn't wait. <span className="text-[#996516]">Neither should YOU.</span>
+            <p className="text-2xl md:text-3xl font-bold text-white italic">
+              Wealth doesn't wait. <span className="text-white">Neither should YOU.</span>
             </p>
           </div>
           
           <div className="mb-12">
-            <div className="bg-[#174a21]/10 p-8 rounded-2xl mb-8 max-w-md mx-auto">
-              <p className="text-4xl font-bold text-[#174a21] mb-2">September 24, 2025</p>
+            <div className="bg-white/10 p-8 rounded-2xl mb-8 max-w-md mx-auto">
+              <p className="text-4xl font-bold text-white mb-2">September 24, 2025</p>
             </div>
           </div>
           
