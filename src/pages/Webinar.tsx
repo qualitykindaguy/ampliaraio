@@ -219,7 +219,7 @@ function Webinar() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-16 px-4 bg-yellow-400">
+      <section className="py-16 px-4 bg-[#FFD700]">
         <div className="container mx-auto max-w-4xl text-center">
           <h3 className="text-4xl md:text-5xl font-black text-black mb-12">
             Don't Miss Out!
