@@ -226,8 +226,8 @@ function Webinar() {
           </h3>
           
           <div className="mb-8">
-            <p className="text-2xl md:text-3xl font-bold text-white italic">
-              Wealth doesn't wait. <span className="text-white">Neither should YOU.</span>
+            <p className="text-2xl md:text-3xl font-bold text-[#174a21] italic">
+              Wealth doesn't wait. <span className="text-[#174a21]">Neither should YOU.</span>
             </p>
           </div>
           
