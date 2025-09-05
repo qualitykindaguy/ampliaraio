@@ -218,58 +218,6 @@ function Webinar() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
-      <section className="py-16 px-4 bg-[#996516] text-white">
-        <div className="container mx-auto text-center">
-          <h3 className="text-3xl md:text-4xl font-black text-white mb-12">
-            How Our Webinars & Programs Have Impacted the Attendees
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            <div className="bg-white text-[#174a21] p-8 rounded-2xl shadow-lg">
-              <div className="flex items-start gap-4">
-                <img
-                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
-                  alt="Testimonial"
-                  className="w-16 h-16 rounded-full object-cover flex-shrink-0"
-                />
-                <div className="text-left">
-                  <p className="text-lg md:text-xl font-semibold mb-2">
-                    "You provided a WEALTH of knowledge — I've already saved THOUSANDS!"
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="bg-white text-[#174a21] p-8 rounded-2xl shadow-lg">
-              <div className="flex items-start gap-4">
-                <img
-                  src="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg"
-                  alt="Testimonial"
-                  className="w-16 h-16 rounded-full object-cover flex-shrink-0"
-                />
-                <div className="text-left">
-                  <p className="text-lg md:text-xl font-semibold mb-2">
-                    "I feel SUPER blessed to be part of such a POWERFUL community — I only wish I'd joined SOONER!"
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div className="text-center mt-12">
-          <a
-            href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-white text-[#174a21] px-10 py-4 rounded-xl hover:bg-gray-100 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
-            onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
-          >
-            REGISTER NOW!
-          </a>
-        </div>
-      </section>
-
       {/* Final CTA Section */}
       <section className="py-16 px-4 bg-gray-50">
         <div className="container mx-auto max-w-4xl text-center">
