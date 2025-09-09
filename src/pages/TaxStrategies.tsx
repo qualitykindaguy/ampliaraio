@@ -25,8 +25,7 @@ function TaxStrategies() {
 
   const trustPoints = [
     "Former EY Tax Manager",
-    "Trusted by 6- and 7-figure entrepreneurs",
-    "Community advocate and founder of Walk My Shoes, Inc."
+    "Trusted by 6- and 7-figure entrepreneurs"
   ];
 
   return (
@@ -164,20 +163,25 @@ function TaxStrategies() {
       <section className="py-20 px-4 bg-[#174a21]">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-8">
-            Your Wealth-Building Journey Starts Here
+            Ready to Take Your Tax Strategy to the Next Level?
           </h2>
           <p className="text-xl text-white/90 mb-12 leading-relaxed">
-            Don't let another tax season pass without a strategic plan. Get your free guide and 
-            start implementing proven strategies that high-earning professionals use to keep more 
-            and build lasting wealth.
+            After downloading your guide, let's discuss how these strategies can be customized for your 
+            specific situation. Schedule a personalized consultation to unlock even greater tax savings 
+            and wealth-building opportunities.
           </p>
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
-            <p className="text-white text-lg mb-4">
-              Ready to transform your tax strategy?
+            <p className="text-white text-lg mb-6">
+              Want a personalized tax strategy session?
             </p>
-            <p className="text-white/80">
-              Scroll back up to download your free guide now.
-            </p>
+            <a
+              href="https://api.taxnitro.com/widget/booking/m0l9FwL6VkOM2ajFvKlG"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#996516] text-white px-8 py-3 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold"
+            >
+              Schedule Your Strategy Session
+            </a>
           </div>
         </div>
       </section>
