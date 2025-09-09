@@ -16,6 +16,7 @@ import ShopAmplified from './pages/ShopAmplified';
 import MyAmplifiedYear from './pages/MyAmplifiedYear';
 import Webinar from './pages/Webinar';
 import TaxRendezvous from './pages/TaxRendezvous';
+import TaxStrategies from './pages/TaxStrategies';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
       <Route path="/my-amplified-year" element={<MyAmplifiedYear />} />
       <Route path="/webinar" element={<Webinar />} />
       <Route path="/tax-rendezvous" element={<TaxRendezvous />} />
+      <Route path="/tax-strategies" element={<TaxStrategies />} />
     </Routes>
   );
 }
