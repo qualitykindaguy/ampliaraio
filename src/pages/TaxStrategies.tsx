@@ -1,8 +1,6 @@
 import React from 'react';
-import { Shield, TrendingUp, FileText } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
-import sainteNew from '../assets/sainte-new.png';
 
 function TaxStrategies() {
   return (
@@ -12,8 +10,7 @@ function TaxStrategies() {
       {/* Hero Section */}
       <section className="pt-32 pb-16 px-4 bg-gradient-to-br from-[#174a21]/5 via-white to-[#996516]/5">
         <div className="container mx-auto max-w-6xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="text-center lg:text-left">
+          <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-6xl font-serif font-bold text-[#174a21] mb-8 leading-tight">
                 Unlock 30 Proven Tax Strategies That Could Save You $10,000+
               </h1>
@@ -22,42 +19,6 @@ function TaxStrategies() {
                 professional leaves tens of thousands of dollars unclaimed each year simply because they don't know the strategies 
                 available to them.
               </p>
-            </div>
-            
-            <div className="flex justify-center lg:justify-end">
-              <div className="relative">
-                <img
-                  src={sainteNew}
-                  alt="Sainte Billings, CPA"
-                  className="w-full max-w-md rounded-2xl shadow-2xl"
-                  width="400"
-                  height="500"
-                />
-                <div className="mt-6">
-                  <h3 className="text-2xl md:text-3xl font-serif font-bold text-[#174a21] mb-4">
-                    Meet Your Tax Strategy Expert
-                  </h3>
-                  <p className="text-base md:text-lg text-[#174a21]/80 leading-relaxed mb-6">
-                    <strong>Sainte Billings, CPA and Financial Alignment Expert</strong>, has helped high-income 
-                    professionals move from reactive tax prep to intentional financial strategy. As the founder 
-                    of Ampliara, she merges deep tax expertise with a mission to help purpose-driven earners 
-                    build generational wealth—with clarity and conviction.
-                  </p>
-                  
-                  {/* Trust Points */}
-                  <div className="space-y-2">
-                    <div className="flex items-center gap-3">
-                      <div className="w-2 h-2 bg-[#996516] rounded-full"></div>
-                      <p className="text-[#174a21]/80 font-medium text-sm md:text-base">Former EY Tax Manager</p>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-2 h-2 bg-[#996516] rounded-full"></div>
-                      <p className="text-[#174a21]/80 font-medium text-sm md:text-base">Trusted by 6- and 7-figure entrepreneurs</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
