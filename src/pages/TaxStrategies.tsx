@@ -5,29 +5,6 @@ import FooterSection from '../components/FooterSection';
 import sainteNew from '../assets/sainte-new.png';
 
 function TaxStrategies() {
-  const benefits = [
-    {
-      icon: <Shield className="h-12 w-12 text-[#996516]" />,
-      title: "Smarter Tax Planning",
-      description: "Cut liability without cutting corners."
-    },
-    {
-      icon: <TrendingUp className="h-12 w-12 text-[#996516]" />,
-      title: "Wealth-Driven Structure",
-      description: "Use your business entity as a tool for long-term gain."
-    },
-    {
-      icon: <FileText className="h-12 w-12 text-[#996516]" />,
-      title: "Pro-Level Deductions",
-      description: "Avoid overlooked write-offs and retain more income."
-    }
-  ];
-
-  const trustPoints = [
-    "Former EY Tax Manager",
-    "Trusted by 6- and 7-figure entrepreneurs"
-  ];
-
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -56,9 +33,28 @@ function TaxStrategies() {
                   width="400"
                   height="500"
                 />
-                <div className="absolute -bottom-4 -right-4 bg-[#996516] text-white px-6 py-3 rounded-xl shadow-lg">
-                  <div className="text-sm font-medium">Sainte Billings</div>
-                  <div className="text-xs opacity-90">CPA & Founder</div>
+                <div className="mt-6">
+                  <h3 className="text-2xl md:text-3xl font-serif font-bold text-[#174a21] mb-4">
+                    Meet Your Tax Strategy Expert
+                  </h3>
+                  <p className="text-base md:text-lg text-[#174a21]/80 leading-relaxed mb-6">
+                    <strong>Sainte Billings, CPA and Financial Alignment Expert</strong>, has helped high-income 
+                    professionals move from reactive tax prep to intentional financial strategy. As the founder 
+                    of Ampliara, she merges deep tax expertise with a mission to help purpose-driven earners 
+                    build generational wealth—with clarity and conviction.
+                  </p>
+                  
+                  {/* Trust Points */}
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-3">
+                      <div className="w-2 h-2 bg-[#996516] rounded-full"></div>
+                      <p className="text-[#174a21]/80 font-medium text-sm md:text-base">Former EY Tax Manager</p>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <div className="w-2 h-2 bg-[#996516] rounded-full"></div>
+                      <p className="text-[#174a21]/80 font-medium text-sm md:text-base">Trusted by 6- and 7-figure entrepreneurs</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -203,51 +199,6 @@ function TaxStrategies() {
             >
               Schedule Your Tax Strategy Session
             </a>
-          </div>
-        </div>
-      </section>
-
-      {/* About Sainte Section */}
-      <section className="py-20 px-4 bg-[#174a21]/5">
-        <div className="container mx-auto max-w-6xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="order-2 lg:order-1">
-              <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#174a21] mb-8">
-                Meet Your Tax Strategy Expert
-              </h2>
-              <p className="text-lg text-[#174a21]/80 leading-relaxed mb-8">
-                <strong>Sainte Billings, CPA and Financial Alignment Expert</strong>, has helped high-income 
-                professionals move from reactive tax prep to intentional financial strategy. As the founder 
-                of Ampliara, she merges deep tax expertise with a mission to help purpose-driven earners 
-                build generational wealth—with clarity and conviction.
-              </p>
-              
-              {/* Trust Points */}
-              <div className="space-y-3">
-                {trustPoints.map((point, index) => (
-                  <div key={index} className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-[#996516] rounded-full"></div>
-                    <p className="text-[#174a21]/80 font-medium">{point}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-            
-            <div className="order-1 lg:order-2 flex justify-center">
-              <div className="relative">
-                <img
-                  src={sainteNew}
-                  alt="Sainte Billings, CPA"
-                  className="w-full max-w-md rounded-2xl shadow-2xl"
-                  width="400"
-                  height="500"
-                />
-                <div className="absolute -bottom-4 -right-4 bg-[#996516] text-white px-6 py-3 rounded-xl shadow-lg">
-                  <div className="text-sm font-medium">Sainte Billings</div>
-                  <div className="text-xs opacity-90">CPA & Founder</div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
