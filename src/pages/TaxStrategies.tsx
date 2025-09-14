@@ -38,11 +38,12 @@ function TaxStrategies() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="text-center lg:text-left">
               <h1 className="text-4xl md:text-6xl font-serif font-bold text-[#174a21] mb-8 leading-tight">
-                Discover 30 Proven Tax Strategies Every Professional Should Know
+                Unlock 30 Proven Tax Strategies That Could Save You $10,000+
               </h1>
               <p className="text-lg md:text-xl text-[#174a21]/80 leading-relaxed">
-                Whether you're a physician, attorney, or consultant, the truth is simple: you're likely leaving money on the table. 
-                High earners like you face some of the most complex tax rules — but also the biggest opportunities for savings.
+                If you're a physician, attorney, or consultant, chances are you're overpaying the IRS. The average high-earning 
+                professional leaves tens of thousands of dollars unclaimed each year simply because they don't know the strategies 
+                available to them.
               </p>
             </div>
             
@@ -73,22 +74,21 @@ function TaxStrategies() {
           </h2>
           <div className="text-center mb-8">
             <p className="text-lg md:text-xl text-[#174a21]/80 leading-relaxed mb-6">
-              You've worked hard to build your practice. Yet, without the right planning, the IRS will take more than its fair share. 
-              Most professionals overpay in taxes each year because they:
+              You've worked too hard to watch unnecessary taxes eat away at your income. Without proactive planning, most professionals end up:
             </p>
           </div>
           <div className="space-y-6 max-w-3xl mx-auto">
             <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-[#174a21]/10">
               <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
-              <p className="text-lg text-[#174a21]/80">Miss out on deductions unique to their industry.</p>
+              <p className="text-lg text-[#174a21]/80">Missing deductions specific to their profession.</p>
             </div>
             <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-[#174a21]/10">
               <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
-              <p className="text-lg text-[#174a21]/80">Don't leverage entity structures or retirement plans effectively.</p>
+              <p className="text-lg text-[#174a21]/80">Paying higher self-employment taxes than necessary.</p>
             </div>
             <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-[#174a21]/10">
               <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
-              <p className="text-lg text-[#174a21]/80">Lack proactive strategies tailored to their personal and business finances.</p>
+              <p className="text-lg text-[#174a21]/80">Leaving retirement, health, and entity-based tax benefits untouched.</p>
             </div>
           </div>
         </div>
@@ -102,21 +102,21 @@ function TaxStrategies() {
           </h2>
           <div className="text-center mb-8">
             <p className="text-lg md:text-xl text-[#174a21]/80 leading-relaxed mb-6">
-              In this free guide, you'll discover 30 actionable strategies that can help you:
+              This free guide gives you 30 actionable tax strategies that can help you:
             </p>
           </div>
           <div className="space-y-6 max-w-3xl mx-auto">
             <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm">
               <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
-              <p className="text-lg text-[#174a21]/80">Reduce your tax liability while staying compliant.</p>
+              <p className="text-lg text-[#174a21]/80">Save $10,000+ each year through smart planning.</p>
             </div>
             <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm">
               <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
-              <p className="text-lg text-[#174a21]/80">Protect more of your income through smart planning.</p>
+              <p className="text-lg text-[#174a21]/80">Protect more of your earnings while staying fully compliant.</p>
             </div>
             <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm">
               <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
-              <p className="text-lg text-[#174a21]/80">Unlock opportunities that most professionals overlook.</p>
+              <p className="text-lg text-[#174a21]/80">Structure your practice to maximize both today's cash flow and tomorrow's wealth.</p>
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@ function TaxStrategies() {
               👉 Download the Free Guide Today
             </h2>
             <p className="text-lg text-[#174a21]/80">
-              Start keeping more of what you earn — and see how much further your money can go with the right plan.
+              Start saving thousands and take the first step toward keeping more of what you earn.
             </p>
           </div>
           
@@ -165,17 +165,33 @@ function TaxStrategies() {
       {/* Take the Next Step Section */}
       <section className="py-20 px-4 bg-[#174a21]/5">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#174a21] text-center mb-8">
-            Take the Next Step
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#174a21] mb-8 text-center">
+            The Next Step
           </h2>
           
           <div className="text-center mb-12 max-w-4xl mx-auto">
-            <p className="text-lg md:text-xl text-[#174a21]/80 leading-relaxed">
-              Reading strategies is one thing — applying them to your situation is where the real savings happen. 
-              After downloading the book, schedule a Tax Strategy Session with our team. In just one meeting, 
-              we'll show you how these strategies apply to your practice and uncover opportunities to save 
-              thousands of dollars this year.
+            <p className="text-lg md:text-xl text-[#174a21]/80 leading-relaxed mb-8">
+              Reading is powerful. Applying is transformational. That's where we come in. After downloading your copy, 
+              schedule a 1:1 Tax Strategy Session with our team.
             </p>
+            
+            <div className="text-left max-w-3xl mx-auto mb-8">
+              <p className="text-lg text-[#174a21]/80 mb-4">In that meeting, we'll:</p>
+              <div className="space-y-3">
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
+                  <p className="text-lg text-[#174a21]/80">Review your practice's unique situation.</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
+                  <p className="text-lg text-[#174a21]/80">Identify which strategies can work for you right now.</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
+                  <p className="text-lg text-[#174a21]/80">Show you exactly how to cut your tax bill — often uncovering $10,000 to $50,000 in potential savings.</p>
+                </div>
+              </div>
+            </div>
           </div>
           
           <div className="text-center">
