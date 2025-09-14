@@ -34,14 +34,34 @@ function TaxStrategies() {
 
       {/* Hero Section */}
       <section className="pt-32 pb-16 px-4 bg-gradient-to-br from-[#174a21]/5 via-white to-[#996516]/5">
-        <div className="container mx-auto max-w-4xl text-center">
-          <h1 className="text-4xl md:text-6xl font-serif font-bold text-[#174a21] mb-8 leading-tight">
-            Discover 30 Proven Tax Strategies Every Professional Should Know
-          </h1>
-          <p className="text-lg md:text-xl text-[#174a21]/80 leading-relaxed max-w-3xl mx-auto">
-            Whether you're a physician, attorney, or consultant, the truth is simple: you're likely leaving money on the table. 
-            High earners like you face some of the most complex tax rules — but also the biggest opportunities for savings.
-          </p>
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="text-center lg:text-left">
+              <h1 className="text-4xl md:text-6xl font-serif font-bold text-[#174a21] mb-8 leading-tight">
+                Discover 30 Proven Tax Strategies Every Professional Should Know
+              </h1>
+              <p className="text-lg md:text-xl text-[#174a21]/80 leading-relaxed">
+                Whether you're a physician, attorney, or consultant, the truth is simple: you're likely leaving money on the table. 
+                High earners like you face some of the most complex tax rules — but also the biggest opportunities for savings.
+              </p>
+            </div>
+            
+            <div className="flex justify-center lg:justify-end">
+              <div className="relative">
+                <img
+                  src={sainteNew}
+                  alt="Sainte Billings, CPA"
+                  className="w-full max-w-md rounded-2xl shadow-2xl"
+                  width="400"
+                  height="500"
+                />
+                <div className="absolute -bottom-4 -right-4 bg-[#996516] text-white px-6 py-3 rounded-xl shadow-lg">
+                  <div className="text-sm font-medium">Sainte Billings</div>
+                  <div className="text-xs opacity-90">CPA & Founder</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
