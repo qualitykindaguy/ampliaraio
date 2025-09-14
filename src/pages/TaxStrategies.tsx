@@ -35,26 +35,82 @@ function TaxStrategies() {
       {/* Hero Section */}
       <section className="pt-32 pb-16 px-4 bg-gradient-to-br from-[#174a21]/5 via-white to-[#996516]/5">
         <div className="container mx-auto max-w-4xl text-center">
-          <h1 className="text-5xl md:text-7xl font-serif font-bold text-[#174a21] mb-8 leading-tight">
-            Keep More. Build More.
-            <span className="block text-[#996516]">Strategically.</span>
+          <h1 className="text-4xl md:text-6xl font-serif font-bold text-[#174a21] mb-8 leading-tight">
+            Discover 30 Proven Tax Strategies Every Professional Should Know
           </h1>
-          <p className="text-xl md:text-2xl text-[#174a21]/80 leading-relaxed max-w-3xl mx-auto">
-            Download your free guide: <strong>30 Powerful Tax Strategies for Wealth Building</strong>—crafted 
-            for high-achieving professionals ready to protect profits and grow wealth with intention.
+          <p className="text-lg md:text-xl text-[#174a21]/80 leading-relaxed max-w-3xl mx-auto">
+            Whether you're a physician, attorney, or consultant, the truth is simple: you're likely leaving money on the table. 
+            High earners like you face some of the most complex tax rules — but also the biggest opportunities for savings.
           </p>
         </div>
       </section>
 
-      {/* Form Section */}
+      {/* Why This Matters Section */}
+      <section className="py-20 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#174a21] mb-8 text-center">
+            Why This Matters
+          </h2>
+          <div className="text-center mb-8">
+            <p className="text-lg md:text-xl text-[#174a21]/80 leading-relaxed mb-6">
+              You've worked hard to build your practice. Yet, without the right planning, the IRS will take more than its fair share. 
+              Most professionals overpay in taxes each year because they:
+            </p>
+          </div>
+          <div className="space-y-6 max-w-3xl mx-auto">
+            <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-[#174a21]/10">
+              <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
+              <p className="text-lg text-[#174a21]/80">Miss out on deductions unique to their industry.</p>
+            </div>
+            <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-[#174a21]/10">
+              <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
+              <p className="text-lg text-[#174a21]/80">Don't leverage entity structures or retirement plans effectively.</p>
+            </div>
+            <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-[#174a21]/10">
+              <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
+              <p className="text-lg text-[#174a21]/80">Lack proactive strategies tailored to their personal and business finances.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* What You'll Get Section */}
       <section className="py-20 px-4 bg-[#174a21]/5">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#174a21] mb-8 text-center">
+            What You'll Get
+          </h2>
+          <div className="text-center mb-8">
+            <p className="text-lg md:text-xl text-[#174a21]/80 leading-relaxed mb-6">
+              In this free guide, you'll discover 30 actionable strategies that can help you:
+            </p>
+          </div>
+          <div className="space-y-6 max-w-3xl mx-auto">
+            <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm">
+              <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
+              <p className="text-lg text-[#174a21]/80">Reduce your tax liability while staying compliant.</p>
+            </div>
+            <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm">
+              <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
+              <p className="text-lg text-[#174a21]/80">Protect more of your income through smart planning.</p>
+            </div>
+            <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm">
+              <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
+              <p className="text-lg text-[#174a21]/80">Unlock opportunities that most professionals overlook.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Form Section */}
+      <section className="py-20 px-4">
         <div className="container mx-auto max-w-2xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#174a21] mb-6">
-              Ready to reduce your tax bill and build lasting wealth?
+            <h2 className="text-2xl md:text-3xl font-serif font-bold text-[#174a21] mb-6">
+              👉 Download the Free Guide Today
             </h2>
             <p className="text-lg text-[#174a21]/80">
-              Fill out the form below to get your guide instantly.
+              Start keeping more of what you earn — and see how much further your money can go with the right plan.
             </p>
           </div>
           
@@ -86,30 +142,31 @@ function TaxStrategies() {
         </div>
       </section>
 
-      {/* Benefits Section */}
-      <section className="py-20 px-4">
+      {/* Take the Next Step Section */}
+      <section className="py-20 px-4 bg-[#174a21]/5">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#174a21] text-center mb-16">
-            What You'll Discover
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#174a21] text-center mb-8">
+            Take the Next Step
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {benefits.map((benefit, index) => (
-              <div 
-                key={index}
-                className="text-center p-8 bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 border border-[#174a21]/10"
-              >
-                <div className="mb-6 flex justify-center">
-                  {benefit.icon}
-                </div>
-                <h3 className="text-xl font-semibold text-[#174a21] mb-4">
-                  {benefit.title}
-                </h3>
-                <p className="text-[#174a21]/80 text-lg">
-                  {benefit.description}
-                </p>
-              </div>
-            ))}
+          <div className="text-center mb-12 max-w-4xl mx-auto">
+            <p className="text-lg md:text-xl text-[#174a21]/80 leading-relaxed">
+              Reading strategies is one thing — applying them to your situation is where the real savings happen. 
+              After downloading the book, schedule a Tax Strategy Session with our team. In just one meeting, 
+              we'll show you how these strategies apply to your practice and uncover opportunities to save 
+              thousands of dollars this year.
+            </p>
+          </div>
+          
+          <div className="text-center">
+            <a
+              href="https://api.taxnitro.com/widget/booking/m0l9FwL6VkOM2ajFvKlG"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#996516] text-white px-8 py-3 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-lg font-semibold"
+            >
+              Schedule Your Tax Strategy Session
+            </a>
           </div>
         </div>
       </section>
