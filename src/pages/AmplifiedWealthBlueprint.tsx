@@ -104,7 +104,7 @@ function AmplifiedWealthBlueprint() {
               High-Impact Strategy Engagement
             </span>
             <h1 className="text-5xl md:text-6xl font-bold text-[#174a21] mb-12 leading-tight">
-              The Amplified Wealth Blueprint (Tax Plan)
+              The Amplified Wealth Blueprint (Tax Savings Plan)
             </h1>
             <p className="text-xl text-[#174a21]/80 leading-relaxed">
               A focused, high-impact advisory engagement that gives you a personalized tax savings roadmap, 
