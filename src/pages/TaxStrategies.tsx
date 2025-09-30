@@ -64,7 +64,7 @@ function TaxStrategies() {
       {/* Personal Letter Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-4xl">
-          <div className="text-center mb-12">
+          <div className="text-left mb-12">
             <h2 className="text-4xl font-bold text-[#174a21] mb-4">Dear Taxpayer,</h2>
             <div className="w-16 h-1 bg-[#996516] mx-auto"></div>
           </div>
