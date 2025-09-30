@@ -118,7 +118,7 @@ function TaxStrategies() {
             </p>
             
             <p className="text-2xl font-bold text-[#174a21] bg-yellow-100 p-6 text-center">
-              And then comes the biggest frustration of all: your tax bill.
+              And then comes the biggest frustration of all: YOUR TAX BILL.
             </p>
             
             <p>It feels like no matter how hard you work, the IRS is always taking the biggest slice.</p>
