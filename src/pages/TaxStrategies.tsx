@@ -40,12 +40,16 @@ function TaxStrategies() {
       {/* Hero Section */}
       <section className="py-20 px-4 bg-[#174a21] text-white relative overflow-hidden">
         <div className="container mx-auto max-w-6xl relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="text-5xl md:text-6xl font-black mb-8 leading-tight">
-                Hey Doctors, Lawyers & Consultants!
-              </h2>
+          <div className="text-center">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black mb-12 leading-tight whitespace-nowrap">
+              Hey Doctors, Lawyers & Consultants!
+            </h2>
+            
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              <div className="text-left">
+              </div>
               
+            </div>
               <div className="space-y-6 text-lg leading-relaxed">
                 <p className="text-2xl font-bold text-yellow-300">
                   Did you know that there are 30 income tax savings strategies that most high earners miss out on…
