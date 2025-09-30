@@ -66,7 +66,7 @@ function TaxStrategies() {
         <div className="container mx-auto max-w-4xl">
           <div className="text-left mb-12">
             <h2 className="text-4xl font-bold text-[#174a21] mb-4">Dear Taxpayer,</h2>
-            <div className="w-16 h-1 bg-[#996516] mx-auto"></div>
+            <div className="w-16 h-1 bg-[#996516]"></div>
           </div>
           
           <div className="prose prose-lg max-w-none text-[#174a21] leading-relaxed space-y-6">
@@ -92,9 +92,6 @@ function TaxStrategies() {
             <p>
               On top of staying compliant with ever-changing regulations, you're dealing with rising overhead, 
               managing staff, and keeping your clients happy — all while trying to actually grow your income.
-            </p>
-            
-            <p className="text-2xl font-bold text-[#174a21] bg-yellow-100 p-6 text-center">
             </p>
             
             <p className="text-2xl font-bold text-red-600 bg-yellow-400 p-6 text-center">
