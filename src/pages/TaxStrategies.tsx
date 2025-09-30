@@ -80,6 +80,9 @@ function TaxStrategies() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
             </div>
             
       </section>
