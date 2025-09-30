@@ -96,39 +96,6 @@ function TaxStrategies() {
             
             <p className="text-2xl font-bold text-red-600 bg-yellow-400 p-6 text-center">
               And then comes the biggest frustration of all: YOUR TAX BILL.
-            </p>
-            
-            <p>It feels like no matter how hard you work, the IRS is always taking the biggest slice.</p>
-            
-            <p>
-              As a CPA who specializes in helping doctors, lawyers, consultants, and other high earners 
-              increase profits and reduce taxes, I see this every day.
-            </p>
-            
-            <p className="text-xl font-bold">
-              The truth is, your income tax bill is often the single biggest expense standing between 
-              you and real financial freedom.
-            </p>
-            
-            <p>
-              And here's the kicker: most successful professionals have no idea they can legally and 
-              ethically reduce their income taxes by tens of thousands of dollars every year.
-            </p>
-            
-            <div className="text-center py-8">
-              <a
-                href="https://api.taxnitro.com/widget/form/rJ8uG542fXWaI2czVXsc"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-yellow-400 text-[#174a21] px-12 py-4 text-2xl font-black hover:bg-yellow-300 transition duration-300 transform hover:scale-105"
-              >
-                YES SEND ME THIS GAME CHANGER
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
 
       {/* What's Inside Section */}
       <section className="py-20 px-4">
