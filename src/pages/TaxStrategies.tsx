@@ -60,7 +60,7 @@ function TaxStrategies() {
                 
                 <p>And the truth is, implementing just ONE of these strategies can:</p>
                 
-                <div className="space-y-3 ml-6">
+                <div className="space-y-3 flex flex-col items-center">
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
                     <span>Significantly reduce your tax bill</span>
