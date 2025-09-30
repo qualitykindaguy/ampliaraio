@@ -8,22 +8,6 @@ function TaxStrategies() {
     <div className="min-h-screen bg-white">
       <Navbar />
 
-      {/* Header Section */}
-      <section className="pt-32 pb-8 px-4">
-        <div className="container mx-auto max-w-5xl">
-          <div className="text-center">
-            <p className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[#174a21] font-black mb-8 tracking-tight">
-              Advanced Tax Strategy for<br />High-Earning Business Owners
-            </p>
-            <div className="inline-block">
-              <p className="text-lg text-[#174a21]/70 mb-2">From the Desk of:</p>
-              <p className="text-2xl font-bold text-[#174a21]">Sainte Billings, CPA</p>
-              <p className="text-lg text-[#174a21]/70">Founder, Ampliara PLLC</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Hero Image Section */}
       <section className="py-16 bg-white">
         <div className="w-full text-center">
