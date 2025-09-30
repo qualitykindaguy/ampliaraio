@@ -183,7 +183,7 @@ function TaxStrategies() {
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-5xl">
           {/* Quick Note on Legitimacy */}
-          <div className="bg-gray-50 border-l-4 border-[#174a21] p-8 mb-16">
+          <div className="border-l-4 border-[#174a21] p-8 mb-16">
             <h3 className="text-2xl font-bold text-[#174a21] mb-6 flex items-center gap-2">
               🔒 Quick Note on Legitimacy
             </h3>
@@ -285,7 +285,7 @@ function TaxStrategies() {
       {/* Closing / Sign-Off Section */}
       <section className="py-16 px-4 bg-white">
         <div className="container mx-auto max-w-4xl text-center">
-          <div className="bg-[#174a21]/5 p-8 rounded-2xl">
+          <div className="p-8">
             <h3 className="text-2xl font-bold text-[#174a21] mb-6 flex items-center justify-center gap-2">
               ✍️ Closing / Sign-Off
             </h3>
@@ -379,7 +379,7 @@ function TaxStrategies() {
       {/* Footer / Disclaimer Section */}
       <section className="py-12 px-4 bg-gray-100">
         <div className="container mx-auto max-w-4xl text-center">
-          <div className="bg-white p-6 rounded-lg border border-gray-200">
+          <div className="p-6">
             <h3 className="text-lg font-bold text-[#174a21] mb-4 flex items-center justify-center gap-2">
               📝 Footer / Disclaimer
             </h3>
