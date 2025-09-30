@@ -116,12 +116,14 @@ function TaxStrategies() {
             </p>
             
             <div className="text-center py-8">
-              <p className="text-3xl font-black text-[#174a21] mb-4">That's exactly why I put together my latest resource:</p>
-              <div className="bg-[#996516] text-white p-8 inline-block">
-                <p className="text-2xl font-bold">
-                  The 2025 Tax Slasher Guide — 30 Smart, Legal Strategies Every High-Income Business Owner Should Know.
-                </p>
-              </div>
+              <a
+                href="https://api.taxnitro.com/widget/form/rJ8uG542fXWaI2czVXsc"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-yellow-400 text-[#174a21] px-12 py-4 text-2xl font-black hover:bg-yellow-300 transition duration-300 transform hover:scale-105"
+              >
+                YES SEND ME THIS GAME CHANGER
+              </a>
             </div>
           </div>
         </div>
