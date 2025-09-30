@@ -28,6 +28,19 @@ function TaxStrategies() {
         </div>
       </section>
 
+      {/* Hero Image Section */}
+      <section className="py-16 px-4 bg-white">
+        <div className="container mx-auto max-w-4xl text-center">
+          <img
+            src={taxStrategiesHero}
+            alt="Tax Strategies Hero"
+            className="w-full max-w-3xl mx-auto rounded-2xl shadow-2xl"
+            width="800"
+            height="600"
+          />
+        </div>
+      </section>
+
       {/* Hero Section */}
       <section className="py-20 px-4 bg-[#174a21] text-white relative overflow-hidden">
         <div className="container mx-auto max-w-6xl relative z-10">
@@ -69,15 +82,6 @@ function TaxStrategies() {
               </div>
             </div>
             
-            <div className="flex justify-center">
-              <img
-                src={taxStrategiesHero}
-                alt="Tax Strategies Hero"
-                className="w-full max-w-md"
-                width="400"
-                height="500"
-              />
-            </div>
           </div>
         </div>
       </section>
