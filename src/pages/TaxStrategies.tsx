@@ -269,7 +269,7 @@ function TaxStrategies() {
             
             <div className="bg-white p-8 mb-12">
               <p className="text-2xl font-bold text-[#174a21] mb-6">In that meeting, we'll:</p>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+              <div className="space-y-4 text-left max-w-2xl mx-auto">
                 <div className="flex items-start gap-3">
                   <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
                   <p className="text-lg text-[#174a21]">Review your practice's unique situation.</p>
