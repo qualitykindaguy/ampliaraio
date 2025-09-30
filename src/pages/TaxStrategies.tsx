@@ -129,37 +129,6 @@ function TaxStrategies() {
         </div>
       </section>
 
-      {/* Guide Introduction */}
-      <section className="py-20 px-4 bg-[#174a21] text-white">
-        <div className="container mx-auto max-w-5xl text-center">
-          <h2 className="text-5xl font-black mb-6">
-            Introducing the 2025 Tax Slasher Guide
-          </h2>
-          <div className="w-32 h-1 bg-yellow-300 mx-auto mb-8"></div>
-          <h3 className="text-3xl font-light mb-12 text-yellow-100">
-            30 Advanced Strategies High-Income Business Owners Should Know to Legally Cut Their Tax Bill
-          </h3>
-          
-          <div className="mb-12 space-y-6">
-            <p className="text-xl">
-              Inside, you'll discover the "what" of 30 powerful, IRS-approved strategies that could 
-              significantly reduce your tax bill in 2025.
-            </p>
-            <p className="text-2xl font-bold text-yellow-300">
-              No fluff. No cookie-cutter advice. Just the big-picture strategies most CPAs never mention.
-            </p>
-          </div>
-          
-          <a
-            href="https://api.taxnitro.com/widget/form/rJ8uG542fXWaI2czVXsc"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-yellow-400 text-[#174a21] px-12 py-4 text-2xl font-black hover:bg-yellow-300 transition duration-300 transform hover:scale-105"
-          >
-            YES, SEND ME THIS GAME-CHANGER!
-          </a>
-        </div>
-      </section>
 
       {/* What's Inside Section */}
       <section className="py-20 px-4">
