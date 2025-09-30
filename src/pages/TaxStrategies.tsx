@@ -98,7 +98,10 @@ function TaxStrategies() {
               not your late nights and sacrifices. Just a number on a tax return.
             </p>
             
-            <p className="text-xl font-semibold">But I don't see you as a taxpayer.</p>
+            <div className="text-center mb-8">
+              <p className="text-4xl font-bold text-[#174a21] mb-4">But I don't see you as a taxpayer.</p>
+              <div className="w-16 h-1 bg-[#996516] mx-auto"></div>
+            </div>
             
             <p className="text-2xl font-bold text-[#996516]">
               I see you as a wealth builder. A business leader. Someone who deserves to keep more 
