@@ -133,53 +133,6 @@ function TaxStrategies() {
       {/* What's Inside Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-5xl">
-          {/* Quick Note on Legitimacy - Design 1: Centered with Icon Header */}
-          <div className="text-center mb-20">
-            <div className="max-w-4xl mx-auto">
-              <div className="border-l-8 border-[#174a21] pl-8 mb-12">
-                <h3 className="text-4xl font-black text-[#174a21] mb-6">
-                  QUICK NOTE ON LEGITIMACY
-                </h3>
-                <p className="text-2xl font-bold text-[#174a21] mb-8">Every strategy inside is:</p>
-                
-                <div className="space-y-4 mb-8">
-                  <div className="flex items-center gap-4">
-                    <div className="w-8 h-8 bg-green-600 flex items-center justify-center">
-                      <span className="text-white font-bold">✓</span>
-                    </div>
-                    <span className="text-xl font-bold text-[#174a21]">100% Legal</span>
-                  </div>
-                  <div className="flex items-center gap-4">
-                    <div className="w-8 h-8 bg-green-600 flex items-center justify-center">
-                      <span className="text-white font-bold">✓</span>
-                    </div>
-                    <span className="text-xl font-bold text-[#174a21]">IRS-Compliant</span>
-                  </div>
-                  <div className="flex items-center gap-4">
-                    <div className="w-8 h-8 bg-green-600 flex items-center justify-center">
-                      <span className="text-white font-bold">✓</span>
-                    </div>
-                    <span className="text-xl font-bold text-[#174a21]">Used by savvy business owners every day</span>
-                  </div>
-                  <div className="flex items-center gap-4">
-                    <div className="w-8 h-8 bg-green-600 flex items-center justify-center">
-                      <span className="text-white font-bold">✓</span>
-                    </div>
-                    <span className="text-xl font-bold text-[#174a21]">Shared so you can see what's possible for your situation</span>
-                  </div>
-                </div>
-                
-                <div className="border-t-4 border-[#996516] pt-6">
-                  <p className="text-xl text-[#174a21] leading-relaxed font-medium">
-                    This guide is educational—it shows you what exists, so you can explore the opportunities most CPAs never mention.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div className="container mx-auto max-w-5xl">
           <h2 className="text-4xl font-black text-[#174a21] mb-16 text-center">
             Here's a preview of what you'll discover:
           </h2>
