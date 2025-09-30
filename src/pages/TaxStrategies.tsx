@@ -229,33 +229,6 @@ function TaxStrategies() {
         </div>
       </section>
 
-      {/* Final CTA Section */}
-      <section className="py-20 px-4 bg-[#174a21] text-white">
-        <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-4xl font-black mb-12">
-            Ready to Take Your Tax Strategy to the Next Level?
-          </h2>
-          <p className="text-xl mb-16 leading-relaxed">
-            After downloading your guide, let's discuss how these strategies can be customized for your 
-            specific situation. Schedule a personalized consultation to unlock even greater tax savings 
-            and wealth-building opportunities.
-          </p>
-          <div className="bg-white/10 p-12">
-            <p className="text-2xl mb-8 font-bold">
-              Want a personalized tax strategy session?
-            </p>
-            <a
-              href="https://api.taxnitro.com/widget/booking/m0l9FwL6VkOM2ajFvKlG"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-yellow-400 text-[#174a21] px-12 py-4 text-xl font-black hover:bg-yellow-300 transition duration-300 transform hover:scale-105"
-            >
-              SCHEDULE YOUR STRATEGY SESSION
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* Footer / Disclaimer Section - Design 1: Clean Minimal */}
       <section className="py-16 px-4 bg-[#174a21] text-white">
         <div className="container mx-auto max-w-4xl">
