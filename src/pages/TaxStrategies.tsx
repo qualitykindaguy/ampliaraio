@@ -25,12 +25,12 @@ function TaxStrategies() {
       </section>
 
       {/* Hero Image Section */}
-      <section className="py-16 px-4 bg-white">
-        <div className="container mx-auto max-w-4xl text-center">
+      <section className="py-16 bg-white">
+        <div className="w-full text-center">
           <img
             src={taxStrategiesHero}
             alt="Tax Strategies Hero"
-            className="w-full max-w-3xl mx-auto rounded-2xl shadow-2xl"
+            className="w-full h-auto object-cover"
             width="800"
             height="600"
           />
