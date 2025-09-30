@@ -37,7 +37,7 @@ function TaxStrategies() {
                 
                 <p>And the truth is, implementing just ONE of these strategies can:</p>
                 
-                <div className="space-y-3 max-w-md mx-auto">
+                <div className="space-y-3 max-w-lg mx-auto">
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
                     <span>Significantly reduce your tax bill</span>
@@ -52,8 +52,8 @@ function TaxStrategies() {
                   </div>
                 </div>
                 
-                <p className="text-xl font-semibold text-yellow-300 pt-4">
-                  That's why I created the 2025 Tax Slasher Guide — 30 smart, legal moves your CPA probably hasn't told you about.
+                <p className="text-xl pt-4">
+                  And the reason isn't because your CPA is bad… it's because most CPAs are trained to file taxes, not to engineer tax savings.
                 </p>
               </div>
             </div>
