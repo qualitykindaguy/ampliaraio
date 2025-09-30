@@ -182,33 +182,38 @@ function TaxStrategies() {
       {/* What's Inside Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-5xl">
-          {/* Quick Note on Legitimacy */}
-          <div className="border-l-4 border-[#174a21] p-8 mb-16">
-            <h3 className="text-2xl font-bold text-[#174a21] mb-6 flex items-center gap-2">
-              🔒 Quick Note on Legitimacy
+          {/* Quick Note on Legitimacy - Design 1: Centered with Icon Header */}
+          <div className="text-center mb-20">
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-[#174a21] text-white text-2xl mb-6">
+              🔒
+            </div>
+            <h3 className="text-3xl font-black text-[#174a21] mb-8 uppercase tracking-wide">
+              Quick Note on Legitimacy
             </h3>
-            <p className="text-lg text-[#174a21] mb-4">Every strategy inside is:</p>
-            <div className="space-y-2 mb-6">
-              <div className="flex items-center gap-3">
-                <span className="text-green-600 font-bold">✅</span>
-                <span className="text-[#174a21]">100% legal</span>
+            <p className="text-2xl font-bold text-[#174a21] mb-8">Every strategy inside is:</p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-10 max-w-4xl mx-auto">
+              <div className="text-center">
+                <div className="text-4xl mb-3">✅</div>
+                <p className="font-bold text-[#174a21]">100% Legal</p>
               </div>
-              <div className="flex items-center gap-3">
-                <span className="text-green-600 font-bold">✅</span>
-                <span className="text-[#174a21]">IRS-compliant</span>
+              <div className="text-center">
+                <div className="text-4xl mb-3">✅</div>
+                <p className="font-bold text-[#174a21]">IRS-Compliant</p>
               </div>
-              <div className="flex items-center gap-3">
-                <span className="text-green-600 font-bold">✅</span>
-                <span className="text-[#174a21]">Used by savvy business owners every day</span>
+              <div className="text-center">
+                <div className="text-4xl mb-3">✅</div>
+                <p className="font-bold text-[#174a21]">Proven Strategies</p>
               </div>
-              <div className="flex items-center gap-3">
-                <span className="text-green-600 font-bold">✅</span>
-                <span className="text-[#174a21]">Shared so you can see what's possible for your situation</span>
+              <div className="text-center">
+                <div className="text-4xl mb-3">✅</div>
+                <p className="font-bold text-[#174a21]">Educational Guide</p>
               </div>
             </div>
-            <p className="text-[#174a21] italic">
-              This guide is educational—it shows you what exists, so you can explore the opportunities most CPAs never mention.
-            </p>
+            <div className="max-w-3xl mx-auto">
+              <p className="text-xl text-[#174a21] leading-relaxed italic border-t-2 border-[#996516] pt-6">
+                This guide is educational—it shows you what exists, so you can explore the opportunities most CPAs never mention.
+              </p>
+            </div>
           </div>
         </div>
         
@@ -282,23 +287,29 @@ function TaxStrategies() {
         </div>
       </section>
 
-      {/* Closing / Sign-Off Section */}
-      <section className="py-16 px-4 bg-white">
-        <div className="container mx-auto max-w-4xl text-center">
-          <div className="p-8">
-            <h3 className="text-2xl font-bold text-[#174a21] mb-6 flex items-center justify-center gap-2">
-              ✍️ Closing / Sign-Off
-            </h3>
-            <p className="text-xl text-[#174a21] mb-6 leading-relaxed">
+      {/* Closing / Sign-Off Section - Design 1: Elegant Signature Style */}
+      <section className="py-20 px-4 bg-gradient-to-r from-[#174a21]/5 to-[#996516]/5">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-12">
+            <div className="inline-block text-4xl mb-6">✍️</div>
+            <div className="w-24 h-1 bg-[#996516] mx-auto mb-8"></div>
+          </div>
+          
+          <div className="text-center space-y-8">
+            <p className="text-2xl font-bold text-[#174a21] leading-relaxed">
               Now is the time to stop overpaying and start taking control of your financial future.
             </p>
-            <p className="text-lg text-[#174a21] mb-8">
+            
+            <p className="text-xl text-[#174a21] leading-relaxed">
               Click the button above, grab the guide, and discover the strategies that could help you slash your 2025 tax bill.
             </p>
-            <div className="text-center">
-              <p className="text-lg text-[#174a21] mb-2">To your success,</p>
-              <p className="text-xl font-bold text-[#174a21]">Sainte Billings, CPA</p>
-              <p className="text-lg text-[#174a21]/80">Founder, Ampliara PLLC</p>
+            
+            <div className="pt-8 border-t border-[#174a21]/20">
+              <p className="text-lg text-[#174a21] mb-4 italic">To your success,</p>
+              <div className="space-y-2">
+                <p className="text-2xl font-black text-[#174a21]">Sainte Billings, CPA</p>
+                <p className="text-lg text-[#996516] font-semibold">Founder, Ampliara PLLC</p>
+              </div>
             </div>
           </div>
         </div>
@@ -376,20 +387,25 @@ function TaxStrategies() {
         </div>
       </section>
 
-      {/* Footer / Disclaimer Section */}
-      <section className="py-12 px-4 bg-gray-100">
-        <div className="container mx-auto max-w-4xl text-center">
-          <div className="p-6">
-            <h3 className="text-lg font-bold text-[#174a21] mb-4 flex items-center justify-center gap-2">
-              📝 Footer / Disclaimer
-            </h3>
-            <p className="text-sm text-gray-600 mb-4 leading-relaxed">
+      {/* Footer / Disclaimer Section - Design 1: Clean Minimal */}
+      <section className="py-16 px-4 bg-[#174a21] text-white">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-8">
+            <div className="inline-block text-2xl mb-4">📝</div>
+            <div className="w-16 h-0.5 bg-white/30 mx-auto"></div>
+          </div>
+          
+          <div className="text-center space-y-6">
+            <p className="text-lg text-white/90 leading-relaxed max-w-3xl mx-auto">
               This guide is for educational purposes only and does not constitute formal tax advice. 
               Individual results may vary. Consult a qualified tax professional before implementing any new strategies.
             </p>
-            <p className="text-sm text-gray-500">
-              © Ampliara PLLC. All rights reserved.
-            </p>
+            
+            <div className="pt-6 border-t border-white/20">
+              <p className="text-white/70">
+                © 2025 Ampliara PLLC. All rights reserved.
+              </p>
+            </div>
           </div>
         </div>
       </section>
