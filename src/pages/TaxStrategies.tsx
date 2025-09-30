@@ -9,19 +9,50 @@ function TaxStrategies() {
     <div className="min-h-screen bg-white">
       <Navbar />
 
-      {/* Hero Section */}
-      <section className="pt-32 pb-16 px-4 bg-gradient-to-br from-[#174a21]/5 via-white to-[#996516]/5">
+      {/* Header / Brand Identity */}
+      <section className="pt-32 pb-8 px-4 bg-gradient-to-br from-[#174a21]/5 via-white to-[#996516]/5">
+        <div className="container mx-auto max-w-4xl text-center">
+          <h1 className="text-2xl md:text-3xl font-bold text-[#174a21] mb-4">
+            Advanced Tax Strategy for High-Earning Business Owners
+          </h1>
+          <div className="bg-[#174a21]/5 rounded-xl p-6 mb-8">
+            <p className="text-lg text-[#174a21] mb-2">From the Desk of:</p>
+            <p className="text-xl font-bold text-[#174a21] mb-1">Sainte Billings, CPA</p>
+            <p className="text-lg text-[#174a21] mb-1">Founder, Ampliara PLLC</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Hero Section / Personal Greeting */}
+      <section className="py-16 px-4">
         <div className="container mx-auto max-w-6xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="text-center lg:text-left">
-              <h1 className="text-4xl md:text-6xl font-serif font-bold text-[#174a21] mb-8 leading-tight">
-                Unlock 30 Proven Tax Strategies That Could Save You $10,000+
-              </h1>
-              <p className="text-lg md:text-xl text-[#174a21]/80 leading-relaxed">
-                If you're a physician, attorney, or consultant, chances are you're overpaying the IRS. The average high-earning 
-                professional leaves tens of thousands of dollars unclaimed each year simply because they don't know the strategies 
-                available to them.
-              </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div className="text-left">
+              <h2 className="text-3xl md:text-4xl font-bold text-[#174a21] mb-8">
+                Hey Doctors, Lawyers & Consultants!
+              </h2>
+              
+              <div className="space-y-6 text-lg text-[#174a21]/80 leading-relaxed">
+                <p>
+                  <strong>Did you know that there are 30 income tax savings strategies that most high earners miss out on…</strong> These exact strategies could slash their tax bill by $10K–$50K+ every year?
+                </p>
+                
+                <p>And the truth is, implementing just ONE of these strategies can:</p>
+                
+                <ul className="space-y-2 ml-6">
+                  <li>• Significantly reduce your tax bill</li>
+                  <li>• Increase your profits</li>
+                  <li>• Fast-track your path to retirement</li>
+                </ul>
+                
+                <p>
+                  And the reason isn't because your CPA is bad… it's because most CPAs are trained to file taxes, not to engineer tax savings.
+                </p>
+                
+                <p>
+                  <strong>That's why I created the 2025 Tax Slasher Guide — 30 smart, legal moves your CPA probably hasn't told you about.</strong>
+                </p>
+              </div>
             </div>
             
             <div className="flex justify-center lg:justify-end">
@@ -33,128 +64,149 @@ function TaxStrategies() {
                   width="400"
                   height="500"
                 />
-                <div className="mt-6">
-                  <h3 className="text-2xl md:text-3xl font-serif font-bold text-[#174a21] mb-4">
-                    Meet Your Tax Strategy Expert
-                  </h3>
-                  <p className="text-base md:text-lg text-[#174a21]/80 leading-relaxed mb-6">
-                    <strong>Sainte Billings, CPA and Financial Alignment Expert</strong>, has helped high-income 
-                    professionals move from reactive tax prep to intentional financial strategy. As the founder 
-                    of Ampliara, she merges deep tax expertise with a mission to help purpose-driven earners 
-                    build generational wealth—with clarity and conviction.
-                  </p>
-                  
-                  {/* Trust Points */}
-                  <div className="space-y-2">
-                    <div className="flex items-center gap-3">
-                      <div className="w-2 h-2 bg-[#996516] rounded-full"></div>
-                      <p className="text-[#174a21]/80 font-medium text-sm md:text-base">Former EY Tax Manager</p>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <div className="w-2 h-2 bg-[#996516] rounded-full"></div>
-                      <p className="text-[#174a21]/80 font-medium text-sm md:text-base">Trusted by 6- and 7-figure entrepreneurs</p>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why This Matters Section */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#174a21] mb-8 text-center">
-            Why This Matters
-          </h2>
-          <div className="text-center mb-8">
-            <p className="text-lg md:text-xl text-[#174a21]/80 leading-relaxed mb-6">
-              You've worked too hard to watch unnecessary taxes eat away at your income. Without proactive planning, most professionals end up:
-            </p>
-          </div>
-          <div className="space-y-6 max-w-3xl mx-auto">
-            <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-[#174a21]/10">
-              <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
-              <p className="text-lg text-[#174a21]/80">Missing deductions specific to their profession.</p>
-            </div>
-            <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-[#174a21]/10">
-              <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
-              <p className="text-lg text-[#174a21]/80">Paying higher self-employment taxes than necessary.</p>
-            </div>
-            <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm border border-[#174a21]/10">
-              <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
-              <p className="text-lg text-[#174a21]/80">Leaving retirement, health, and entity-based tax benefits untouched.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* What You'll Get Section */}
+      {/* Personal Letter Section */}
       <section className="py-20 px-4 bg-[#174a21]/5">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-[#174a21] mb-8 text-center">
-            What You'll Get
-          </h2>
-          <div className="text-center mb-8">
-            <p className="text-lg md:text-xl text-[#174a21]/80 leading-relaxed mb-6">
-              This free guide gives you 30 actionable tax strategies that can help you:
-            </p>
-          </div>
-          <div className="space-y-6 max-w-3xl mx-auto">
-            <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm">
-              <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
-              <p className="text-lg text-[#174a21]/80">Save $10,000+ each year through smart planning.</p>
-            </div>
-            <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm">
-              <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
-              <p className="text-lg text-[#174a21]/80">Protect more of your earnings while staying fully compliant.</p>
-            </div>
-            <div className="flex items-start gap-4 bg-white p-6 rounded-xl shadow-sm">
-              <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
-              <p className="text-lg text-[#174a21]/80">Structure your practice to maximize both today's cash flow and tomorrow's wealth.</p>
+          <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg">
+            <p className="text-lg text-[#174a21] mb-6">Dear Taxpayer,</p>
+            
+            <div className="space-y-6 text-lg text-[#174a21]/80 leading-relaxed">
+              <p>
+                That's all the IRS sees when they look at you — not your hard work, not your business, not your late nights and sacrifices. Just a number on a tax return.
+              </p>
+              
+              <p>But I don't see you as a taxpayer.</p>
+              
+              <p>
+                <strong>I see you as a wealth builder. A business leader. Someone who deserves to keep more of what you earn and actually put it to work for your future.</strong>
+              </p>
+              
+              <p>Would you agree that running a successful business or practice has become increasingly tough in recent years?</p>
+              
+              <p>I'm sure you've felt the pressure…</p>
+              
+              <p>
+                On top of staying compliant with ever-changing regulations, you're dealing with rising overhead, managing staff, and keeping your clients happy — all while trying to actually grow your income.
+              </p>
+              
+              <p>
+                <strong>And then comes the biggest frustration of all: your tax bill.</strong>
+              </p>
+              
+              <p>It feels like no matter how hard you work, the IRS is always taking the biggest slice.</p>
+              
+              <p>
+                As a CPA who specializes in helping doctors, lawyers, consultants, and other high earners increase profits and reduce taxes, I see this every day.
+              </p>
+              
+              <p>
+                <strong>The truth is, your income tax bill is often the single biggest expense standing between you and real financial freedom.</strong>
+              </p>
+              
+              <p>
+                And here's the kicker: most successful professionals have no idea they can legally and ethically reduce their income taxes by tens of thousands of dollars every year.
+              </p>
+              
+              <p>That's exactly why I put together my latest resource:</p>
+              
+              <p className="text-xl font-bold text-[#174a21]">
+                The 2025 Tax Slasher Guide — 30 Smart, Legal Strategies Every High-Income Business Owner Should Know.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Form Section */}
+      {/* Guide Introduction */}
       <section className="py-20 px-4">
-        <div className="container mx-auto max-w-2xl">
-          <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-3xl font-serif font-bold text-[#174a21] mb-6">
-              👉 Download the Free Guide Today
-            </h2>
-            <p className="text-lg text-[#174a21]/80">
-              Start saving thousands and take the first step toward keeping more of what you earn.
+        <div className="container mx-auto max-w-4xl text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#174a21] mb-8">
+            Introducing the 2025 Tax Slasher Guide
+          </h2>
+          <h3 className="text-xl md:text-2xl font-semibold text-[#996516] mb-8">
+            30 Advanced Strategies High-Income Business Owners Should Know to Legally Cut Their Tax Bill
+          </h3>
+          
+          <div className="bg-[#174a21]/5 rounded-2xl p-8 mb-8">
+            <p className="text-lg text-[#174a21]/80 leading-relaxed mb-6">
+              Inside, you'll discover the "what" of 30 powerful, IRS-approved strategies that could significantly reduce your tax bill in 2025.
+            </p>
+            <p className="text-lg font-semibold text-[#174a21]">
+              No fluff. No cookie-cutter advice. Just the big-picture strategies most CPAs never mention.
             </p>
           </div>
           
-          <div className="bg-white rounded-2xl shadow-xl p-8 border border-[#174a21]/10">
-            <div className="min-h-[524px] w-full">
-              <iframe
-                src="https://api.taxnitro.com/widget/form/rJ8uG542fXWaI2czVXsc"
-                style={{width:'100%', height:'524px', border:'none', borderRadius:'4px'}}
-                id="inline-rJ8uG542fXWaI2czVXsc" 
-                data-layout="{'id':'INLINE'}"
-                data-trigger-type="alwaysShow"
-                data-trigger-value=""
-                data-activation-type="alwaysActivated"
-                data-activation-value=""
-                data-deactivation-type="neverDeactivate"
-                data-deactivation-value=""
-                data-form-name="Strategies Book Form"
-                data-height="524"
-                data-layout-iframe-id="inline-rJ8uG542fXWaI2czVXsc"
-                data-form-id="rJ8uG542fXWaI2czVXsc"
-                title="Strategies Book Form"
-              />
+          <a
+            href="https://api.taxnitro.com/widget/form/rJ8uG542fXWaI2czVXsc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#996516] text-white px-8 py-4 rounded-xl hover:bg-[#996516]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+          >
+            Yes, Send Me This Game-Changer!
+          </a>
+        </div>
+      </section>
+
+      {/* What's Inside Section */}
+      <section className="py-20 px-4 bg-[#174a21]/5">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#174a21] mb-12 text-center">
+            Here's a preview of what you'll discover:
+          </h2>
+          
+          <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg mb-8">
+            <div className="space-y-4 text-lg text-[#174a21]/80">
+              <div className="flex items-start gap-3">
+                <span className="text-[#996516] font-bold text-xl">✓</span>
+                <p>The Augusta Rule that lets you take tax-free income from your business</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-[#996516] font-bold text-xl">✓</span>
+                <p>How business owners can pay their children up to $15,000 in 2025 — tax-free</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-[#996516] font-bold text-xl">✓</span>
+                <p>The retirement plans that can shelter six figures annually from taxation</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-[#996516] font-bold text-xl">✓</span>
+                <p>The entity structures that legally reduce self-employment tax by five figures</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-[#996516] font-bold text-xl">✓</span>
+                <p>How charitable giving strategies can multiply your deductions</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-[#996516] font-bold text-xl">✓</span>
+                <p>The difference between simply filing taxes and strategically engineering them</p>
+              </div>
             </div>
+            
+            <p className="text-lg text-[#174a21]/80 mt-6">
+              …and more. A total of 30 strategies designed for professionals earning $250K+ who want to stop overpaying and start keeping more.
+            </p>
+            
+            <p className="text-xl font-bold text-[#174a21] mt-8 text-center">
+              If you've ever felt like your tax bill is way too high for how hard you work — this was made for you.
+            </p>
           </div>
           
-          <p className="text-center text-sm text-[#174a21]/60 mt-6">
-            We respect your inbox. No spam—ever.
-          </p>
+          <div className="text-center">
+            <a
+              href="https://api.taxnitro.com/widget/form/rJ8uG542fXWaI2czVXsc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#174a21] text-white px-12 py-4 rounded-xl hover:bg-[#174a21]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
+            >
+              YES! Send Me the 2025 Tax Slasher Guide
+            </a>
+          </div>
         </div>
       </section>
 
