@@ -185,7 +185,7 @@ function TaxStrategies() {
           {/* Quick Note on Legitimacy - Design 1: Centered with Icon Header */}
           <div className="text-center mb-20">
             <div className="inline-flex items-center justify-center w-16 h-16 bg-[#174a21] text-white text-2xl mb-6">
-              🔒
+              <span className="font-bold">LOCK</span>
             </div>
             <h3 className="text-3xl font-black text-[#174a21] mb-8 uppercase tracking-wide">
               Quick Note on Legitimacy
@@ -193,19 +193,19 @@ function TaxStrategies() {
             <p className="text-2xl font-bold text-[#174a21] mb-8">Every strategy inside is:</p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-10 max-w-4xl mx-auto">
               <div className="text-center">
-                <div className="text-4xl mb-3">✅</div>
+                <div className="text-4xl mb-3 font-bold text-green-600">✓</div>
                 <p className="font-bold text-[#174a21]">100% Legal</p>
               </div>
               <div className="text-center">
-                <div className="text-4xl mb-3">✅</div>
+                <div className="text-4xl mb-3 font-bold text-green-600">✓</div>
                 <p className="font-bold text-[#174a21]">IRS-Compliant</p>
               </div>
               <div className="text-center">
-                <div className="text-4xl mb-3">✅</div>
+                <div className="text-4xl mb-3 font-bold text-green-600">✓</div>
                 <p className="font-bold text-[#174a21]">Proven Strategies</p>
               </div>
               <div className="text-center">
-                <div className="text-4xl mb-3">✅</div>
+                <div className="text-4xl mb-3 font-bold text-green-600">✓</div>
                 <p className="font-bold text-[#174a21]">Educational Guide</p>
               </div>
             </div>
@@ -291,7 +291,7 @@ function TaxStrategies() {
       <section className="py-20 px-4 bg-gradient-to-r from-[#174a21]/5 to-[#996516]/5">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12">
-            <div className="inline-block text-4xl mb-6">✍️</div>
+            <div className="inline-block text-2xl font-bold text-[#174a21] mb-6">SIGNATURE</div>
             <div className="w-24 h-1 bg-[#996516] mx-auto mb-8"></div>
           </div>
           
@@ -391,7 +391,7 @@ function TaxStrategies() {
       <section className="py-16 px-4 bg-[#174a21] text-white">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-8">
-            <div className="inline-block text-2xl mb-4">📝</div>
+            <div className="inline-block text-lg font-bold text-white mb-4">DISCLAIMER</div>
             <div className="w-16 h-0.5 bg-white/30 mx-auto"></div>
           </div>
           
