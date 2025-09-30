@@ -414,7 +414,6 @@ function TaxStrategies() {
                 <p className="text-white/70 text-lg">
                   © 2025 Ampliara PLLC. All rights reserved.
                 </p>
-              </p>
             </div>
           </div>
         </div>
