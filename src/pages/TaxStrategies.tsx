@@ -180,7 +180,7 @@ function TaxStrategies() {
           
           <div className="text-center space-y-8">
             <p className="text-xl text-[#174a21]">
-              …and more. A total of 30 strategies designed for professionals earning $250K+ who want to stop overpaying and start keeping more.
+              …and more. A total of 30 strategies designed to help you stop overpaying and start keeping more.
             </p>
             
             <div className="bg-yellow-100 p-8">
