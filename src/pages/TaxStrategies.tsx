@@ -428,5 +428,3 @@ function TaxStrategies() {
 }
 
 export default TaxStrategies;
-  )
-}
