@@ -29,8 +29,7 @@ function TaxStrategies() {
       </section>
 
       {/* Hero Section */}
-      <section className="py-20 px-4 bg-gradient-to-br from-[#174a21] to-[#174a21]/80 text-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-black/10"></div>
+      <section className="py-20 px-4 bg-[#174a21] text-white relative overflow-hidden">
         <div className="container mx-auto max-w-6xl relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
