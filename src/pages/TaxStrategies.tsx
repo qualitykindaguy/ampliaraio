@@ -12,8 +12,8 @@ function TaxStrategies() {
       <section className="pt-32 pb-8 px-4">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center">
-            <p className="text-3xl md:text-4xl lg:text-5xl text-[#174a21] font-black mb-8 tracking-tight whitespace-nowrap">
-              Advanced Tax Strategy for High-Earning Business Owners
+            <p className="text-3xl md:text-4xl lg:text-5xl text-[#174a21] font-black mb-8 tracking-tight">
+              Advanced Tax Strategy for<br />High-Earning Business Owners
             </p>
             <div className="inline-block">
               <p className="text-lg text-[#174a21]/70 mb-2">From the Desk of:</p>
