@@ -96,6 +96,10 @@ function TaxStrategies() {
             
             <p className="text-2xl font-bold text-red-600 bg-yellow-400 p-6 text-center">
               And then comes the biggest frustration of all: YOUR TAX BILL.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* What's Inside Section */}
       <section className="py-20 px-4">
