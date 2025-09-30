@@ -49,7 +49,6 @@ function TaxStrategies() {
               <div className="text-left">
               </div>
               
-            </div>
               <div className="space-y-6 text-lg leading-relaxed">
                 <p className="text-2xl font-bold text-yellow-300">
                   Did you know that there are 30 income tax savings strategies that most high earners miss out on…
@@ -80,6 +79,7 @@ function TaxStrategies() {
                   That's why I created the 2025 Tax Slasher Guide — 30 smart, legal moves your CPA probably hasn't told you about.
                 </p>
               </div>
+            </div>
             </div>
             
           </div>
