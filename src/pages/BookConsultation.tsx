@@ -153,7 +153,7 @@ function BookConsultation() {
       </section>
 
       {/* Footer / Disclaimer Section */}
-      <section className="py-16 px-4 bg-gray-900 text-white">
+      <section className="py-16 px-4 bg-[#174a21] text-white">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center space-y-6">
             <h4 className="text-xl font-bold text-white mb-4">DISCLAIMER</h4>
