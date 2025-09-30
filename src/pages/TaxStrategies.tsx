@@ -97,6 +97,22 @@ function TaxStrategies() {
             <p className="text-2xl font-bold text-red-600 bg-yellow-400 p-6 text-center">
               And then comes the biggest frustration of all: YOUR TAX BILL.
             </p>
+            
+            <p className="text-xl leading-relaxed">
+              It feels like no matter how hard you work, the IRS is always taking the biggest slice.
+            </p>
+            
+            <p className="text-xl leading-relaxed">
+              As a CPA who specializes in helping doctors, lawyers, consultants, and other high earners increase profits and reduce taxes, I see this every day.
+            </p>
+            
+            <p className="text-xl leading-relaxed">
+              The truth is, your income tax bill is often the single biggest expense standing between you and real financial freedom.
+            </p>
+            
+            <p className="text-xl leading-relaxed">
+              And here's the kicker: most successful professionals have no idea they can legally and ethically reduce their income taxes by tens of thousands of dollars every year.
+            </p>
           </div>
         </div>
       </section>
