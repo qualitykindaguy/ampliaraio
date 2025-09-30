@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
-import sainteNew from '../assets/sainte-new.png';
+import taxStrategiesHero from '../assets/TaxStrategiesHero.png';
 
 function TaxStrategies() {
   return (
@@ -71,8 +71,8 @@ function TaxStrategies() {
             
             <div className="flex justify-center">
               <img
-                src={sainteNew}
-                alt="Sainte Billings, CPA"
+                src={taxStrategiesHero}
+                alt="Tax Strategies Hero"
                 className="w-full max-w-md"
                 width="400"
                 height="500"
