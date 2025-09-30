@@ -82,8 +82,6 @@ function TaxStrategies() {
             </div>
             </div>
             
-          </div>
-        </div>
       </section>
 
       {/* Personal Letter Section */}
