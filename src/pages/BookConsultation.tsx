@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
-import { Play, CheckCircle2, Calendar, Shield, Target, TrendingUp } from 'lucide-react';
+import { Play } from 'lucide-react';
 
 function BookConsultation() {
   return (
@@ -32,14 +32,14 @@ function BookConsultation() {
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#174a21] mb-6">
-              🎥 Watch This Short Video From Sainte Billings, CPA
+              Watch This Short Video From Sainte Billings, CPA
             </h2>
             <p className="text-lg text-[#174a21]/80">
               (2–3 minute video: explain why most CPAs don't go beyond filing, why advanced strategy matters, and how the $10K guarantee works)
             </p>
           </div>
           
-          <div className="bg-white rounded-2xl shadow-xl p-8 mb-12">
+          <div className="bg-white p-8 mb-12">
             <div className="aspect-video bg-gray-100 rounded-xl flex items-center justify-center mb-8 relative overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-[#174a21]/20 to-[#996516]/20"></div>
               <div className="relative z-10 text-center">
@@ -57,9 +57,9 @@ function BookConsultation() {
                 href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-[#174a21] text-white px-12 py-4 text-2xl font-bold hover:bg-[#174a21]/90 transition duration-300 transform hover:scale-105 rounded-lg"
+                className="inline-block bg-[#174a21] text-white px-12 py-4 text-2xl font-bold hover:bg-[#174a21]/90 transition duration-300 transform hover:scale-105"
               >
-                🟩 Schedule My Free Tax Strategy Call →
+                Schedule My Free Tax Strategy Call
               </a>
             </div>
           </div>
@@ -70,11 +70,11 @@ function BookConsultation() {
       <section className="py-20 px-4 bg-[#174a21]/5">
         <div className="container mx-auto max-w-5xl">
           <h2 className="text-4xl font-black text-[#174a21] mb-16 text-center">
-            📅 Why Book Your Free Tax Strategy Call?
+            Why Book Your Free Tax Strategy Call?
           </h2>
           
           <div className="space-y-12">
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white p-8">
               <div className="flex items-start gap-6">
                 <div className="w-16 h-16 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
                   <span className="text-white font-bold text-xl">A</span>
@@ -88,7 +88,7 @@ function BookConsultation() {
               </div>
             </div>
 
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white p-8">
               <div className="flex items-start gap-6">
                 <div className="w-16 h-16 bg-[#996516] rounded-full flex items-center justify-center flex-shrink-0">
                   <span className="text-white font-bold text-xl">B</span>
@@ -102,7 +102,7 @@ function BookConsultation() {
               </div>
             </div>
 
-            <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="bg-white p-8">
               <div className="flex items-start gap-6">
                 <div className="w-16 h-16 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0">
                   <span className="text-white font-bold text-xl">C</span>
@@ -122,9 +122,9 @@ function BookConsultation() {
               href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-[#996516] text-white px-12 py-4 text-2xl font-bold hover:bg-[#996516]/90 transition duration-300 transform hover:scale-105 rounded-lg"
+              className="inline-block bg-[#996516] text-white px-12 py-4 text-2xl font-bold hover:bg-[#996516]/90 transition duration-300 transform hover:scale-105"
             >
-              🟩 Schedule My Free Call →
+              Schedule My Free Call
             </a>
           </div>
         </div>
@@ -133,7 +133,7 @@ function BookConsultation() {
       {/* Final CTA Section */}
       <section className="py-20 px-4 bg-[#174a21] text-white">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-4xl font-black mb-8">✅ Don't Let the IRS Treat You Like Just Another "Taxpayer"</h2>
+          <h2 className="text-4xl font-black mb-8">Don't Let the IRS Treat You Like Just Another "Taxpayer"</h2>
           
           <div className="space-y-6 text-xl leading-relaxed mb-12">
             <p>You're a wealth builder and business leader who deserves to keep more of what you earn.</p>
@@ -146,9 +146,9 @@ function BookConsultation() {
               href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-white text-[#174a21] px-12 py-4 text-2xl font-bold hover:bg-white/90 transition duration-300 transform hover:scale-105 rounded-lg"
+              className="inline-block bg-white text-[#174a21] px-12 py-4 text-2xl font-bold hover:bg-white/90 transition duration-300 transform hover:scale-105"
             >
-              🟩 Schedule My Free Tax Strategy Call Now →
+              Schedule My Free Tax Strategy Call Now
             </a>
           </div>
           
@@ -168,7 +168,7 @@ function BookConsultation() {
       <section className="py-16 px-4 bg-gray-900 text-white">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center space-y-6">
-            <h4 className="text-xl font-bold text-white mb-4">📝 DISCLAIMER</h4>
+            <h4 className="text-xl font-bold text-white mb-4">DISCLAIMER</h4>
             <p className="text-white/90 leading-relaxed">
               This call is for educational purposes and does not constitute formal tax advice until an engagement is signed. 
               Savings opportunities are based on IRS-compliant strategies; individual results vary. Guarantee applies only to 
