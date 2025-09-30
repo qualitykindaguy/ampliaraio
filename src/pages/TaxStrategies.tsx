@@ -104,7 +104,7 @@ function TaxStrategies() {
             </div>
             
             <p className="text-2xl font-bold text-[#996516]">
-              I see you as a wealth builder. A business leader. Someone who deserves to keep more 
+              I see you as a WEALTH BUILDER. A business leader. Someone who deserves to keep more 
               of what you earn and actually put it to work for your future.
             </p>
             
