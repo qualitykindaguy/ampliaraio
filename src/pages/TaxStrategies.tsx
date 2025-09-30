@@ -12,11 +12,7 @@ function TaxStrategies() {
       <section className="pt-32 pb-8 px-4">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center">
-            <h1 className="text-6xl font-black text-[#174a21] mb-4 tracking-tight">
-              AMPLIARA PLLC
-            </h1>
-            <div className="w-24 h-1 bg-[#996516] mx-auto mb-6"></div>
-            <p className="text-xl text-[#174a21] font-medium mb-8">
+            <p className="text-4xl md:text-5xl text-[#174a21] font-black mb-8 tracking-tight">
               Advanced Tax Strategy for High-Earning Business Owners
             </p>
             <div className="inline-block">
