@@ -229,51 +229,6 @@ function TaxStrategies() {
         </div>
       </section>
 
-      {/* Next Step Section */}
-      <section className="py-20 px-4 bg-gray-50">
-        <div className="container mx-auto max-w-5xl">
-          <h2 className="text-4xl font-black text-[#174a21] mb-12 text-center">
-            The Next Step
-          </h2>
-          
-          <div className="text-center mb-12">
-            <p className="text-xl text-[#174a21] leading-relaxed mb-8">
-              Reading is powerful. Applying is transformational. That's where we come in. After downloading your copy, 
-              schedule a 1:1 Tax Strategy Session with our team.
-            </p>
-            
-            <div className="bg-white p-8 mb-12">
-              <p className="text-2xl font-bold text-[#174a21] mb-6">In that meeting, we'll:</p>
-              <div className="space-y-4 text-left max-w-2xl mx-auto">
-                <div className="flex items-start gap-3">
-                  <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
-                  <p className="text-lg text-[#174a21]">Review your practice's unique situation.</p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
-                  <p className="text-lg text-[#174a21]">Identify which strategies can work for you right now.</p>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-3 h-3 bg-[#996516] rounded-full flex-shrink-0 mt-2"></div>
-                  <p className="text-lg text-[#174a21]">Show you exactly how to cut your tax bill — often uncovering $10,000 to $50,000 in potential savings.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div className="text-center">
-            <a
-              href="https://api.taxnitro.com/widget/booking/m0l9FwL6VkOM2ajFvKlG"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-[#996516] text-white px-12 py-4 text-xl font-bold hover:bg-[#996516]/90 transition duration-300 transform hover:scale-105"
-            >
-              SCHEDULE YOUR TAX STRATEGY SESSION
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* Final CTA Section */}
       <section className="py-20 px-4 bg-[#174a21] text-white">
         <div className="container mx-auto max-w-4xl text-center">
