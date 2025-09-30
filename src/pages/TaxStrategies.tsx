@@ -83,9 +83,6 @@ function TaxStrategies() {
           </div>
         </div>
       </section>
-            </div>
-            
-      </section>
 
       {/* Personal Letter Section */}
       <section className="py-20 px-4">
@@ -334,5 +331,3 @@ function TaxStrategies() {
 }
 
 export default TaxStrategies;
-  )
-}
