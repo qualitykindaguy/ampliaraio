@@ -182,6 +182,37 @@ function TaxStrategies() {
       {/* What's Inside Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-5xl">
+          {/* Quick Note on Legitimacy */}
+          <div className="bg-gray-50 border-l-4 border-[#174a21] p-8 mb-16">
+            <h3 className="text-2xl font-bold text-[#174a21] mb-6 flex items-center gap-2">
+              🔒 Quick Note on Legitimacy
+            </h3>
+            <p className="text-lg text-[#174a21] mb-4">Every strategy inside is:</p>
+            <div className="space-y-2 mb-6">
+              <div className="flex items-center gap-3">
+                <span className="text-green-600 font-bold">✅</span>
+                <span className="text-[#174a21]">100% legal</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="text-green-600 font-bold">✅</span>
+                <span className="text-[#174a21]">IRS-compliant</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="text-green-600 font-bold">✅</span>
+                <span className="text-[#174a21]">Used by savvy business owners every day</span>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="text-green-600 font-bold">✅</span>
+                <span className="text-[#174a21]">Shared so you can see what's possible for your situation</span>
+              </div>
+            </div>
+            <p className="text-[#174a21] italic">
+              This guide is educational—it shows you what exists, so you can explore the opportunities most CPAs never mention.
+            </p>
+          </div>
+        </div>
+        
+        <div className="container mx-auto max-w-5xl">
           <h2 className="text-4xl font-black text-[#174a21] mb-16 text-center">
             Here's a preview of what you'll discover:
           </h2>
@@ -246,6 +277,28 @@ function TaxStrategies() {
               >
                 YES! SEND ME THE 2025 TAX SLASHER GUIDE
               </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Closing / Sign-Off Section */}
+      <section className="py-16 px-4 bg-white">
+        <div className="container mx-auto max-w-4xl text-center">
+          <div className="bg-[#174a21]/5 p-8 rounded-2xl">
+            <h3 className="text-2xl font-bold text-[#174a21] mb-6 flex items-center justify-center gap-2">
+              ✍️ Closing / Sign-Off
+            </h3>
+            <p className="text-xl text-[#174a21] mb-6 leading-relaxed">
+              Now is the time to stop overpaying and start taking control of your financial future.
+            </p>
+            <p className="text-lg text-[#174a21] mb-8">
+              Click the button above, grab the guide, and discover the strategies that could help you slash your 2025 tax bill.
+            </p>
+            <div className="text-center">
+              <p className="text-lg text-[#174a21] mb-2">To your success,</p>
+              <p className="text-xl font-bold text-[#174a21]">Sainte Billings, CPA</p>
+              <p className="text-lg text-[#174a21]/80">Founder, Ampliara PLLC</p>
             </div>
           </div>
         </div>
@@ -319,6 +372,24 @@ function TaxStrategies() {
             >
               SCHEDULE YOUR STRATEGY SESSION
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer / Disclaimer Section */}
+      <section className="py-12 px-4 bg-gray-100">
+        <div className="container mx-auto max-w-4xl text-center">
+          <div className="bg-white p-6 rounded-lg border border-gray-200">
+            <h3 className="text-lg font-bold text-[#174a21] mb-4 flex items-center justify-center gap-2">
+              📝 Footer / Disclaimer
+            </h3>
+            <p className="text-sm text-gray-600 mb-4 leading-relaxed">
+              This guide is for educational purposes only and does not constitute formal tax advice. 
+              Individual results may vary. Consult a qualified tax professional before implementing any new strategies.
+            </p>
+            <p className="text-sm text-gray-500">
+              © Ampliara PLLC. All rights reserved.
+            </p>
           </div>
         </div>
       </section>
