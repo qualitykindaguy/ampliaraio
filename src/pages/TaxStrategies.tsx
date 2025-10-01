@@ -63,7 +63,7 @@ function TaxStrategies() {
                     rel="noopener noreferrer"
                     className="inline-block bg-[#996516] text-white px-12 py-4 text-2xl font-bold hover:bg-[#996516]/90 transition duration-300 transform hover:scale-105"
                   >
-                    YES! SEND ME THE 2025 TAX SLASHER GUIDE
+                    SEND ME THE 2025 TAX SLASHER GUIDE
                   </a>
                 </div>
               </div>
