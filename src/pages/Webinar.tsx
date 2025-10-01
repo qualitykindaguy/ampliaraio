@@ -153,6 +153,8 @@ function Webinar() {
             </a>
           </div>
         </div>
+      </div>
+        </div>
       </section>
 
       {/* Timing Section */}
