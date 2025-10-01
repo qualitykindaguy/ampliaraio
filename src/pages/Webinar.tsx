@@ -99,78 +99,6 @@ function Webinar() {
       {/* Pain Section */}
       <section className="py-20 px-4 bg-white relative">
         <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-[#174a21] via-yellow-400 to-[#996516]"></div>
-                  Free Live Webinar
-                </div>
-              </div>
-              
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight text-[#174a21]">
-                FROM LIMITATIONS TO LEVERAGE:
-                <span className="block text-[#996516] mt-4">THE HIGH-INCOME EDGE</span>
-              </h1>
-              
-              <div className="space-y-4">
-                <p className="text-xl md:text-2xl text-gray-800 font-bold leading-relaxed">
-                  Learn how to build the right income structure, grow wealth, and pay $0 in taxes.
-                </p>
-                
-                <p className="text-lg md:text-xl text-gray-700 font-medium leading-relaxed">
-                  Stop overpaying the IRS. Discover how to protect your income, get your business working for you, and cut taxes this year.
-                </p>
-              </div>
-              
-              <div className="bg-gray-50 p-6 rounded-lg space-y-4">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg font-bold">
-                  <div>
-                    <span className="font-black text-[#174a21]">Date:</span>
-                    <div className="text-gray-700">October 16, 2025</div>
-                  </div>
-                  <div>
-                    <span className="font-black text-[#174a21]">Time:</span>
-                    <div className="text-gray-700">7:00 PM EST</div>
-                  </div>
-                  <div>
-                    <span className="font-black text-[#174a21]">Format:</span>
-                    <div className="text-gray-700">Live Online</div>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="text-center">
-                <a
-                  href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-[#174a21] text-white px-8 py-4 text-lg font-bold hover:bg-[#174a21]/90 transition duration-300 uppercase tracking-wide rounded-lg"
-                  onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
-                >
-                  Reserve My Free Spot Now
-                </a>
-              </div>
-            </div>
-            
-            {/* Right Column - Image */}
-            <div className="flex justify-center lg:justify-end">
-              <div className="relative inline-block">
-                <img
-                  src={sainteNew}
-                  alt="Sainte Billings, CPA"
-                  className="w-full max-w-lg h-auto"
-                  width="500"
-                  height="600"
-                />
-                <div className="absolute -bottom-4 left-0 right-0 bg-white px-6 py-3 rounded-lg shadow-lg border-2 border-[#174a21]">
-                  <div className="text-center">
-                    <div className="text-base font-bold text-[#174a21]">Sainte Billings, CPA</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Pain Section */}
-      <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-black text-[#174a21] mb-6">
@@ -377,44 +305,6 @@ function Webinar() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <FooterSection />
-      
-      <script src="https://api.taxnitro.com/js/form_embed.js"></script>
-    </div>
-  );
-}
-
-export default Webinar;
-          
-          <div className="bg-white/10 p-6 rounded-lg mb-12">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg font-bold text-white">
-              <div>
-                <span className="font-black">Date:</span>
-                <div>October 16, 2025</div>
-              </div>
-              <div>
-                <span className="font-black">Time:</span>
-                <div>7:00 PM EST</div>
-              </div>
-              <div>
-                <span className="font-black">Format:</span>
-                <div>Live Online</div>
-              </div>
-            </div>
-          </div>
-          
-          <a
-            href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-[#996516] text-white px-8 py-4 text-lg font-bold hover:bg-[#996516]/90 transition duration-300 uppercase tracking-wide rounded-lg"
-            onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
-          >
-            Register for the Free Webinar
-          </a>
         </div>
       </section>
 
