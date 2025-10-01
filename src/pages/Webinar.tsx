@@ -200,6 +200,27 @@ function Webinar() {
               </p>
             </div>
           </div>
+          
+          <div className="text-center mt-12">
+            <a
+              href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#174a21] text-white px-8 py-4 text-lg font-bold hover:bg-[#174a21]/90 transition duration-300 uppercase tracking-wide rounded-lg"
+              onClick={() => {
+                try {
+                  fbq('track', 'Lead', {
+                    content_name: 'Register Button Click',
+                    content_category: 'Tax Webinar Funnel',
+                    value: 0.00,
+                    currency: 'USD'
+                  })
+                } catch (e) { }
+              }}
+            >
+              REGISTER NOW!
+            </a>
+          </div>
         </div>
       </section>
     <FooterSection />
