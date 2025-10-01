@@ -14,8 +14,10 @@ function Webinar() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center min-h-[80vh]">
             {/* Left Column - Content */}
             <div className="space-y-8">
-              <div className="inline-block bg-[#174a21] text-white px-6 py-3 text-sm font-bold uppercase tracking-wide">
-                Free Live Webinar
+              <div className="text-center">
+                <div className="inline-block bg-[#174a21] text-white px-6 py-3 text-sm font-bold uppercase tracking-wide">
+                  Free Live Webinar
+                </div>
               </div>
               
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-black leading-tight text-[#174a21]">
@@ -50,15 +52,17 @@ function Webinar() {
                 </div>
               </div>
               
-              <a
-                href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-[#174a21] text-white px-12 py-4 text-xl font-bold hover:bg-[#174a21]/90 transition duration-300 uppercase tracking-wide"
-                onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
-              >
-                Reserve My Free Spot Now
-              </a>
+              <div className="text-center">
+                <a
+                  href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-[#174a21] text-white px-12 py-4 text-xl font-bold hover:bg-[#174a21]/90 transition duration-300 uppercase tracking-wide"
+                  onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
+                >
+                  Reserve My Free Spot Now
+                </a>
+              </div>
             </div>
             
             {/* Right Column - Image */}
@@ -105,7 +109,7 @@ function Webinar() {
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto max-w-4xl">
           <p className="text-2xl text-gray-800 mb-12 font-medium">
-            In this 60-minute live training, you'll discover how to:
+            In this 60-minute live webinar, you'll discover how to:
           </p>
           
           <div className="space-y-8 text-xl text-gray-700">
@@ -162,7 +166,7 @@ function Webinar() {
             </p>
             
             <p>
-              If you want to keep more of what you earn and finally break free from overpaying the IRS, this training is for you.
+              If you want to keep more of what you earn and finally break free from overpaying the IRS, this webinar is for you.
             </p>
           </div>
         </div>
@@ -230,7 +234,7 @@ function Webinar() {
       <section className="py-12 px-4 bg-gray-50">
         <div className="container mx-auto max-w-4xl text-center">
           <p className="text-lg text-gray-700 mb-4">
-            This training is for educational purposes only and does not constitute formal tax advice. Individual results may vary.
+            This webinar is for educational purposes only and does not constitute formal tax advice. Individual results may vary.
           </p>
           <p className="text-lg text-gray-700">
             © Ampliara PLLC. All rights reserved.
