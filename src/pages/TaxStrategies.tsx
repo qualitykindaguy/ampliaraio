@@ -55,6 +55,17 @@ function TaxStrategies() {
                 <p className="text-2xl md:text-3xl pt-4">
                   And the reason isn't because your CPA is bad… it's because most CPAs are trained to file taxes, not to engineer tax savings.
                 </p>
+                
+                <div className="mt-8">
+                  <a
+                    href="https://api.taxnitro.com/widget/form/rJ8uG542fXWaI2czVXsc"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block bg-[#996516] text-white px-12 py-4 text-2xl font-bold hover:bg-[#996516]/90 transition duration-300 transform hover:scale-105"
+                  >
+                    YES! SEND ME THE 2025 TAX SLASHER GUIDE
+                  </a>
+                </div>
               </div>
             </div>
           </div>
