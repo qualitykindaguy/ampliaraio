@@ -70,7 +70,7 @@ function Webinar() {
                     href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block bg-[#174a21] text-white px-8 py-4 text-lg font-bold hover:bg-[#174a21]/90 transition duration-300 uppercase tracking-wide rounded-lg"
+                    className="inline-block bg-[#174a21] text-white px-8 py-4 text-lg font-bold hover:bg-[#174a21]/90 transition duration-300 uppercase tracking-wide rounded-lg mt-8"
                     onClick={() => {
                       try {
                         fbq('track', 'Lead', {
@@ -124,8 +124,8 @@ function Webinar() {
       {/* Learning Section */}
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto max-w-4xl">
-          <p className="text-2xl md:text-3xl text-gray-800 mb-12 font-bold">
-            In this 60-minute live webinar, you'll discover how to:
+          <p className="text-3xl md:text-4xl text-gray-800 mb-12 font-black">
+            In this 60-minute live webinar, we will cover:
           </p>
 
           <div className="space-y-6 text-lg md:text-xl font-medium text-gray-700">
