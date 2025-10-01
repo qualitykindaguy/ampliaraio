@@ -29,8 +29,8 @@ function TaxStrategies() {
               Doctors, Lawyers & Consultants!
             </h2>
             
-            <div className="text-left space-y-8">
-              <div className="space-y-6 text-xl leading-relaxed max-w-4xl mx-auto">
+            <div className="text-left space-y-8 px-4">
+              <div className="space-y-6 text-xl leading-relaxed">
                 <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-300 max-w-6xl">
                   Did you know that there are 30 income tax savings strategies that most high earners miss out on…
                 </p>
