@@ -51,7 +51,7 @@ function Navbar() {
               rel="noopener noreferrer"
               className="bg-[#996516] text-white px-4 py-2 rounded-lg hover:bg-[#996516]/90 transition duration-300"
             >
-              Book Consultation
+              Schedule a Call
             </a>
           </nav>
 
@@ -112,7 +112,7 @@ function Navbar() {
               className="block bg-[#996516] text-white px-4 py-2 rounded-lg hover:bg-[#996516]/90 transition duration-300 text-center"
               onClick={() => setIsMenuOpen(false)}
             >
-              Book Consultation
+              Schedule a Call
             </a>
           </nav>
         )}
