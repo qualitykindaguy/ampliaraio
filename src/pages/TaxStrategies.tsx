@@ -29,7 +29,7 @@ function TaxStrategies() {
               Hey Doctors, Lawyers & Consultants!
             </h2>
             
-            <div className="text-center space-y-8">
+            <div className="text-left space-y-8">
               <div className="space-y-6 text-xl leading-relaxed max-w-4xl mx-auto">
                 <p className="text-4xl md:text-5xl font-bold text-yellow-300">
                   Did you know that there are 30 income tax savings strategies that most high earners miss out on… These exact strategies could slash their tax bill by $10K–$50K+ every year?
@@ -37,7 +37,7 @@ function TaxStrategies() {
                 
                 <p className="text-2xl md:text-3xl">And the truth is, implementing just ONE of these strategies can:</p>
                 
-                <div className="space-y-4 max-w-lg mx-auto text-xl md:text-2xl">
+                <div className="space-y-4 max-w-lg text-xl md:text-2xl">
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
                     <span>Significantly reduce your tax bill</span>
