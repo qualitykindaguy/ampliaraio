@@ -172,7 +172,7 @@ function Webinar() {
                 } catch (e) { }
               }}
             >
-              Save My Spot
+              Lock Me In!
             </a>
           </div>
         </div>
@@ -181,7 +181,7 @@ function Webinar() {
       {/* Timing Section */}
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-4xl">
-          <div className="space-y-6 text-lg md:text-xl font-medium text-gray-700 leading-relaxed">
+          <div className="space-y-6 text-xl md:text-2xl font-bold text-gray-700 leading-relaxed">
             <p>Tax laws are always shifting — and waiting until filing season is too late.</p>
             <p>This webinar gives you timely, practical strategies you can start using now to protect your 2025 income before it's locked in.</p>
             <p>If you want to keep more of what you earn and finally break free from overpaying the IRS, this webinar is for you.</p>
@@ -194,7 +194,8 @@ function Webinar() {
         <div className="container mx-auto max-w-4xl">
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl md:text-3xl font-black text-[#996516] mb-2">Sainte Billings, CPA</h3>
+              <h3 className="text-2xl md:text-3xl font-black text-[#996516] mb-2">Meet your Instructor:</h3>
+              <h4 className="text-2xl md:text-3xl font-black text-[#174a21] mb-2">Sainte the CPA</h4>
               <p className="text-lg md:text-xl font-bold text-gray-700"> Tax strategist and wealth optimization expert helping high-income earners keep more of what they earn.
               </p>
             </div>
