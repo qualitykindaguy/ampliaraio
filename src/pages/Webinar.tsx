@@ -82,7 +82,7 @@ function Webinar() {
                       } catch (e) { }
                     }}
                   >
-                    Reserve My Free Spot Now
+                    REGISTER NOW!
                   </a>
                 </div>
               </div>
