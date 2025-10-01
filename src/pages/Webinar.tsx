@@ -112,7 +112,7 @@ function Webinar() {
       {/* Pain Section */}
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-4xl">
-          <div className="space-y-6 text-lg md:text-xl font-bold text-gray-700 leading-relaxed">
+          <div className="space-y-6 text-xl md:text-2xl font-bold text-gray-700 leading-relaxed">
             <p>If you're a doctor, lawyer, consultant, executive, or high-income W-2 earner... you already know the IRS is taking the biggest slice of your hard work.</p>
             <p>You're paying more in taxes than you should every single year.</p>
             <p>Your CPA is likely just filing — not strategizing.</p>
