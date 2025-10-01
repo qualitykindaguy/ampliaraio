@@ -37,11 +37,11 @@ function Webinar() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg">
                   <div>
                     <span className="font-bold text-[#174a21]">Date:</span>
-                    <div className="text-gray-700">[Insert Date]</div>
+                    <div className="text-gray-700">October 16, 2025</div>
                   </div>
                   <div>
                     <span className="font-bold text-[#174a21]">Time:</span>
-                    <div className="text-gray-700">[Insert Time]</div>
+                    <div className="text-gray-700">7:00 PM EST</div>
                   </div>
                   <div>
                     <span className="font-bold text-[#174a21]">Format:</span>
@@ -221,11 +221,11 @@ function Webinar() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg text-white">
               <div>
                 <span className="font-bold">Date:</span>
-                <div>[Insert Date]</div>
+                <div>October 16, 2025</div>
               </div>
               <div>
                 <span className="font-bold">Time:</span>
-                <div>[Insert Time]</div>
+                <div>7:00 PM EST</div>
               </div>
               <div>
                 <span className="font-bold">Format:</span>
