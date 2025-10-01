@@ -89,9 +89,9 @@ function BookConsultation() {
               href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-[#996516] text-white px-12 py-4 text-2xl font-bold hover:bg-[#996516]/90 transition duration-300 transform hover:scale-105"
+              className="inline-block bg-[#996516] text-white px-12 py-4 text-xl font-bold hover:bg-[#996516]/90 transition duration-300 transform hover:scale-105"
             >
-              Schedule My Free Call
+              Schedule My Free Tax Strategy Call Now
             </a>
           </div>
         </div>
@@ -113,40 +113,10 @@ function BookConsultation() {
               href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-white text-[#174a21] px-12 py-4 text-2xl font-bold hover:bg-white/90 transition duration-300 transform hover:scale-105"
+              className="inline-block bg-white text-[#174a21] px-12 py-4 text-xl font-bold hover:bg-white/90 transition duration-300 transform hover:scale-105"
             >
               Schedule My Free Tax Strategy Call Now
             </a>
-          </div>
-          
-          <div className="border-t-4 border-white pt-8">
-            <div className="text-center space-y-4">
-              <p className="text-xl">To your success,</p>
-              <div className="border-l-4 border-[#996516] pl-6 inline-block text-left">
-                <p className="text-3xl font-black">Sainte Billings, CPA</p>
-                <p className="text-xl text-[#996516] font-bold">Founder, Ampliara PLLC</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Footer / Disclaimer Section */}
-      <section className="py-16 px-4 bg-[#174a21] text-white">
-        <div className="container mx-auto max-w-4xl">
-          <div className="text-center space-y-6">
-            <h4 className="text-xl font-bold text-white mb-4">DISCLAIMER</h4>
-            <p className="text-white/90 leading-relaxed">
-              This call is for educational purposes and does not constitute formal tax advice until an engagement is signed. 
-              Savings opportunities are based on IRS-compliant strategies; individual results vary. Guarantee applies only to 
-              qualifying clients after full analysis.
-            </p>
-            
-            <div className="border-t border-white/30 pt-6 mt-8">
-              <p className="text-white/70">
-                © 2025 Ampliara PLLC. All rights reserved.
-              </p>
-            </div>
           </div>
         </div>
       </section>
