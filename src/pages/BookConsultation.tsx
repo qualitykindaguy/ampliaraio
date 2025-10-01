@@ -40,13 +40,15 @@ function BookConsultation() {
           </div>
           
           <div className="bg-white p-8 mb-12">
-            <div className="aspect-video bg-gray-100 rounded-xl flex items-center justify-center mb-8 relative overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#174a21]/20 to-[#996516]/20"></div>
-              <div className="relative z-10 text-center">
-                <Play className="h-20 w-20 text-[#174a21] mx-auto mb-4" />
-                <p className="text-lg text-[#174a21] font-semibold">Video Coming Soon</p>
-                <p className="text-[#174a21]/80">Advanced Tax Strategy Explanation</p>
-              </div>
+            <div className="aspect-video bg-gray-100 rounded-xl mb-8 relative overflow-hidden">
+              <iframe
+                src="https://www.youtube.com/embed/n3lmaFG7WAo"
+                title="Advanced Tax Strategy Explanation"
+                className="w-full h-full rounded-xl"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
             </div>
             
             <div className="text-center">
