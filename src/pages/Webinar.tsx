@@ -206,3 +206,5 @@ function Webinar() {
     </div>
   )
 }
+
+export default Webinar;
