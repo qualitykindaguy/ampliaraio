@@ -1,9 +1,22 @@
 import React from 'react';
+import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
 import sainteNew from '../assets/sainte-new.png';
 
 function Webinar() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://api.taxnitro.com/js/form_embed.js";
+    script.async = true;
+    document.body.appendChild(script);
+    return () => {
+      if (document.body.contains(script)) {
+        document.body.removeChild(script);
+      }
+    };
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -226,8 +239,6 @@ function Webinar() {
           </a>
         </div>
       </section>
-
-      <FooterSection />
     </div>
   );
 }
