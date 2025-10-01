@@ -228,8 +228,6 @@ function Webinar() {
       </section>
 
       <FooterSection />
-      
-      <script src="https://api.taxnitro.com/js/form_embed.js"></script>
     </div>
   );
 }
