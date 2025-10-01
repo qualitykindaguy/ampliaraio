@@ -151,7 +151,7 @@ function Webinar() {
               <div className="w-6 h-6 bg-[#174a21] flex items-center justify-center flex-shrink-0 mt-1 rounded">
                 <span className="text-white font-bold text-lg">✓</span>
               </div>
-              <p><span className="font-black">Implement Immediate, Actionable Strategies</span> – Walk away with steps you can start using this year to cut your tax bill.</p>
+              <p><span className="font-black">How You can start implementing now!</span> – Walk away with steps you can start using this year to cut your tax bill.</p>
             </div>
           </div>
 
