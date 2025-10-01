@@ -198,7 +198,7 @@ function TaxStrategies() {
               <p className="text-2xl font-bold text-[#174a21] mb-6">
                 If you've ever felt like your tax bill is way too high for how hard you work — this was made for you.
               </p>
-              <div className="text-left">
+              <div className="text-center">
                 <a
                   href="https://api.taxnitro.com/widget/form/rJ8uG542fXWaI2czVXsc"
                   target="_blank"
