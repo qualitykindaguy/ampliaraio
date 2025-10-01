@@ -77,37 +77,6 @@ function Webinar() {
         </div>
       </section>
 
-      {/* Free Webinar Form Section */}
-      <section className="py-20 px-4 bg-gray-50">
-        <div className="container mx-auto max-w-4xl">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-black text-[#174a21] mb-6">Free Webinar Registration</h2>
-          </div>
-          
-          <div className="bg-white p-8">
-            <div className="min-h-[444px] w-full overflow-hidden">
-              <iframe
-                src="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5"
-                style={{width:'100%', height:'444px', border:'none'}}
-                id="inline-cyODn3Dx3FhB4W5m2RU5"
-                data-layout="{'id':'INLINE'}"
-                data-trigger-type="alwaysShow"
-                data-trigger-value=""
-                data-activation-type="alwaysActivated"
-                data-activation-value=""
-                data-deactivation-type="neverDeactivate"
-                data-deactivation-value=""
-                data-form-name="Tax Webinar Registration"
-                data-height="444"
-                data-layout-iframe-id="inline-cyODn3Dx3FhB4W5m2RU5"
-                data-form-id="cyODn3Dx3FhB4W5m2RU5"
-                title="Tax Webinar Registration"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* The Pain You Already Feel Section */}
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-4xl">
