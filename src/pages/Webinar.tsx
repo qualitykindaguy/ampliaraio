@@ -180,8 +180,6 @@ function Webinar() {
               href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
               target="_blank"
               rel="noopener noreferrer"
-  )
-}
               className="inline-block bg-yellow-400 text-black px-12 py-6 text-2xl font-black hover:bg-yellow-300 transition duration-300 uppercase tracking-wide rounded-2xl shadow-2xl transform hover:scale-105"
               onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
             >
