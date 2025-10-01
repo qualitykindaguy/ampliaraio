@@ -91,7 +91,7 @@ function BookConsultation() {
               rel="noopener noreferrer"
               className="inline-block bg-[#996516] text-white px-12 py-4 text-xl font-bold hover:bg-[#996516]/90 transition duration-300 transform hover:scale-105"
             >
-              Schedule My Free Tax Strategy Call Now
+              Let's talk Tax Savings!
             </a>
           </div>
         </div>
@@ -115,7 +115,7 @@ function BookConsultation() {
               rel="noopener noreferrer"
               className="inline-block bg-[#996516] text-white px-12 py-4 text-xl font-bold hover:bg-[#996516]/90 transition duration-300 transform hover:scale-105"
             >
-              Schedule My Free Tax Strategy Call Now
+              Let's talk Tax Savings!
             </a>
           </div>
         </div>
