@@ -114,6 +114,7 @@ function BookConsultation() {
               target="_blank"
               rel="noopener noreferrer"
     </div>
+  )
   );
 }
 
