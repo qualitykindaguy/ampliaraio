@@ -21,12 +21,32 @@ function BookConsultation() {
             </p>
             
             <p className="text-lg md:text-xl">
-              Ready to discover how much you could be saving? Book your free consultation below.
+              Ready to discover how much you could be saving? Watch the short video below to see how this works, then book your free consultation.
             </p>
           </div>
         </div>
       </section>
 
+      {/* Video Section */}
+      <section className="py-20 px-4">
+        <div className="container mx-auto max-w-4xl text-center">
+          <h2 className="text-3xl font-bold text-[#174a21] mb-8">
+            Watch This Short Video From Sainte Billings, CPA
+          </h2>
+          <p className="text-lg text-[#174a21]/80 mb-8">
+            (2–3 minute video: explain why most CPAs don't go beyond filing, why advanced strategy matters, and how the $10K guarantee works)
+          </p>
+          
+          <div className="bg-gray-100 rounded-2xl p-16 mb-8">
+            <div className="flex items-center justify-center">
+              <div className="w-24 h-24 bg-[#174a21] rounded-full flex items-center justify-center">
+                <Play className="h-12 w-12 text-white ml-2" />
+              </div>
+            </div>
+            <p className="text-[#174a21]/60 mt-4">Video placeholder - Click to play</p>
+          </div>
+        </div>
+      </section>
 
       {/* Why Book Section */}
       <section className="py-20 px-4 bg-[#174a21]/5">
@@ -36,31 +56,34 @@ function BookConsultation() {
           </h2>
           
           <div className="space-y-16">
-            <div className="border-l-8 border-[#174a21] pl-8">
+            <div className="flex items-start gap-8">
+              <div className="text-8xl font-black text-[#174a21] leading-none">A)</div>
               <div className="mb-6">
-                <h3 className="text-3xl font-bold text-[#174a21] mb-4">A) It's Proven to Work for High-Earning Professionals</h3>
+                <h3 className="text-3xl font-bold text-[#174a21] mb-4">It's Proven to Work for High-Earning Professionals</h3>
+                <p className="text-xl text-[#174a21]/80 leading-relaxed">
+                  These calls have helped doctors, lawyers, and consultants uncover $10K–$50K+ in missed tax savings every year.
+                </p>
               </div>
-              <p className="text-xl text-[#174a21]/80 leading-relaxed">
-                These calls have helped doctors, lawyers, and consultants uncover $10K–$50K+ in missed tax savings every year.
-              </p>
             </div>
 
-            <div className="border-l-8 border-[#996516] pl-8">
+            <div className="flex items-start gap-8">
+              <div className="text-8xl font-black text-[#996516] leading-none">B)</div>
               <div className="mb-6">
-                <h3 className="text-3xl font-bold text-[#174a21] mb-4">B) You'll Get Personalized Guidance You Can Actually Use</h3>
+                <h3 className="text-3xl font-bold text-[#174a21] mb-4">You'll Get Personalized Guidance You Can Actually Use</h3>
+                <p className="text-xl text-[#174a21]/80 leading-relaxed">
+                  We'll review your current setup and highlight strategies you may be missing — so you leave the call knowing exactly where you stand.
+                </p>
               </div>
-              <p className="text-xl text-[#174a21]/80 leading-relaxed">
-                We'll review your current setup and highlight strategies you may be missing — so you leave the call knowing exactly where you stand.
-              </p>
             </div>
 
-            <div className="border-l-8 border-[#174a21] pl-8">
+            <div className="flex items-start gap-8">
+              <div className="text-8xl font-black text-[#174a21] leading-none">C)</div>
               <div className="mb-6">
-                <h3 className="text-3xl font-bold text-[#174a21] mb-4">C) I Guarantee I Can Help You</h3>
+                <h3 className="text-3xl font-bold text-[#174a21] mb-4">I Guarantee I Can Help You</h3>
+                <p className="text-xl text-[#174a21]/80 leading-relaxed">
+                  If we can't identify at least $10,000 in potential tax savings, you don't pay us a dime. No risk. No catch. Just clarity and control.
+                </p>
               </div>
-              <p className="text-xl text-[#174a21]/80 leading-relaxed">
-                If we can't identify at least $10,000 in potential tax savings, you don't pay us a dime. No risk. No catch. Just clarity and control.
-              </p>
             </div>
           </div>
           
