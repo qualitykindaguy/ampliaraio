@@ -73,7 +73,7 @@ function Webinar() {
                 />
                 <div className="absolute -bottom-4 left-0 right-0 bg-white px-6 py-3 rounded-lg shadow-lg border-2 border-[#174a21]">
                   <div className="text-center">
-                    <div className="text-lg font-bold text-[#174a21]">Sainte Billings, CPA</div>
+                    <div className="text-sm font-bold text-[#174a21]">Sainte Billings, CPA</div>
                   </div>
                 </div>
               </div>
