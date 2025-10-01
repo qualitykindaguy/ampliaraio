@@ -153,6 +153,8 @@ function Webinar() {
             </a>
           </div>
         </div>
+      </div>
+        </div>
       </section>
 
       {/* Timing Section */}
@@ -233,9 +235,13 @@ function Webinar() {
       
       <script src="https://api.taxnitro.com/js/form_embed.js"></script>
     </div>
-  );
+  )
+  )
+};
 }
 
 export default Webinar;
+  )
+}
   )
 }
