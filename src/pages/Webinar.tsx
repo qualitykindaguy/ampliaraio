@@ -10,57 +10,44 @@ function Webinar() {
 
       {/* Hero Section */}
       <section className="pt-32 pb-16 px-4 bg-white">
-        <div className="container mx-auto text-center">
-          {/* Centered Header */}
-          <h1 className="text-4xl md:text-6xl font-black mb-8 leading-tight text-black">
-            FROM LIMITATIONS TO LEVERAGE:
-            <span className="block text-[#996516] mt-2">THE HIGH-INCOME EDGE</span>
-          </h1>
-          
-          <div className="mb-12"></div>
-          
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Column - Content */}
             <div className="text-center lg:text-left">
-              {/* Tax Game Changed Section */}
-              <div className="mb-8">
-                <h2 className="text-3xl md:text-5xl font-black leading-tight text-black mb-6">
-                  The tax game has <span className="text-[#174a21]">CHANGED</span>
-                </h2>
-                
-                <div className="space-y-4">
-                  <p className="text-lg md:text-xl text-black leading-relaxed">
-                    And if you're still playing by the old rules, you're not just behind — you're <strong>BLEEDING</strong>.
-                  </p>
-                  
-                  <p className="text-lg md:text-xl text-black leading-relaxed">
-                    Every month you wait is another month of <strong>MISSED strategy</strong>, <strong>WASTED dollars</strong>, and <strong>COMPOUNDING regret</strong>.
-                  </p>
+              <div className="inline-block bg-[#174a21] text-white px-6 py-2 text-sm font-bold mb-8">
+                Free Live Webinar
+              </div>
+              
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-8 leading-tight text-black">
+                FROM LIMITATIONS TO LEVERAGE:
+                <span className="block text-[#996516] mt-2">THE HIGH-INCOME EDGE</span>
+              </h1>
+              
+              <p className="text-xl md:text-2xl text-black mb-6 leading-relaxed">
+                Learn how to build the right income structure, grow wealth, and pay $0 in taxes.
+              </p>
+              
+              <p className="text-lg text-black mb-8 leading-relaxed">
+                Stop overpaying the IRS. Discover how to protect your income, get your business working for you, and cut taxes this year.
+              </p>
+              
+              <div className="bg-[#174a21]/5 p-6 mb-8">
+                <div className="space-y-2 text-left">
+                  <p className="text-lg text-black"><strong>Date:</strong> [Insert Date]</p>
+                  <p className="text-lg text-black"><strong>Time:</strong> [Insert Time]</p>
+                  <p className="text-lg text-black"><strong>Format:</strong> Live Online</p>
                 </div>
               </div>
               
-              {/* Secure Your Free Spot Section */}
-              <div className="bg-gradient-to-r from-[#174a21] to-[#174a21]/90 text-white p-8 rounded-3xl shadow-2xl text-center">
-                <h3 className="text-2xl md:text-3xl font-bold mb-4 text-white">Secure Your Free Spot</h3>
-                <p className="text-lg mb-4 text-white/90">To keep the money inside in your wallet!</p>
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-3 mb-4 inline-block mx-auto">
-                  <p className="text-xl font-bold text-white">September 24, 2025</p>
-                  <div className="mt-2 text-center">
-                    <p className="text-white/90 text-sm mb-2">Mark your calendar now!</p>
-                  </div>
-                </div>
-                <p className="text-lg mb-2 text-center">This isn't just another webinar...</p>
-                <p className="text-xl font-bold mb-6 text-center">It's the most <span className="text-[#996516]">PROFITABLE</span> hour of your month!</p>
-                <a
-                  href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block bg-white text-[#996516] px-8 py-3 rounded-xl hover:bg-gray-100 transition duration-300 text-lg font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
-                  onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
-                >
-                  REGISTER NOW!
-                </a>
-              </div>
+              <a
+                href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-[#174a21] text-white px-8 py-4 text-xl font-bold hover:bg-[#174a21]/90 transition duration-300"
+                onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
+              >
+                Reserve My Free Spot Now
+              </a>
             </div>
             
             {/* Right Column - Image */}
@@ -69,19 +56,13 @@ function Webinar() {
                 <img
                   src={sainteNew}
                   alt="Sainte Billings, CPA"
-                  className="w-full h-auto rounded-lg"
-                  style={{
-                    maskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)',
-                    WebkitMaskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)'
-                  }}
+                  className="w-full h-auto"
                   width="400"
                   height="500"
                 />
-                {/* Name tag below image */}
                 <div className="mt-4 text-center">
-                  <div className="inline-block bg-gradient-to-r from-[#996516] to-[#174a21] px-8 py-4 rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 border-4 border-white">
-                    <p className="text-xl font-black text-white tracking-wide">SAINTE BILLINGS, CPA</p>
-                    <div className="w-full h-1 bg-white/30 rounded-full mt-2"></div>
+                  <div className="inline-block bg-[#996516] text-white px-6 py-3 font-bold">
+                    <p className="text-lg">SAINTE BILLINGS, CPA</p>
                   </div>
                 </div>
               </div>
@@ -90,168 +71,197 @@ function Webinar() {
         </div>
       </section>
 
-      {/* Why Attend Section */}
-      <section className="py-16 px-4 bg-[#996516] text-white">
-        <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-3xl md:text-5xl font-black text-white mb-8">
-              What You'll Learn When You Sign Up
-            </h3>
-            
-            <p className="text-xl md:text-2xl text-white mb-6 font-medium">
-              Taxes are probably your BIGGEST business expense.
-            </p>
-            
-            <p className="text-xl md:text-2xl text-white mb-8 font-medium">
-              And chances are, you're paying WAY too much without even realizing it.
-            </p>
-            
-            <p className="text-lg md:text-xl text-white mb-12 font-bold">
-              Here's what you'll DISCOVER inside this game-changing session:
-            </p>
-            
-            <div className="space-y-6 text-left max-w-3xl mx-auto">
-              <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white font-bold">✓</span>
-                </div>
-                <p className="text-lg md:text-xl text-white">You're unknowingly DONATING thousands to the IRS (and how to STOP it)</p>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white font-bold">✓</span>
-                </div>
-                <p className="text-lg md:text-xl text-white">The tax code has CHANGED — your strategy hasn't (this is COSTING you)</p>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white font-bold">✓</span>
-                </div>
-                <p className="text-lg md:text-xl text-white">Your business should be building WEALTH, not just covering bills</p>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white font-bold">✓</span>
-                </div>
-                <p className="text-lg md:text-xl text-white">HIDDEN tax loopholes exist — and we'll show you EXACTLY where to find them</p>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white font-bold">✓</span>
-                </div>
-                <p className="text-lg md:text-xl text-white">Wealth isn't built on hustle or hope — it's built on SMART strategy</p>
-              </div>
-            </div>
-            
-            <div className="text-center mt-12">
-              <a
-                href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-white text-[#174a21] px-10 py-4 rounded-xl hover:bg-gray-100 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
-                onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
-              >
-                I'M LOCKED IN!
-              </a>
+      {/* Free Webinar Form Section */}
+      <section className="py-16 px-4 bg-[#174a21]/5">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#174a21] mb-6">Free Webinar Registration</h2>
+          </div>
+          
+          <div className="bg-white p-8 border-2 border-[#174a21]/20">
+            <div className="min-h-[444px] w-full overflow-hidden">
+              <iframe
+                src="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5"
+                style={{width:'100%', height:'444px', border:'none'}}
+                id="inline-cyODn3Dx3FhB4W5m2RU5"
+                data-layout="{'id':'INLINE'}"
+                data-trigger-type="alwaysShow"
+                data-trigger-value=""
+                data-activation-type="alwaysActivated"
+                data-activation-value=""
+                data-deactivation-type="neverDeactivate"
+                data-deactivation-value=""
+                data-form-name="Tax Webinar Registration"
+                data-height="444"
+                data-layout-iframe-id="inline-cyODn3Dx3FhB4W5m2RU5"
+                data-form-id="cyODn3Dx3FhB4W5m2RU5"
+                title="Tax Webinar Registration"
+              />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Training Benefits Section */}
-      <section className="py-16 px-4 bg-gray-50">
-        <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto text-center">
-            <h3 className="text-3xl md:text-5xl font-black text-black mb-8">
-              Turn Insight Into INCOME
-            </h3>
+      {/* The Pain You Already Feel Section */}
+      <section className="py-16 px-4 bg-white">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#174a21] mb-8 text-center">
+            The Pain You Already Feel
+          </h2>
+          
+          <div className="space-y-6 text-lg text-black leading-relaxed">
+            <p>
+              If you're a doctor, lawyer, consultant, executive, or high-income W-2 earner... you already know the IRS is taking the biggest slice of your hard work.
+            </p>
             
-            <h4 className="text-2xl md:text-3xl font-bold text-[#174a21] mb-8">
-              You'll MASTER:
-            </h4>
+            <p>You're paying more in taxes than you should every single year.</p>
             
-            <div className="space-y-4 text-left max-w-3xl mx-auto mb-8">
-              <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white font-bold">✓</span>
-                </div>
-                <p className="text-lg md:text-xl text-gray-700 font-medium">How to LEGALLY slash your taxable income</p>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white font-bold">✓</span>
-                </div>
-                <p className="text-lg md:text-xl text-gray-700 font-medium">How to turn everyday spending into POWERFUL deductions</p>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white font-bold">✓</span>
-                </div>
-                <p className="text-lg md:text-xl text-gray-700 font-medium">How to structure your business for MAXIMUM tax advantages</p>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white font-bold">✓</span>
-                </div>
-                <p className="text-lg md:text-xl text-gray-700 font-medium">What your accountant probably ISN'T telling you (this will shock you)</p>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-[#174a21] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                  <span className="text-white font-bold">✓</span>
-                </div>
-                <p className="text-lg md:text-xl text-gray-700 font-medium">How to make the IRS work FOR YOU (yes, really!)</p>
-              </div>
+            <p>Your CPA is likely just filing — not strategizing.</p>
+            
+            <p>
+              And if you're earning $150K+ (W-2) or $250K+ (business owner), even one overlooked move can cost you five figures.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What You'll Learn Section */}
+      <section className="py-16 px-4 bg-[#996516]">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-8 text-center">
+            What You'll Learn in This Webinar
+          </h2>
+          
+          <p className="text-xl text-white mb-8 text-center">
+            In this 60-minute live training, you'll discover how to:
+          </p>
+          
+          <div className="space-y-6 text-lg text-white">
+            <div className="flex items-start gap-4">
+              <span className="text-[#174a21] font-bold text-xl">✓</span>
+              <p><strong>The Top 4 Mistakes High Earners Make</strong> — And How to Fix Them</p>
             </div>
-              
-            <div className="text-center">
-              <a
-                href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-[#996516] text-white px-10 py-4 rounded-xl hover:bg-[#996516]/90 transition duration-300 text-xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
-                onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
-              >
-                I WANT INCOME TODAY!
-              </a>
+            <div className="flex items-start gap-4">
+              <span className="text-[#174a21] font-bold text-xl">✓</span>
+              <p><strong>The High-Income Edge Framework</strong> – How to legally design your income to pay $0 in taxes (yes, $0).</p>
             </div>
+            <div className="flex items-start gap-4">
+              <span className="text-[#174a21] font-bold text-xl">✓</span>
+              <p><strong>IRS-Approved Strategies</strong> That Shift You From "Taxpayer" to Wealth Creator</p>
+            </div>
+            <div className="flex items-start gap-4">
+              <span className="text-[#174a21] font-bold text-xl">✓</span>
+              <p><strong>Implement Immediate, Actionable Strategies</strong> – Walk away with steps you can start using this year to cut your tax bill.</p>
+            </div>
+          </div>
+          
+          <div className="text-center mt-12">
+            <a
+              href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#174a21] text-white px-8 py-4 text-xl font-bold hover:bg-[#174a21]/90 transition duration-300"
+              onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
+            >
+              Save My Spot
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Why This Matters Now Section */}
+      <section className="py-16 px-4 bg-white">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#174a21] mb-8 text-center">
+            Why This Matters Now
+          </h2>
+          
+          <div className="space-y-6 text-lg text-black leading-relaxed">
+            <p>
+              Tax laws are always shifting — and waiting until filing season is too late.
+            </p>
+            
+            <p>
+              This webinar gives you timely, practical strategies you can start using now to protect your 2025 income before it's locked in.
+            </p>
+            
+            <p>
+              If you want to keep more of what you earn and finally break free from overpaying the IRS, this training is for you.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Meet Your Instructor Section */}
+      <section className="py-16 px-4 bg-[#174a21]/5">
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#174a21] mb-8 text-center">
+            Meet Your Instructor
+          </h2>
+          
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold text-[#996516] mb-2">Sainte Billings, CPA</h3>
+            <p className="text-lg text-[#174a21] mb-1">Founder of Ampliara PLLC</p>
+            <p className="text-lg text-[#174a21]">Specialist in Advanced Tax Strategies for High-Earners</p>
+          </div>
+          
+          <div className="text-lg text-black leading-relaxed text-center">
+            <p>
+              I've spent years helping practitioners, executives, and other business owners uncover $10K–$50K+ in missed savings every year through proactive planning.
+            </p>
+            <p className="mt-4">
+              Now, I'm sharing the same framework with you — in this free, live session.
+            </p>
           </div>
         </div>
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-16 px-4 bg-[#996516]">
+      <section className="py-16 px-4 bg-[#174a21]">
         <div className="container mx-auto max-w-4xl text-center">
-          <h3 className="text-4xl md:text-5xl font-black text-white mb-12">
-            Don't Miss Out!
-          </h3>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
+            Final Call-to-Action
+          </h2>
           
-          <div className="mb-8">
-            <p className="text-2xl md:text-3xl font-bold text-[#174a21] italic">
-              Wealth doesn't wait. <span className="text-[#174a21]">Neither should YOU.</span>
-            </p>
-          </div>
+          <p className="text-xl text-white mb-8">
+            Seats are limited — secure your spot today.
+          </p>
           
-          <div className="mb-12">
-            <div className="bg-white/10 p-8 rounded-2xl mb-8 max-w-md mx-auto">
-              <p className="text-4xl font-bold text-white mb-2">September 24, 2025</p>
+          <div className="bg-white/10 p-6 mb-8">
+            <div className="space-y-2">
+              <p className="text-lg text-white"><strong>Date:</strong> [Insert Date]</p>
+              <p className="text-lg text-white"><strong>Time:</strong> [Insert Time]</p>
+              <p className="text-lg text-white"><strong>Format:</strong> Live Online</p>
             </div>
           </div>
           
-          <div className="text-center">
-            <a
-              href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-[#174a21] text-white px-12 py-4 rounded-2xl hover:bg-[#174a21]/90 transition duration-300 text-2xl font-bold shadow-lg hover:shadow-xl transform hover:scale-105"
-              onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
-            >
-              CLAIM YOUR SEAT NOW!
-            </a>
-          </div>
+          <a
+            href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-[#996516] text-white px-8 py-4 text-xl font-bold hover:bg-[#996516]/90 transition duration-300"
+            onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
+          >
+            Register for the Free Webinar
+          </a>
         </div>
       </section>
-      
+
+      {/* Footer Section */}
+      <section className="py-8 px-4 bg-white">
+        <div className="container mx-auto max-w-4xl text-center">
+          <p className="text-sm text-[#174a21]/80 mb-4">
+            This training is for educational purposes only and does not constitute formal tax advice. Individual results may vary.
+          </p>
+          <p className="text-sm text-[#174a21]/80">
+            © Ampliara PLLC. All rights reserved.
+          </p>
+        </div>
+      </section>
+
       <FooterSection />
+      
+      <script src="https://api.taxnitro.com/js/form_embed.js"></script>
     </div>
   );
 }
