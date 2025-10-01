@@ -195,4 +195,4 @@ function Webinar() {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl md:text-3xl font-black text-[#996516] mb-2">Sainte Billings, CPA</h3>
-              <p className="text-lg md:text-xl font-bold text-gra
+              <p className="text-lg md:text-xl font-bold text-gray-700">
