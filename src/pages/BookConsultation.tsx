@@ -38,8 +38,7 @@ function BookConsultation() {
           <div className="space-y-16">
             <div className="border-l-8 border-[#174a21] pl-8">
               <div className="mb-6">
-                <span className="text-6xl font-black text-[#174a21] block mb-4">A</span>
-                <h3 className="text-3xl font-bold text-[#174a21] mb-4">It's Proven to Work for High-Earning Professionals</h3>
+                <h3 className="text-3xl font-bold text-[#174a21] mb-4">A) It's Proven to Work for High-Earning Professionals</h3>
               </div>
               <p className="text-xl text-[#174a21]/80 leading-relaxed">
                 These calls have helped doctors, lawyers, and consultants uncover $10K–$50K+ in missed tax savings every year.
@@ -48,8 +47,7 @@ function BookConsultation() {
 
             <div className="border-l-8 border-[#996516] pl-8">
               <div className="mb-6">
-                <span className="text-6xl font-black text-[#996516] block mb-4">B</span>
-                <h3 className="text-3xl font-bold text-[#174a21] mb-4">You'll Get Personalized Guidance You Can Actually Use</h3>
+                <h3 className="text-3xl font-bold text-[#174a21] mb-4">B) You'll Get Personalized Guidance You Can Actually Use</h3>
               </div>
               <p className="text-xl text-[#174a21]/80 leading-relaxed">
                 We'll review your current setup and highlight strategies you may be missing — so you leave the call knowing exactly where you stand.
@@ -58,8 +56,7 @@ function BookConsultation() {
 
             <div className="border-l-8 border-[#174a21] pl-8">
               <div className="mb-6">
-                <span className="text-6xl font-black text-[#174a21] block mb-4">C</span>
-                <h3 className="text-3xl font-bold text-[#174a21] mb-4">I Guarantee I Can Help You</h3>
+                <h3 className="text-3xl font-bold text-[#174a21] mb-4">C) I Guarantee I Can Help You</h3>
               </div>
               <p className="text-xl text-[#174a21]/80 leading-relaxed">
                 If we can't identify at least $10,000 in potential tax savings, you don't pay us a dime. No risk. No catch. Just clarity and control.
