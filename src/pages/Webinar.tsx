@@ -239,10 +239,16 @@ function Webinar() {
           </a>
         </div>
       </section>
+
+      <FooterSection />
     </div>
   );
 }
 
 export default Webinar;
+  )
+}
+  )
+}
   )
 }
