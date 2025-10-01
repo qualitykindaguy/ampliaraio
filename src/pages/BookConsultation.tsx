@@ -30,20 +30,17 @@ function BookConsultation() {
       {/* Video Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl font-bold text-[#174a21] mb-8">
-            Watch This Short Video From Sainte Billings, CPA
-          </h2>
-          <p className="text-lg text-[#174a21]/80 mb-8">
-            (2–3 minute video: explain why most CPAs don't go beyond filing, why advanced strategy matters, and how the $10K guarantee works)
-          </p>
-          
-          <div className="bg-gray-100 rounded-2xl p-16 mb-8">
-            <div className="flex items-center justify-center">
-              <div className="w-24 h-24 bg-[#174a21] rounded-full flex items-center justify-center">
-                <Play className="h-12 w-12 text-white ml-2" />
-              </div>
-            </div>
-            <p className="text-[#174a21]/60 mt-4">Video placeholder - Click to play</p>
+          <div className="aspect-video max-w-4xl mx-auto">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/n3lmaFG7WAo"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              className="rounded-2xl"
+            ></iframe>
           </div>
         </div>
       </section>
