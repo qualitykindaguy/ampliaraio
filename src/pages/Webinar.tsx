@@ -180,8 +180,6 @@ function Webinar() {
               href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
               target="_blank"
               rel="noopener noreferrer"
-  )
-}
               className="inline-block bg-yellow-400 text-black px-12 py-6 text-2xl font-black hover:bg-yellow-300 transition duration-300 uppercase tracking-wide rounded-2xl shadow-2xl transform hover:scale-105"
               onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
             >
@@ -294,9 +292,7 @@ function Webinar() {
                 href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-gradient-to-r from-yellow-400 to-
-  )
-}yellow-300 text-black px-16 py-8 text-3xl font-black hover:from-yellow-300 hover:to-yellow-200 transition duration-300 uppercase tracking-wide rounded-3xl shadow-2xl transform hover:scale-105 animate-bounce"
+                className="inline-block bg-gradient-to-r from-yellow-400 to-yellow-300 text-black px-16 py-8 text-3xl font-black hover:from-yellow-300 hover:to-yellow-200 transition duration-300 uppercase tracking-wide rounded-3xl shadow-2xl transform hover:scale-105 animate-bounce"
                 onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
               >
                 🎯 REGISTER FOR THE FREE WEBINAR 🎯
