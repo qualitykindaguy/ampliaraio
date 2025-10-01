@@ -164,6 +164,8 @@ function Webinar() {
             </a>
           </div>
         </div>
+      </div>
+        </div>
       </section>
 
       {/* Timing Section */}
@@ -246,6 +248,10 @@ function Webinar() {
 }
 
 export default Webinar;
+  )
+}
+  )
+}
   )
 }
   )
