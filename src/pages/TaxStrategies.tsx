@@ -198,14 +198,16 @@ function TaxStrategies() {
               <p className="text-2xl font-bold text-[#174a21] mb-6">
                 If you've ever felt like your tax bill is way too high for how hard you work — this was made for you.
               </p>
-              <a
-                href="https://api.taxnitro.com/widget/form/rJ8uG542fXWaI2czVXsc"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-[#174a21] text-white px-12 py-4 text-2xl font-bold hover:bg-[#174a21]/90 transition duration-300 transform hover:scale-105"
-              >
-                YES! SEND ME THE 2025 TAX SLASHER GUIDE
-              </a>
+              <div className="text-left">
+                <a
+                  href="https://api.taxnitro.com/widget/form/rJ8uG542fXWaI2czVXsc"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-[#174a21] text-white px-12 py-4 text-2xl font-bold hover:bg-[#174a21]/90 transition duration-300 transform hover:scale-105"
+                >
+                  YES! SEND ME THE 2025 TAX SLASHER GUIDE
+                </a>
+              </div>
             </div>
           </div>
         </div>
