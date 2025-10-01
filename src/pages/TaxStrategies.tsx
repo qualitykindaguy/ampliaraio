@@ -56,7 +56,7 @@ function TaxStrategies() {
                   And the reason isn't because your CPA is bad… it's because most CPAs are trained to file taxes, not to engineer tax savings.
                 </p>
                 
-                <div className="mt-8">
+                <div className="mt-8 text-left">
                   <a
                     href="https://api.taxnitro.com/widget/form/rJ8uG542fXWaI2czVXsc"
                     target="_blank"
