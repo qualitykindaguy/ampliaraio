@@ -82,13 +82,9 @@ function Webinar() {
         </div>
       </section>
 
-      {/* The Pain You Already Feel Section */}
+      {/* Pain Section */}
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl md:text-5xl font-black text-[#174a21] mb-12">
-            The Pain You Already Feel
-          </h2>
-          
           <div className="space-y-8 text-xl text-gray-700 leading-relaxed">
             <p>
               If you're a doctor, lawyer, consultant, executive, or high-income W-2 earner... you already know the IRS is taking the biggest slice of your hard work.
@@ -105,13 +101,9 @@ function Webinar() {
         </div>
       </section>
 
-      {/* What You'll Learn Section */}
+      {/* Learning Section */}
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl md:text-5xl font-black text-[#174a21] mb-12">
-            What You'll Learn in This Webinar
-          </h2>
-          
           <p className="text-2xl text-gray-800 mb-12 font-medium">
             In this 60-minute live training, you'll discover how to:
           </p>
@@ -143,7 +135,7 @@ function Webinar() {
             </div>
           </div>
           
-          <div className="mt-12">
+          <div className="mt-12 text-center">
             <a
               href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
               target="_blank"
@@ -157,13 +149,9 @@ function Webinar() {
         </div>
       </section>
 
-      {/* Why This Matters Now Section */}
+      {/* Timing Section */}
       <section className="py-20 px-4 bg-white">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl md:text-5xl font-black text-[#174a21] mb-12">
-            Why This Matters Now
-          </h2>
-          
           <div className="space-y-8 text-xl text-gray-700 leading-relaxed">
             <p>
               Tax laws are always shifting — and waiting until filing season is too late.
@@ -180,13 +168,9 @@ function Webinar() {
         </div>
       </section>
 
-      {/* Meet Your Instructor Section */}
+      {/* Instructor Section */}
       <section className="py-20 px-4 bg-gray-50">
         <div className="container mx-auto max-w-4xl">
-          <h2 className="text-4xl md:text-5xl font-black text-[#174a21] mb-12">
-            Meet Your Instructor
-          </h2>
-          
           <div className="space-y-8">
             <div>
               <h3 className="text-3xl font-bold text-[#996516] mb-2">Sainte Billings, CPA</h3>
@@ -209,10 +193,6 @@ function Webinar() {
       {/* Final Call-to-Action Section */}
       <section className="py-20 px-4 bg-[#174a21]">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-4xl md:text-5xl font-black text-white mb-12">
-            Final Call-to-Action
-          </h2>
-          
           <p className="text-2xl text-white mb-12 font-medium">
             Seats are limited — secure your spot today.
           </p>
