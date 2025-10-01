@@ -113,15 +113,6 @@ function BookConsultation() {
               href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-white text-[#174a21] px-12 py-4 text-xl font-bold hover:bg-white/90 transition duration-300 transform hover:scale-105"
-            >
-              Schedule My Free Tax Strategy Call Now
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <FooterSection />
     </div>
   );
 }
