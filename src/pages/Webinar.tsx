@@ -1,9 +1,22 @@
 import React from 'react';
+import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
 import sainteNew from '../assets/sainte-new.png';
 
 function Webinar() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://api.taxnitro.com/js/form_embed.js";
+    script.async = true;
+    document.body.appendChild(script);
+    return () => {
+      if (document.body.contains(script)) {
+        document.body.removeChild(script);
+      }
+    };
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -15,12 +28,7 @@ function Webinar() {
             {/* Left Column - Content */}
             <div className="space-y-6">
               <div className="text-center">
-                <div className="inline-block bg-[#174a21] text-white px-6 py-3 text-sm font-bold uppercase tracking-wider rounded-lg">
-                  Free Live Webinar
-                </div>
-              </div>
-              
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight text-[#174a21]">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight text-[#174a21]">
                 FROM LIMITATIONS TO LEVERAGE:
                 <span className="block text-[#996516] mt-4">THE HIGH-INCOME EDGE</span>
               </h1>
@@ -36,18 +44,25 @@ function Webinar() {
               </div>
               
               <div className="bg-gray-50 p-6 rounded-lg space-y-4">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg font-bold">
-                  <div>
-                    <span className="font-black text-[#174a21]">Date:</span>
-                    <div className="text-gray-700">October 16, 2025</div>
+                <div className="text-center space-y-6">
+                  <div className="inline-flex items-center justify-center bg-[#174a21] text-white px-8 py-4 rounded-2xl shadow-lg">
+                    <div className="text-center">
+                      <div className="text-sm font-semibold uppercase tracking-wider opacity-90">Live Webinar</div>
+                      <div className="text-2xl font-black">October 16, 2025</div>
+                      <div className="text-lg font-bold">7:00 PM EST</div>
+                    </div>
                   </div>
-                  <div>
-                    <span className="font-black text-[#174a21]">Time:</span>
-                    <div className="text-gray-700">7:00 PM EST</div>
-                  </div>
-                  <div>
-                    <span className="font-black text-[#174a21]">Format:</span>
-                    <div className="text-gray-700">Live Online</div>
+                  
+                  <div className="flex justify-center items-center gap-4 text-sm font-semibold text-[#174a21]">
+                    <div className="flex items-center gap-2">
+                      <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+                      <span>Live Online Event</span>
+                    </div>
+                    <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
+                      <span>Free Registration</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -83,8 +98,6 @@ function Webinar() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
       {/* Pain Section */}
       <section className="py-20 px-4 bg-white">
@@ -151,6 +164,8 @@ function Webinar() {
             </a>
           </div>
         </div>
+      </div>
+        </div>
       </section>
 
       {/* Timing Section */}
@@ -202,39 +217,36 @@ function Webinar() {
           </p>
           
           <div className="bg-white/10 p-6 rounded-lg mb-12">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-lg font-bold text-white">
-              <div>
-                <span className="font-black">Date:</span>
-                <div>October 16, 2025</div>
-              </div>
-              <div>
-                <span className="font-black">Time:</span>
-                <div>7:00 PM EST</div>
-              </div>
-              <div>
-                <span className="font-black">Format:</span>
-                <div>Live Online</div>
+            <div className="text-center">
+              <div className="inline-block bg-white/20 backdrop-blur-sm border border-white/30 px-8 py-6 rounded-2xl">
+                <div className="text-sm font-semibold uppercase tracking-wider text-white/80 mb-2">Mark Your Calendar</div>
+                <div className="text-3xl font-black text-white mb-1">October 16, 2025</div>
+                <div className="text-xl font-bold text-yellow-300 mb-3">7:00 PM EST</div>
+                <div className="flex justify-center items-center gap-2 text-sm font-semibold text-white/90">
+                  <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                  <span>Live Online Webinar</span>
+                </div>
               </div>
             </div>
           </div>
           
-          <a
-            href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-[#996516] text-white px-8 py-4 text-lg font-bold hover:bg-[#996516]/90 transition duration-300 uppercase tracking-wide rounded-lg"
-            onClick={() => {try{fbq('track','Lead',{content_name:'Register Button Click',content_category:'Tax Webinar Funnel',value:0.00,currency:'USD'})}catch(e){}}}
-          >
-            Register for the Free Webinar
-          </a>
-        </div>
-      </section>
-
       <FooterSection />
-      
-      <script src="https://api.taxnitro.com/js/form_embed.js"></script>
     </div>
   );
 }
 
 export default Webinar;
+  )
+}
+  )
+}
+  )
+}
+  )
+}
+  )
+}
+  )
+}
+  )
+}
