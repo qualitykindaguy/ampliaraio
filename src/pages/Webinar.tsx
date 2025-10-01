@@ -230,18 +230,6 @@ function Webinar() {
         </div>
       </section>
 
-      {/* Footer Section */}
-      <section className="py-12 px-4 bg-gray-50">
-        <div className="container mx-auto max-w-4xl text-center">
-          <p className="text-xl font-semibold text-gray-700 mb-4">
-            This webinar is for educational purposes only and does not constitute formal tax advice. Individual results may vary.
-          </p>
-          <p className="text-xl font-semibold text-gray-700">
-            © Ampliara PLLC. All rights reserved.
-          </p>
-        </div>
-      </section>
-
       <FooterSection />
       
       <script src="https://api.taxnitro.com/js/form_embed.js"></script>
