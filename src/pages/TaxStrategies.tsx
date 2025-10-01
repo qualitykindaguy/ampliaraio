@@ -25,19 +25,19 @@ function TaxStrategies() {
       <section className="py-20 px-4 bg-[#174a21] text-white relative overflow-hidden">
         <div className="container mx-auto max-w-6xl relative z-10">
           <div>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black mb-12 leading-tight whitespace-nowrap">
+            <h2 className="text-2xl md:text-3xl font-black mb-12 leading-tight whitespace-nowrap">
               Hey Doctors, Lawyers & Consultants!
             </h2>
             
             <div className="text-center space-y-8">
-              <div className="space-y-6 text-lg leading-relaxed max-w-4xl mx-auto">
-                <p className="text-3xl font-bold text-yellow-300">
+              <div className="space-y-6 text-xl leading-relaxed max-w-4xl mx-auto">
+                <p className="text-4xl md:text-5xl font-bold text-yellow-300">
                   Did you know that there are 30 income tax savings strategies that most high earners miss out on… These exact strategies could slash their tax bill by $10K–$50K+ every year?
                 </p>
                 
-                <p>And the truth is, implementing just ONE of these strategies can:</p>
+                <p className="text-2xl md:text-3xl">And the truth is, implementing just ONE of these strategies can:</p>
                 
-                <div className="space-y-3 max-w-lg mx-auto">
+                <div className="space-y-4 max-w-lg mx-auto text-xl md:text-2xl">
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
                     <span>Significantly reduce your tax bill</span>
@@ -52,7 +52,7 @@ function TaxStrategies() {
                   </div>
                 </div>
                 
-                <p className="text-xl pt-4">
+                <p className="text-2xl md:text-3xl pt-4">
                   And the reason isn't because your CPA is bad… it's because most CPAs are trained to file taxes, not to engineer tax savings.
                 </p>
               </div>
