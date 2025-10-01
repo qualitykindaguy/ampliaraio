@@ -200,8 +200,8 @@ function Webinar() {
             </div>
           </div>
         </div>
-        </section>
-        <FooterSection />
+      </section>
+    <FooterSection />
       
     </div>
   )
