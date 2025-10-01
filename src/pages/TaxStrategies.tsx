@@ -211,6 +211,14 @@ function TaxStrategies() {
         </div>
       </section>
 
+      {/* Disclaimer Section */}
+      <section className="py-8 px-4 bg-gray-100">
+        <div className="container mx-auto max-w-4xl text-center">
+          <p className="text-sm text-gray-600">
+            This guide is for educational purposes only and does not constitute formal tax advice. Individual results may vary. Consult a qualified tax professional before implementing any new strategies.
+          </p>
+        </div>
+      </section>
 
       <FooterSection />
       
