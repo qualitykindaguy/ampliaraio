@@ -211,55 +211,6 @@ function TaxStrategies() {
         </div>
       </section>
 
-      {/* Closing / Sign-Off Section - Design 1: Elegant Signature Style */}
-      <section className="py-20 px-4 bg-gradient-to-r from-[#174a21]/5 to-[#996516]/5">
-        <div className="container mx-auto max-w-4xl">
-          <div className="border-t-8 border-[#174a21] pt-12">
-            <div className="text-center space-y-8">
-              <p className="text-3xl font-black text-[#174a21] leading-tight">
-                Now is the time to stop overpaying and start taking control of your financial future.
-              </p>
-              
-              <p className="text-xl text-[#174a21] leading-relaxed max-w-3xl mx-auto">
-                Click the button above, grab the guide, and discover the strategies that could help you slash your 2025 tax bill.
-              </p>
-              
-              <div className="pt-12">
-                <div className="inline-block text-left">
-                  <p className="text-xl text-[#174a21] mb-2">To your success,</p>
-                  <div className="border-l-4 border-[#996516] pl-6">
-                    <p className="text-3xl font-black text-[#174a21]">Sainte Billings, CPA</p>
-                    <p className="text-xl text-[#996516] font-bold">Founder, Ampliara PLLC</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Footer / Disclaimer Section - Design 1: Clean Minimal */}
-      <section className="py-16 px-4 bg-[#174a21] text-white">
-        <div className="container mx-auto max-w-4xl">
-          <div className="border-t-4 border-white pt-8">
-            <div className="text-center space-y-8">
-              <div>
-                <h4 className="text-2xl font-black text-white mb-6 tracking-wider">DISCLAIMER</h4>
-                <p className="text-lg text-white/90 leading-relaxed max-w-3xl mx-auto">
-                  This guide is for educational purposes only and does not constitute formal tax advice. 
-                  Individual results may vary. Consult a qualified tax professional before implementing any new strategies.
-                </p>
-              </div>
-              
-              <div className="border-t border-white/30 pt-6">
-                <p className="text-white/70 text-lg">
-                  © 2025 Ampliara PLLC. All rights reserved.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <FooterSection />
       
