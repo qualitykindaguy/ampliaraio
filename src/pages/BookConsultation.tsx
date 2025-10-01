@@ -86,7 +86,7 @@ function BookConsultation() {
           
           <div className="text-center mt-12">
             <a
-              href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
+              href="https://api.taxnitro.com/widget/booking/3eUS8fdPMpQrFVZ5ObFS"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-[#996516] text-white px-12 py-4 text-xl font-bold hover:bg-[#996516]/90 transition duration-300 transform hover:scale-105"
@@ -110,7 +110,7 @@ function BookConsultation() {
           
           <div className="mb-12">
             <a
-              href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
+              href="https://api.taxnitro.com/widget/booking/3eUS8fdPMpQrFVZ5ObFS"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-[#996516] text-white px-12 py-4 text-xl font-bold hover:bg-[#996516]/90 transition duration-300 transform hover:scale-105"
