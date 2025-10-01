@@ -31,17 +31,17 @@ function TaxStrategies() {
             
             <div className="text-left space-y-8">
               <div className="space-y-6 text-xl leading-relaxed max-w-4xl mx-auto">
-                <p className="text-3xl md:text-4xl font-bold text-yellow-300">
+                <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-300 max-w-6xl">
                   Did you know that there are 30 income tax savings strategies that most high earners miss out on…
                 </p>
                 
-                <p className="text-3xl md:text-4xl font-bold text-yellow-300">
+                <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-yellow-300 max-w-6xl">
                   These exact strategies could slash your tax bill by $10K–$50K+ every year?
                 </p>
                 
-                <p className="text-2xl md:text-3xl">And the truth is, implementing just ONE of these strategies can:</p>
+                <p className="text-2xl md:text-3xl lg:text-4xl max-w-5xl">And the truth is, implementing just ONE of these strategies can:</p>
                 
-                <div className="space-y-4 max-w-lg text-xl md:text-2xl">
+                <div className="space-y-4 max-w-2xl text-xl md:text-2xl lg:text-3xl">
                   <div className="flex items-center gap-3">
                     <span className="text-green-400 text-2xl">✓</span>
                     <span>Significantly reduce your tax bill</span>
@@ -56,7 +56,7 @@ function TaxStrategies() {
                   </div>
                 </div>
                 
-                <p className="text-2xl md:text-3xl pt-4">
+                <p className="text-2xl md:text-3xl lg:text-4xl pt-4 max-w-5xl">
                   And the reason isn't because your CPA is bad… it's because most CPAs are trained to file taxes, not to engineer tax savings.
                 </p>
                 
