@@ -85,8 +85,6 @@ function Webinar() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
       {/* Pain Section */}
       <section className="py-20 px-4 bg-white">
