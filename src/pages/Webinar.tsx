@@ -15,12 +15,7 @@ function Webinar() {
             {/* Left Column - Content */}
             <div className="space-y-6">
               <div className="text-center">
-                <div className="inline-block bg-[#174a21] text-white px-6 py-3 text-sm font-bold uppercase tracking-wider rounded-lg">
-                  Free Live Webinar
-                </div>
-              </div>
-              
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight text-[#174a21]">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight text-[#174a21]">
                 FROM LIMITATIONS TO LEVERAGE:
                 <span className="block text-[#996516] mt-4">THE HIGH-INCOME EDGE</span>
               </h1>
@@ -90,8 +85,6 @@ function Webinar() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
 
       {/* Pain Section */}
       <section className="py-20 px-4 bg-white">
@@ -242,3 +235,5 @@ function Webinar() {
 }
 
 export default Webinar;
+  )
+}
