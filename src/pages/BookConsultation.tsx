@@ -21,52 +21,12 @@ function BookConsultation() {
             </p>
             
             <p className="text-lg md:text-xl">
-              Watch the short video below to see how this works.
+              Ready to discover how much you could be saving? Book your free consultation below.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Video Section */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto max-w-4xl">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#174a21] mb-6">
-              Watch This Short Video From Sainte Billings, CPA
-            </h2>
-            <p className="text-lg text-[#174a21]/80">
-              (2–3 minute video: explain why most CPAs don't go beyond filing, why advanced strategy matters, and how the $10K guarantee works)
-            </p>
-          </div>
-          
-          <div className="bg-white p-8 mb-12">
-            <div className="aspect-video bg-gray-100 rounded-xl mb-8 relative overflow-hidden">
-              <iframe
-                src="https://www.youtube.com/embed/n3lmaFG7WAo"
-                title="Advanced Tax Strategy Explanation"
-                className="w-full h-full rounded-xl"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              ></iframe>
-            </div>
-            
-            <div className="text-center">
-              <p className="text-lg text-[#174a21]/80 mb-8">
-                If you want to keep more profits in your pocket while reducing your tax liability… click the button below and book your free call on the next page.
-              </p>
-              <a
-                href="https://api.taxnitro.com/widget/bookings/ampliaraworkingtogether"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-[#174a21] text-white px-12 py-4 text-2xl font-bold hover:bg-[#174a21]/90 transition duration-300 transform hover:scale-105"
-              >
-                Schedule My Free Tax Strategy Call
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Why Book Section */}
       <section className="py-20 px-4 bg-[#174a21]/5">
