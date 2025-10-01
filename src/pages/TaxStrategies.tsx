@@ -25,29 +25,33 @@ function TaxStrategies() {
       <section className="py-20 px-4 bg-[#174a21] text-white relative overflow-hidden">
         <div className="container mx-auto max-w-6xl relative z-10">
           <div>
-            <h2 className="text-2xl md:text-3xl font-black mb-12 leading-tight whitespace-nowrap">
-              Hey Doctors, Lawyers & Consultants!
+            <h2 className="text-4xl md:text-5xl font-black mb-12 leading-tight">
+              Doctors, Lawyers & Consultants!
             </h2>
             
             <div className="text-left space-y-8">
               <div className="space-y-6 text-xl leading-relaxed max-w-4xl mx-auto">
-                <p className="text-4xl md:text-5xl font-bold text-yellow-300">
-                  Did you know that there are 30 income tax savings strategies that most high earners miss out on… These exact strategies could slash their tax bill by $10K–$50K+ every year?
+                <p className="text-3xl md:text-4xl font-bold text-yellow-300">
+                  Did you know that there are 30 income tax savings strategies that most high earners miss out on…
+                </p>
+                
+                <p className="text-3xl md:text-4xl font-bold text-yellow-300">
+                  These exact strategies could slash your tax bill by $10K–$50K+ every year?
                 </p>
                 
                 <p className="text-2xl md:text-3xl">And the truth is, implementing just ONE of these strategies can:</p>
                 
                 <div className="space-y-4 max-w-lg text-xl md:text-2xl">
                   <div className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                    <span className="text-green-400 text-2xl">✓</span>
                     <span>Significantly reduce your tax bill</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                    <span className="text-green-400 text-2xl">✓</span>
                     <span>Increase your profits</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-yellow-300 rounded-full"></div>
+                    <span className="text-green-400 text-2xl">✓</span>
                     <span>Fast-track your path to retirement</span>
                   </div>
                 </div>
@@ -63,7 +67,7 @@ function TaxStrategies() {
                     rel="noopener noreferrer"
                     className="inline-block bg-[#996516] text-white px-12 py-4 text-2xl font-bold hover:bg-[#996516]/90 transition duration-300 transform hover:scale-105"
                   >
-                    SEND ME THE 2025 TAX SLASHER GUIDE
+                    Download Strategies
                   </a>
                 </div>
               </div>
@@ -132,7 +136,7 @@ function TaxStrategies() {
                 rel="noopener noreferrer"
                 className="inline-block bg-[#174a21] text-white px-12 py-4 text-2xl font-bold hover:bg-[#174a21]/90 transition duration-300 transform hover:scale-105"
               >
-                YES! SEND ME THE 2025 TAX SLASHER GUIDE
+                Download Strategies
               </a>
             </div>
           </div>
@@ -205,7 +209,7 @@ function TaxStrategies() {
                   rel="noopener noreferrer"
                   className="inline-block bg-[#174a21] text-white px-12 py-4 text-2xl font-bold hover:bg-[#174a21]/90 transition duration-300 transform hover:scale-105"
                 >
-                  YES! SEND ME THE 2025 TAX SLASHER GUIDE
+                  Download Strategies
                 </a>
               </div>
             </div>
