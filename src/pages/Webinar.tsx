@@ -233,15 +233,7 @@ function Webinar() {
       
       <script src="https://api.taxnitro.com/js/form_embed.js"></script>
     </div>
-  )
-  )
-};
+  );
 }
 
 export default Webinar;
-  )
-}
-  )
-}
-  )
-}
