@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
 import sainteNew from '../assets/sainte-new.png';
+import sainteInstructor from '../assets/CopyofTaxPlanning.png';
 
 function Webinar() {
   useEffect(() => {
@@ -191,16 +192,40 @@ function Webinar() {
 
       {/* Instructor Section */}
       <section className="py-20 px-4 bg-gray-50">
-        <div className="container mx-auto max-w-4xl">
-          <div className="space-y-8">
-            <div>
-              <h3 className="text-2xl md:text-3xl font-black text-[#996516] mb-2">Meet your Instructor:</h3>
-              <h4 className="text-2xl md:text-3xl font-black text-[#174a21] mb-2">Sainte the CPA</h4>
-              <p className="text-lg md:text-xl font-bold text-gray-700"> Tax strategist and wealth optimization expert helping high-income earners keep more of what they earn.
-              </p>
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Image Column */}
+            <div className="flex justify-center lg:justify-start">
+              <img
+                src={sainteInstructor}
+                alt="Sainte Billings, CPA"
+                className="w-full max-w-md h-auto rounded-lg shadow-xl"
+                width="400"
+                height="600"
+              />
+            </div>
+
+            {/* Bio Column */}
+            <div className="space-y-6">
+              <div>
+                <h3 className="text-2xl md:text-3xl font-black text-[#996516] mb-2">Meet Your Instructor:</h3>
+                <h4 className="text-2xl md:text-3xl font-black text-[#174a21] mb-4">Sainte Billings, CPA</h4>
+              </div>
+
+              <div className="space-y-4 text-base md:text-lg text-gray-700 leading-relaxed">
+                <p>
+                  Sainte Billings is a seasoned CPA and financial strategist dedicated to helping entrepreneurs and professionals take control of their finances with confidence. With nearly a decade of experience, she specializes in tax planning, business advisory, and financial clarity—offering strategies that go beyond just compliance to maximize tax efficiency and long-term wealth building.
+                </p>
+                <p>
+                  As the founder of Ampliara, Sainte takes a holistic approach, ensuring her clients don't just meet financial deadlines but make informed, strategic decisions that align with their personal and business goals. Whether she's guiding business owners through entity structuring, optimizing tax savings, or demystifying complex financial concepts, her mission remains the same: to provide expert guidance with integrity, clarity, and a commitment to excellence.
+                </p>
+                <p>
+                  Beyond numbers, Sainte is passionate about creating a lasting impact, helping her clients not only protect what they've built but amplify their success for generations to come.
+                </p>
+              </div>
             </div>
           </div>
-          
+
           <div className="text-center mt-12">
             <a
               href="https://api.taxnitro.com/widget/form/cyODn3Dx3FhB4W5m2RU5?notrack=true"
