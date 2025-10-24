@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
-import sainteNew from '../assets/sainte-new.png';
+import sainteNew from '../assets/HeroImage.png';
 import sainteInstructor from '../assets/CopyofTaxPlanning.png';
 
 function Webinar() {
