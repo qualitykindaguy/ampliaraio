@@ -42,9 +42,9 @@ function Home() {
               <img
                 src={sainteMainAbout}
                 alt="Sainte Billings, CPA - Founder of Ampliara"
-                className="w-full max-w-md mx-auto"
-                width="500"
-                height="500"
+                className="w-full max-w-2xl mx-auto"
+                width="700"
+                height="700"
                 loading="eager"
                 fetchPriority="high"
                 decoding="async"
