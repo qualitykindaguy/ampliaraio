@@ -91,20 +91,13 @@ function Webinar() {
 
             {/* Right Column - Image */}
             <div className="flex justify-center lg:justify-end">
-              <div className="relative inline-block">
-                <img
-                  src={sainteNew}
-                  alt="Sainte Billings, CPA"
-                  className="w-full max-w-lg h-auto"
-                  width="500"
-                  height="600"
-                />
-                <div className="absolute -bottom-4 left-0 right-0 bg-white px-6 py-3 rounded-lg shadow-lg border-2 border-[#174a21]">
-                  <div className="text-center">
-                    <div className="text-base font-bold text-[#174a21]">Sainte Billings, CPA</div>
-                  </div>
-                </div>
-              </div>
+              <img
+                src={sainteNew}
+                alt="Sainte Billings, CPA"
+                className="w-full max-w-lg h-auto"
+                width="500"
+                height="600"
+              />
             </div>
           </div>
         </div>
