@@ -10,7 +10,7 @@ import {
 } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import FooterSection from '../components/FooterSection';
-import sainteMainAbout from '../assets/sainte-main-about.svg';
+import sainteMainAbout from '../assets/HeroImage.png';
 
 function Home() {
   return (
